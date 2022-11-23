@@ -60,7 +60,7 @@
 4	Florianópolis	Florianópolis	PROPN	_	Number=Sing	2	flat:name	_	_
 5-6	localiza-se	_	_	_	_	_	_	_	_
 5	localiza	localizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-6	se	se	PRON	_	_	5	expl:pv	_	_
+6	se	se	PRON	_	PronType=Prs	5	expl:pv	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -212,7 +212,7 @@
 5	campo	campo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6-7	constatou-se	_	_	_	_	_	_	_	_
 6	constatou	constatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-7	se	se	PRON	_	_	6	expl:pass	_	_
+7	se	se	PRON	_	PronType=Prs	6	expl:pass	_	_
 8	que	que	SCONJ	_	_	16	mark	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	_	_	11	case	_	_
@@ -707,7 +707,7 @@
 33	,	,	PUNCT	_	_	34	punct	_	_
 34-35	tornando-se	_	_	_	_	_	_	_	SpaceAfter=No
 34	tornando	tornar	VERB	_	VerbForm=Ger	20	advcl	_	Se=pv
-35	se	se	PRON	_	_	34	expl:pv	_	_
+35	se	se	PRON	_	PronType=Prs	34	expl:pv	_	_
 36	,	,	PUNCT	_	_	34	punct	_	_
 37	além	além	ADV	_	_	34	advmod	_	MWEPOS=ADV
 38-39	disto	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1256,7 +1256,7 @@
 12	,	,	PUNCT	_	_	8	punct	_	_
 13-14	deve-se	_	_	_	_	_	_	_	_
 13	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=impers
-14	se	se	PRON	_	_	13	expl:impers	_	_
+14	se	se	PRON	_	PronType=Prs	13	expl:impers	_	_
 15	segundo	segundo	ADP	_	_	16	case	_	_
 16	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
 17	et	et	PROPN	_	Number=Sing	16	flat:name	_	_
@@ -1382,7 +1382,7 @@
 47	parafínico	parafínico	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
 48-49	torna-se	_	_	_	_	_	_	_	_
 48	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	Se=pv
-49	se	se	PRON	_	_	48	expl:pv	_	_
+49	se	se	PRON	_	PronType=Prs	48	expl:pv	_	_
 50	menos	menos	ADV	_	_	51	advmod	_	_
 51	solúvel	solúvel	ADJ	_	Gender=Masc|Number=Sing	48	xcomp	_	_
 52	até	até	ADP	_	_	60	mark	_	MWEPOS=SCONJ
@@ -1393,7 +1393,7 @@
 56	de	de	ADP	_	_	58	case	_	_
 57	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	parafina	parafina	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	_
-59	se	se	PRON	_	_	60	expl:pv	_	_
+59	se	se	PRON	_	PronType=Prs	60	expl:pv	_	_
 60	inicie	iniciar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	_	Se=pv|SpaceAfter=No
 61	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -1505,7 +1505,7 @@
 5	novamente	novamente	ADV	_	_	9	advmod	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	se	se	PRON	_	_	9	expl:pv	_	_
+8	se	se	PRON	_	PronType=Prs	9	expl:pv	_	_
 9	demonstra	demonstrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 10	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
 11	satisfatório	satisfatório	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
@@ -1618,7 +1618,7 @@
 50	água	água	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	54	punct	_	_
 52	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	54	nsubj	_	_
-53	se	se	PRON	_	_	54	expl:pv	_	_
+53	se	se	PRON	_	PronType=Prs	54	expl:pv	_	_
 54	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	conj	_	Se=pv
 55	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	58	case	_	MWEPOS=ADP
 56-57	ao	_	_	_	_	_	_	_	_
@@ -1771,7 +1771,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	tornando-se	_	_	_	_	_	_	_	_
 13	tornando	tornar	VERB	_	VerbForm=Ger	4	advcl	_	Se=pv
-14	se	se	PRON	_	_	13	expl:pv	_	_
+14	se	se	PRON	_	PronType=Prs	13	expl:pv	_	_
 15	plástica	plástico	ADJ	_	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	expansível	expansível	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
@@ -2031,7 +2031,7 @@
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	4	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	se	se	PRON	_	_	4	expl:impers	_	_
+3	se	se	PRON	_	PronType=Prs	4	expl:impers	_	_
 4	aliviar	aliviar	VERB	_	VerbForm=Inf	11	advcl	_	Se=impers
 5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
@@ -2152,7 +2152,7 @@
 # sent_id = 24-20150122-MONOGRAFIA_0-433
 1-2	Analisou-se	_	_	_	_	_	_	_	_
 1	Analisou	analisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	afinidade	afinidade	NOUN	_	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -2167,7 +2167,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	utilizando-se	_	_	_	_	_	_	_	_
 13	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	Se=pass
-14	se	se	PRON	_	_	13	expl:pass	_	_
+14	se	se	PRON	_	PronType=Prs	13	expl:pass	_	_
 15	solução	solução	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	NaOH	NaOH	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -2344,7 +2344,7 @@
 # sent_id = 24-20150122-MONOGRAFIA_0-543
 1-2	Usou-se	_	_	_	_	_	_	_	_
 1	Usou	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	argila	argila	NOUN	_	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
 5	A4	A4	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -2371,7 +2371,7 @@
 # sent_id = 24-20150122-MONOGRAFIA_0-546
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=impers
-2	se	se	PRON	_	_	1	expl:impers	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:impers	_	_
 3	observar	observar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	fragmentação	fragmentação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -2422,7 +2422,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5-6	observando-se	_	_	_	_	_	_	_	_
 5	observando	observar	VERB	_	VerbForm=Ger	15	advcl	_	Se=pass
-6	se	se	PRON	_	_	5	expl:pass	_	_
+6	se	se	PRON	_	PronType=Prs	5	expl:pass	_	_
 7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 9	descritos	descrever	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
@@ -2434,7 +2434,7 @@
 14	,	,	PUNCT	_	_	5	punct	_	_
 15-16	nota-se	_	_	_	_	_	_	_	_
 15	nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-16	se	se	PRON	_	_	15	expl:pass	_	_
+16	se	se	PRON	_	PronType=Prs	15	expl:pass	_	_
 17	que	que	SCONJ	_	_	39	mark	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	argila	argila	NOUN	_	Gender=Fem|Number=Sing	39	nsubj	_	_
@@ -2445,7 +2445,7 @@
 24	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 25-26	usando-se	_	_	_	_	_	_	_	_
 25	usando	usar	VERB	_	VerbForm=Ger	21	advcl	_	Se=pass
-26	se	se	PRON	_	_	25	expl:pass	_	_
+26	se	se	PRON	_	PronType=Prs	25	expl:pass	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	poli	poli	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
@@ -2762,7 +2762,7 @@
 8	e	e	CCONJ	_	_	9	cc	_	_
 9-10	organiza-se	_	_	_	_	_	_	_	_
 9	organiza	organizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Se=pv
-10	se	se	PRON	_	_	9	expl:pv	_	_
+10	se	se	PRON	_	PronType=Prs	9	expl:pv	_	_
 11	em	em	ADP	_	_	12	case	_	_
 12	ciclos	ciclo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 13	granodecrescentes	granodecrescente	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
@@ -2818,7 +2818,7 @@
 9	)	)	PUNCT	_	_	7	punct	_	_
 10-11	localiza-se	_	_	_	_	_	_	_	_
 10	localiza	localizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-11	se	se	PRON	_	_	10	expl:pv	_	_
+11	se	se	PRON	_	PronType=Prs	10	expl:pv	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -3387,7 +3387,7 @@
 # sent_id = 161-20150810-MONOGRAFIA_0-186
 1-2	Comparando-se	_	_	_	_	_	_	_	_
 1	Comparando	comparar	VERB	_	VerbForm=Ger	19	advcl	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	com	com	ADP	_	_	5	case	_	_
 4	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	métodos	método	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
@@ -4276,7 +4276,7 @@
 14	pouca	pouco	DET	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 15	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 16	de	de	ADP	_	_	18	mark	_	_
-17	se	se	PRON	_	_	18	expl:pass	_	_
+17	se	se	PRON	_	PronType=Prs	18	expl:pass	_	_
 18	instalar	instalar	VERB	_	VerbForm=Inf	15	acl	_	Se=pass
 19	novas	novo	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 20	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
@@ -4380,7 +4380,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	destacam-se	_	_	_	_	_	_	_	_
 5	destacam	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-6	se	se	PRON	_	_	5	expl:pv	_	_
+6	se	se	PRON	_	PronType=Prs	5	expl:pv	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	profundidade	profundidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 9-10	das	_	_	_	_	_	_	_	_
@@ -4604,7 +4604,7 @@
 10	em	em	ADP	_	_	11	case	_	_
 11	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	se	se	PRON	_	_	14	expl:pv	_	_
+13	se	se	PRON	_	PronType=Prs	14	expl:pv	_	_
 14	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	Se=pv
 15	livre	livre	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 16	de	de	ADP	_	_	17	case	_	_
@@ -5523,7 +5523,7 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	CO2	CO2	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
-8	se	se	PRON	_	_	9	expl:pv	_	_
+8	se	se	PRON	_	PronType=Prs	9	expl:pv	_	_
 9	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	Se=pv
 10	mais	mais	ADV	_	_	11	advmod	_	_
 11	eficiente	eficiente	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
@@ -5623,7 +5623,7 @@
 # original_text = Destaca-se que o grande inventário de MEG a ser mantido neste circuito expande o mercado deste produto e fortalece a necessidade de aprimoramentos de projeto e operação de unidades de recuperação de MEG.
 1-2	Destaca-se	_	_	_	_	_	_	_	_
 1	Destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-2	se	se	PRON	_	_	1	expl:pv	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pv	_	_
 3	que	que	SCONJ	_	_	15	mark	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	grande	grande	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -5706,7 +5706,7 @@
 36	4	4	NUM	_	NumType=Card	35	nummod	_	_
 37-38	apresenta-se	_	_	_	_	_	_	_	_
 37	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	Se=pass
-38	se	se	PRON	_	_	37	expl:pass	_	_
+38	se	se	PRON	_	PronType=Prs	37	expl:pass	_	_
 39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 40	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	37	nsubj:pass	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	46	punct	_	_
@@ -6380,7 +6380,7 @@
 26	escolhida	escolher	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_
 27-28	baseando-se	_	_	_	_	_	_	_	_
 27	baseando	basear	VERB	_	VerbForm=Ger	21	advcl	_	Se=pv
-28	se	se	PRON	_	_	27	expl:pv	_	_
+28	se	se	PRON	_	PronType=Prs	27	expl:pv	_	_
 29-30	no	_	_	_	_	_	_	_	_
 29	em	em	ADP	_	_	31	case	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -6422,7 +6422,7 @@
 # sent_id = 77-20141209-TESEMSC_0-302
 1-2	Considerou-se	_	_	_	_	_	_	_	_
 1	Considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -6438,7 +6438,7 @@
 # sent_id = 77-20141209-TESEMSC_0-331
 1-2	Tomou-se	_	_	_	_	_	_	_	_
 1	Tomou	tomar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	cuidado	cuidado	NOUN	_	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
 5	de	de	ADP	_	_	6	mark	_	_
@@ -6619,7 +6619,7 @@
 4	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 5	duas	dois	NUM	_	NumType=Card	6	nummod	_	_
 6	regiões	região	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-7	se	se	PRON	_	_	8	expl:pv	_	_
+7	se	se	PRON	_	PronType=Prs	8	expl:pv	_	_
 8	justifica	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 9-10	pela	_	_	_	_	_	_	_	_
 9	por	por	ADP	_	_	12	case	_	_
@@ -6830,7 +6830,7 @@
 7	muita	muito	DET	_	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 9	apenas	apenas	ADV	_	_	11	advmod	_	_
-10	se	se	PRON	_	_	11	expl:pass	_	_
+10	se	se	PRON	_	PronType=Prs	11	expl:pass	_	_
 11	percebeu	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	Se=pass
 12	que	que	SCONJ	_	_	16	mark	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -6969,7 +6969,7 @@
 5	a	a	ADP	_	_	9	mark	_	MWEPOS=SCONJ
 6	fim	fim	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
 7	de	de	ADP	_	_	5	fixed	_	_
-8	se	se	PRON	_	_	9	expl:pass	_	_
+8	se	se	PRON	_	PronType=Prs	9	expl:pass	_	_
 9	obter	obter	VERB	_	VerbForm=Inf	14	advcl	_	Se=pass
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	análise	análise	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
@@ -6983,7 +6983,7 @@
 19	durabilidade	durabilidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20	para	para	ADP	_	_	23	mark	_	MWEPOS=SCONJ
 21	que	que	SCONJ	_	_	20	fixed	_	_
-22	se	se	PRON	_	_	23	expl:impers	_	_
+22	se	se	PRON	_	PronType=Prs	23	expl:impers	_	_
 23	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	Se=impers
 24	estudar	estudar	VERB	_	VerbForm=Inf	23	xcomp	_	_
 25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -7276,7 +7276,7 @@
 4	excesso	excesso	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	álcool	álcool	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	se	se	PRON	_	_	8	expl:pv	_	_
+7	se	se	PRON	_	PronType=Prs	8	expl:pv	_	_
 8	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 9	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	8	xcomp	_	_
 10	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	case	_	MWEPOS=ADP
@@ -7290,7 +7290,7 @@
 16	reação	reação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	por	por	ADP	_	_	20	mark	_	_
-19	se	se	PRON	_	_	20	expl:pv	_	_
+19	se	se	PRON	_	PronType=Prs	20	expl:pv	_	_
 20	tratar	tratar	VERB	_	VerbForm=Inf	8	advcl	_	Se=pv
 21	de	de	ADP	_	_	23	case	_	_
 22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -7377,7 +7377,7 @@
 5	atratividade	atratividade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6-7	refere-se	_	_	_	_	_	_	_	_
 6	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-7	se	se	PRON	_	_	6	expl:pv	_	_
+7	se	se	PRON	_	PronType=Prs	6	expl:pv	_	_
 8	normalmente	normalmente	ADV	_	_	6	advmod	_	_
 9	a	a	ADP	_	_	11	case	_	_
 10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -7504,7 +7504,7 @@
 8	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9-10	considerou-se	_	_	_	_	_	_	_	_
 9	considerou	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-10	se	se	PRON	_	_	9	expl:pass	_	_
+10	se	se	PRON	_	PronType=Prs	9	expl:pass	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	construção	construção	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -7935,7 +7935,7 @@
 10	produção	produção	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	biodiesel	biodiesel	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	se	se	PRON	_	_	14	expl:pv	_	_
+13	se	se	PRON	_	PronType=Prs	14	expl:pv	_	_
 14	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 15	inviável	inviável	ADJ	_	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
@@ -8157,7 +8157,7 @@
 7	determinada	determinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	_
 8-9	medindo-se	_	_	_	_	_	_	_	_
 8	medindo	medir	VERB	_	VerbForm=Ger	7	advcl	_	Se=pass
-9	se	se	PRON	_	_	8	expl:pass	_	_
+9	se	se	PRON	_	PronType=Prs	8	expl:pass	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	luz	luz	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 12	absorvida	absorver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
@@ -8194,7 +8194,7 @@
 5	calibração	calibração	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6-7	efetivou-se	_	_	_	_	_	_	_	_
 6	efetivou	efetivar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-7	se	se	PRON	_	_	6	expl:pass	_	_
+7	se	se	PRON	_	PronType=Prs	6	expl:pass	_	_
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	ajuste	ajuste	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 10	linear	linear	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
@@ -8205,7 +8205,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15-16	obtendo-se	_	_	_	_	_	_	_	_
 15	obtendo	obter	VERB	_	VerbForm=Ger	6	advcl	_	Se=pass
-16	se	se	PRON	_	_	15	expl:pass	_	_
+16	se	se	PRON	_	PronType=Prs	15	expl:pass	_	_
 17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	equação	equação	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 19	linearizada	linearizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	18	acl	_	_
@@ -8237,7 +8237,7 @@
 1	Inicialmente	inicialmente	ADV	_	_	2	advmod	_	_
 2-3	construiu-se	_	_	_	_	_	_	_	_
 2	construiu	construir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-3	se	se	PRON	_	_	2	expl:pass	_	_
+3	se	se	PRON	_	PronType=Prs	2	expl:pass	_	_
 4	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	fases	fase	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
@@ -8288,7 +8288,7 @@
 13	reagente	reagente	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 14	clorofórmio	clorofórmio	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
-16	se	se	PRON	_	_	17	expl:pv	_	_
+16	se	se	PRON	_	PronType=Prs	17	expl:pv	_	_
 17	comporta	comportar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Se=pv
 18	como	como	ADP	_	_	21	case	_	_
 19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -8576,7 +8576,7 @@
 # sent_id = 25-20150123-MONOGRAFIA_0-242
 1-2	Procedia-se	_	_	_	_	_	_	_	_
 1	Procedia	proceder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Se=impers
-2	se	se	PRON	_	_	1	expl:impers	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:impers	_	_
 3-4	à	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8896,7 +8896,7 @@
 22	sendo	ser	AUX	_	VerbForm=Ger	23	cop	_	_
 23	feições	feição	NOUN	_	Gender=Fem|Number=Plur	4	parataxis	_	_
 24	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	nsubj	_	_
-25	se	se	PRON	_	_	26	expl:pv	_	_
+25	se	se	PRON	_	PronType=Prs	26	expl:pv	_	_
 26	posicionam	posicionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	Se=pv
 27-28	na	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
@@ -9093,7 +9093,7 @@
 41	muitas	muito	DET	_	Gender=Fem|Number=Plur|PronType=Ind	42	det	_	_
 42	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	45	obl	_	_
 43	não	não	ADV	_	Polarity=Neg	45	advmod	_	_
-44	se	se	PRON	_	_	45	expl:pv	_	_
+44	se	se	PRON	_	PronType=Prs	45	expl:pv	_	_
 45	associam	associar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	Se=pv
 46	a	a	ADP	_	_	47	case	_	_
 47	estruturas	estrutura	NOUN	_	Gender=Fem|Number=Plur	45	obl:arg	_	_
@@ -9525,7 +9525,7 @@
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	2006	2006	NUM	_	NumType=Card	29	nmod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	11	punct	_	_
-35	se	se	PRON	_	_	36	expl:pv	_	_
+35	se	se	PRON	_	PronType=Prs	36	expl:pv	_	_
 36	baseia	basear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 37-38	na	_	_	_	_	_	_	_	_
 37	em	em	ADP	_	_	39	case	_	_
@@ -9615,7 +9615,7 @@
 35	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	39	obl	_	_
 36	nem	nem	ADV	_	_	37	advmod	_	_
 37	sempre	sempre	ADV	_	_	39	advmod	_	_
-38	se	se	PRON	_	_	39	expl:pass	_	_
+38	se	se	PRON	_	PronType=Prs	39	expl:pass	_	_
 39	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	Se=pass
 40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	consideração	consideração	NOUN	_	Gender=Fem|Number=Sing	39	nsubj:pass	_	_
@@ -9767,7 +9767,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
-9	se	se	PRON	_	_	10	expl:pv	_	_
+9	se	se	PRON	_	PronType=Prs	10	expl:pv	_	_
 10	baseia	basear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
@@ -10288,7 +10288,7 @@
 23	com	com	ADP	_	_	27	mark	_	MWEPOS=SCONJ
 24	vistas	vista	NOUN	_	Gender=Fem|Number=Plur	23	fixed	_	_
 25	a	a	ADP	_	_	23	fixed	_	_
-26	se	se	PRON	_	_	27	expl:pass	_	_
+26	se	se	PRON	_	PronType=Prs	27	expl:pass	_	_
 27	obter	obter	VERB	_	VerbForm=Inf	18	advcl	_	Se=pass
 28	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	pista	pista	NOUN	_	Gender=Fem|Number=Sing	27	nsubj:pass	_	SpaceAfter=No
@@ -10407,7 +10407,7 @@
 18	,	,	PUNCT	_	_	9	punct	_	_
 19-20	pode-se	_	_	_	_	_	_	_	_
 19	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=impers
-20	se	se	PRON	_	_	19	expl:impers	_	_
+20	se	se	PRON	_	PronType=Prs	19	expl:impers	_	_
 21	verificar	verificar	VERB	_	VerbForm=Inf	19	xcomp	_	_
 22	que	que	SCONJ	_	_	28	mark	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -10597,7 +10597,7 @@
 16	Ilha	Ilha	PROPN	_	Gender=Fem|Number=Sing	11	conj	_	_
 17	Grande	Grande	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	11	punct	_	_
-19	se	se	PRON	_	_	20	expl:pass	_	_
+19	se	se	PRON	_	PronType=Prs	20	expl:pass	_	_
 20	observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
 21	uma	um	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	20	nsubj:pass	_	_
 22-23	das	_	_	_	_	_	_	_	_
@@ -10631,7 +10631,7 @@
 2	notáveis	notável	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	anomalias	anomalia	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 4	localizadas	localizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	3	acl	_	_
-5	se	se	PRON	_	_	6	expl:pv	_	_
+5	se	se	PRON	_	PronType=Prs	6	expl:pv	_	_
 6	destacam	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
@@ -10667,7 +10667,7 @@
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
-15	se	se	PRON	_	_	16	expl:pv	_	_
+15	se	se	PRON	_	PronType=Prs	16	expl:pv	_	_
 16	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 17	em	em	ADP	_	_	18	case	_	_
 18	área	área	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -10723,7 +10723,7 @@
 # sent_id = 20-20140904-TESEDSC_0-788
 1-2	Pode-se	_	_	_	_	_	_	_	_
 1	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=impers
-2	se	se	PRON	_	_	1	expl:impers	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:impers	_	_
 3	verificar	verificar	VERB	_	VerbForm=Inf	1	xcomp	_	_
 4	que	que	SCONJ	_	_	23	mark	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -10869,7 +10869,7 @@
 5	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	6	det	_	_
 6	cristalização	cristalização	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	aux	_	_
-8	se	se	PRON	_	_	9	expl:pv	_	_
+8	se	se	PRON	_	PronType=Prs	9	expl:pv	_	_
 9	dado	dar	VERB	_	VerbForm=Part	0	root	_	Se=pv
 10-11	num	_	_	_	_	_	_	_	_
 10	em	em	ADP	_	_	12	case	_	_
@@ -10890,7 +10890,7 @@
 # sent_id = 20-20140904-TESEDSC_0-872
 1-2	Nota-se	_	_	_	_	_	_	_	_
 1	Nota	notar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	também	também	ADV	_	_	1	advmod	_	_
 4-5	neste	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
@@ -11013,7 +11013,7 @@
 23	escuro	escuro	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj:pass	_	_
-26	se	se	PRON	_	_	27	expl:pv	_	_
+26	se	se	PRON	_	PronType=Prs	27	expl:pv	_	_
 27	espessa	espessar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	Se=pv
 28	para	para	ADP	_	_	29	case	_	_
 29	sudeste	sudeste	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
@@ -11162,7 +11162,7 @@
 # sent_id = 20-20140904-TESEDSC_0-1033
 1-2	Observa-se	_	_	_	_	_	_	_	_
 1	Observa	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	proeminente	proeminente	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	alinhamento	alinhamento	NOUN	_	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
@@ -11633,7 +11633,7 @@
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fase	fase	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 20	rifte	rifte	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-21	se	se	PRON	_	_	22	expl:pv	_	_
+21	se	se	PRON	_	PronType=Prs	22	expl:pv	_	_
 22	aproveitaram	aproveitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pv|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	possivelmente	possivelmente	ADV	_	_	22	advmod	_	SpaceAfter=No
@@ -11658,7 +11658,7 @@
 41	direção	direção	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 42	NE-SW	NE-SW	PROPN	_	Gender=Fem|Number=Sing	41	nmod	_	_
 43	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	45	nsubj	_	_
-44	se	se	PRON	_	_	45	expl:pv	_	_
+44	se	se	PRON	_	PronType=Prs	45	expl:pv	_	_
 45	expressa	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	Se=pv
 46	claramente	claramente	ADV	_	_	45	advmod	_	_
 47-48	no	_	_	_	_	_	_	_	_
@@ -11943,7 +11943,7 @@
 5	a	a	ADP	_	_	6	case	_	_
 6	calhas	calha	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
 7	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	9	nsubj	_	_
-8	se	se	PRON	_	_	9	expl:pv	_	_
+8	se	se	PRON	_	PronType=Prs	9	expl:pv	_	_
 9	desenvolveram	desenvolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	Se=pv
 10-11	no	_	_	_	_	_	_	_	_
 10	em	em	ADP	_	_	12	case	_	_
@@ -12056,7 +12056,7 @@
 16	meio	meio	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	20	nsubj	_	_
-19	se	se	PRON	_	_	20	expl:pv	_	_
+19	se	se	PRON	_	PronType=Prs	20	expl:pv	_	_
 20	traduzam	traduzir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	Se=pv
 21	em	em	ADP	_	_	22	case	_	_
 22	redução	redução	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
@@ -12139,7 +12139,7 @@
 32	,	,	PUNCT	_	_	33	punct	_	_
 33-34	dilui-se	_	_	_	_	_	_	_	_
 33	dilui	diluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	Se=pass
-34	se	se	PRON	_	_	33	expl:pass	_	_
+34	se	se	PRON	_	PronType=Prs	33	expl:pass	_	_
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	33	nsubj:pass	_	_
 37	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
@@ -12156,7 +12156,7 @@
 47	ou	ou	CCONJ	_	_	48	cc	_	_
 48-49	adiciona-se	_	_	_	_	_	_	_	SpaceAfter=No
 48	adiciona	adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	conj	_	Se=pass
-49	se	se	PRON	_	_	48	expl:pass	_	_
+49	se	se	PRON	_	PronType=Prs	48	expl:pass	_	_
 50	,	,	PUNCT	_	_	48	punct	_	_
 51-52	na	_	_	_	_	_	_	_	_
 51	em	em	ADP	_	_	53	case	_	_
@@ -12684,7 +12684,7 @@
 15	primeiro	primeiro	ADV	_	_	16	advmod	_	_
 16-17	aumentando-se	_	_	_	_	_	_	_	_
 16	aumentando	aumentar	VERB	_	VerbForm=Ger	10	advcl	_	Se=pass
-17	se	se	PRON	_	_	16	expl:pass	_	_
+17	se	se	PRON	_	PronType=Prs	16	expl:pass	_	_
 18	uniformemente	uniformemente	ADV	_	_	16	advmod	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
@@ -12712,7 +12712,7 @@
 10	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11-12	dividem-se	_	_	_	_	_	_	_	_
 11	dividem	dividir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
-12	se	se	PRON	_	_	11	expl:pv	_	_
+12	se	se	PRON	_	PronType=Prs	11	expl:pv	_	_
 13	em	em	ADP	_	_	15	case	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	15	punct	_	_
 15	adsorção	adsorção	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
@@ -12925,7 +12925,7 @@
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	argila	argila	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
 21	não	não	ADV	_	Polarity=Neg	23	advmod	_	_
-22	se	se	PRON	_	_	23	expl:pv	_	_
+22	se	se	PRON	_	PronType=Prs	23	expl:pv	_	_
 23	dissolva	dissolver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	Se=pv
 24	totalmente	totalmente	ADV	_	_	23	advmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
@@ -13011,7 +13011,7 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
-12	se	se	PRON	_	_	13	expl:pv	_	_
+12	se	se	PRON	_	PronType=Prs	13	expl:pv	_	_
 13	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pv
 14	de	de	ADP	_	_	15	case	_	_
 15	modo	modo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
@@ -13019,7 +13019,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18-19	passando-se	_	_	_	_	_	_	_	_
 18	passando	passar	VERB	_	VerbForm=Ger	13	advcl	_	Se=impers
-19	se	se	PRON	_	_	18	expl:impers	_	_
+19	se	se	PRON	_	PronType=Prs	18	expl:impers	_	_
 20-21	à	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -13059,7 +13059,7 @@
 17	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 18-19	seguindo-se	_	_	_	_	_	_	_	_
 18	seguindo	seguir	VERB	_	VerbForm=Ger	17	advcl	_	Se=pass
-19	se	se	PRON	_	_	18	expl:pass	_	_
+19	se	se	PRON	_	PronType=Prs	18	expl:pass	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 22	metodologia	metodologia	NOUN	_	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
@@ -13128,7 +13128,7 @@
 # sent_id = 119-20141209-TESEMSC_0-699
 1-2	Percebe-se	_	_	_	_	_	_	_	_
 1	Percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3-4	pela	_	_	_	_	_	_	_	_
 3	por	por	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -13228,7 +13228,7 @@
 5	)	)	PUNCT	_	_	3	punct	_	_
 6-7	tem-se	_	_	_	_	_	_	_	_
 6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=impers
-7	se	se	PRON	_	_	6	expl:impers	_	_
+7	se	se	PRON	_	PronType=Prs	6	expl:impers	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 10	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
@@ -13311,7 +13311,7 @@
 17	,	,	PUNCT	_	_	4	punct	_	_
 18-19	observou-se	_	_	_	_	_	_	_	_
 18	observou	observar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-19	se	se	PRON	_	_	18	expl:pass	_	_
+19	se	se	PRON	_	PronType=Prs	18	expl:pass	_	_
 20	que	que	SCONJ	_	_	36	mark	_	_
 21-22	à	_	_	_	_	_	_	_	_
 21	a	a	ADP	_	_	29	mark	_	MWEPOS=SCONJ
@@ -13625,7 +13625,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7-8	utilizou-se	_	_	_	_	_	_	_	_
 7	utilizou	utilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Se=pass
-8	se	se	PRON	_	_	7	expl:pass	_	_
+8	se	se	PRON	_	PronType=Prs	7	expl:pass	_	_
 9	apenas	apenas	ADV	_	_	11	advmod	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	água	água	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
@@ -13638,7 +13638,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	_
 19-20	adicionou-se	_	_	_	_	_	_	_	_
 19	adicionou	adicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	Se=pass
-20	se	se	PRON	_	_	19	expl:pass	_	_
+20	se	se	PRON	_	PronType=Prs	19	expl:pass	_	_
 21	NaCl	NaCl	PROPN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	19	punct	_	_
 23-24	nas	_	_	_	_	_	_	_	_
@@ -13686,7 +13686,7 @@
 9	:	:	PUNCT	_	_	10	punct	_	_
 10-11	pesou-se	_	_	_	_	_	_	_	_
 10	pesou	pesar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	appos	_	Se=pass
-11	se	se	PRON	_	_	10	expl:pass	_	_
+11	se	se	PRON	_	PronType=Prs	10	expl:pass	_	_
 12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tubo	tubo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -13712,7 +13712,7 @@
 33	visualmente	visualmente	ADV	_	_	34	advmod	_	_
 34-35	apresenta-se	_	_	_	_	_	_	_	_
 34	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	Se=pv
-35	se	se	PRON	_	_	34	expl:pv	_	_
+35	se	se	PRON	_	PronType=Prs	34	expl:pv	_	_
 36	de	de	ADP	_	_	37	case	_	_
 37	forma	forma	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
 38	incolor	incolor	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
@@ -13770,7 +13770,7 @@
 6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	modelos	modelo	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	melhor	melhor	ADV	_	_	10	advmod	_	_
-9	se	se	PRON	_	_	10	expl:pv	_	_
+9	se	se	PRON	_	PronType=Prs	10	expl:pv	_	_
 10	adapta	adaptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pv
 11	a	a	ADP	_	_	13	case	_	_
 12	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
@@ -13821,7 +13821,7 @@
 9	Xantana	Xantana	PROPN	_	Number=Sing	8	flat:name	_	_
 10-11	percebe-se	_	_	_	_	_	_	_	_
 10	percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-11	se	se	PRON	_	_	10	expl:pass	_	_
+11	se	se	PRON	_	PronType=Prs	10	expl:pass	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	comportamento	comportamento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
@@ -13841,7 +13841,7 @@
 10	,	,	PUNCT	_	_	3	punct	_	_
 11-12	percebe-se	_	_	_	_	_	_	_	_
 11	percebe	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-12	se	se	PRON	_	_	11	expl:pass	_	_
+12	se	se	PRON	_	PronType=Prs	11	expl:pass	_	_
 13	que	que	SCONJ	_	_	15	mark	_	_
 14	ambas	ambos	PRON	_	Gender=Fem|Number=Plur|PronType=Tot	15	nsubj	_	_
 15	apresentaram	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
@@ -13987,7 +13987,7 @@
 1	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
-4	se	se	PRON	_	_	5	expl:pv	_	_
+4	se	se	PRON	_	PronType=Prs	5	expl:pv	_	_
 5	formou	formar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	Se=pv
 6	dentro	dentro	ADV	_	_	5	advmod	_	_
 7-8	das	_	_	_	_	_	_	_	_
@@ -14796,7 +14796,7 @@
 # sent_id = 243-20141015-MONOGRAFIA_1-134
 1-2	Consegue-se	_	_	_	_	_	_	_	_
 1	Consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Se=pass
-2	se	se	PRON	_	_	1	expl:pass	_	_
+2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	teoricamente	teoricamente	ADV	_	_	1	advmod	_	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	boa	bom	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -14806,7 +14806,7 @@
 9	dissolvidos	dissolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
 10-11	utilizando-se	_	_	_	_	_	_	_	_
 10	utilizando	utilizar	VERB	_	VerbForm=Ger	1	advcl	_	Se=pass
-11	se	se	PRON	_	_	10	expl:pass	_	_
+11	se	se	PRON	_	PronType=Prs	10	expl:pass	_	_
 12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	membranas	membrana	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -14963,7 +14963,7 @@
 4	planejamento	planejamento	NOUN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
 5	experimental	experimental	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	onde	onde	ADV	_	Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
-7	se	se	PRON	_	_	8	expl:impers	_	_
+7	se	se	PRON	_	PronType=Prs	8	expl:impers	_	_
 8	pudesse	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	Se=impers
 9	varrer	varrer	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
