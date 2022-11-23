@@ -9607,8 +9607,8 @@
 33	centro	centro	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	quando	quando	SCONJ	_	_	37	mark	_	_
-36	se	se	PRON	_	_	37	expl:impers	_	_
-37	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	Se=impers
+36	se	se	PRON	_	_	37	expl:pv	_	_
+37	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	Se=pv
 38	de	de	ADP	_	_	40	case	_	_
 39	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	corpo	corpo	NOUN	_	Gender=Masc|Number=Sing	37	obl:arg	_	_
