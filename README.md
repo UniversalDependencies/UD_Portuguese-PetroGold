@@ -12,6 +12,10 @@ The corpus was created as part of the Petrolês Project (http://petroles.puc-rio
 
 We want to thank everyone from ICA/PUC-Rio who assisted in the process of gathering the text from originally PDF files. We also want to thank Petrobras researchers and geoscientists for making the Petrolês corpus publicly available, for their technical assistance and funding.
 
+## How to contribute
+
+Changes should be made via pull request directly to `not-to-release/petrogold.conllu` in the `dev` branch.
+
 ## How to cite
 
 ```
@@ -50,7 +54,7 @@ XPOS: not available
 Features: manual native
 Relations: manual native
 Contributors: de Souza, Elvis; Freitas, Cláudia; Silveira, Aline; Cavalcanti, Tatiana; Castro, Maria Clara; Evelyn, Wograine
-Contributing: elsewhere
+Contributing: here
 Contact: elvis.desouza99@gmail.com
 ===============================================================================
 </pre>
