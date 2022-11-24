@@ -44,13 +44,13 @@ Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: academic
-Lemmas: automatic with corrections
-UPOS: automatic with corrections
+Lemmas: manual native
+UPOS: manual native
 XPOS: not available
-Features: automatic with corrections
-Relations: automatic with corrections
+Features: manual native
+Relations: manual native
 Contributors: de Souza, Elvis; Freitas, Cláudia; Silveira, Aline; Cavalcanti, Tatiana; Castro, Maria Clara; Evelyn, Wograine
-Contributing: here
+Contributing: elsewhere
 Contact: elvis.desouza99@gmail.com
 ===============================================================================
 </pre>
