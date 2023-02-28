@@ -15106,8 +15106,8 @@
 16	aldeídos	aldeído	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	linear	linear	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
-19	alquil	alquil	NOUN	_	Gender=Masc|Number=Sing	18	compound	_	_
-20	benzeno	benzeno	NOUN	_	Gender=Masc|Number=Sing	18	compound	_	_
+19	alquil	alquil	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+20	benzeno	benzeno	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	CATARINA	Catarina	PROPN	_	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
