@@ -21,7 +21,7 @@ Changes should be made via pull request directly to `not-to-release/petrogold.co
 ```
 @inproceedings{souza2022polishing,
   title={Polishing the gold--how much revision do we need in treebanks?},
-  author={De Souza, Elvis and Freitas, Cl{\'a}udia},
+  author={de{ }Souza, Elvis and Freitas, Cl{\'a}udia},
   booktitle={Procedings of the Universal Dependencies Brazilian Festival},
   pages={1--11},
   year={2022}
