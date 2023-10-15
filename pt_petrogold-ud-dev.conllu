@@ -1328,11 +1328,11 @@
 41	em	em	ADP	_	_	43	case	_	_
 42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	mar	mar	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	45	punct	_	_
-45	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	43	acl	_	_
-46	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	48	nsubj:pass	_	_
+44	,	,	PUNCT	_	_	48	punct	_	_
+45	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	48	obl	_	MWEPOS=ADV
+46	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	45	fixed	_	_
 47	se	se	PRON	_	PronType=Prs	48	expl:pass	_	_
-48	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	ccomp	_	Se=pass
+48	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	advcl	_	Se=pass
 49	em	em	ADP	_	_	50	case	_	_
 50	prática	prática	NOUN	_	Gender=Fem|Number=Sing	48	obl	_	_
 51	de	de	ADP	_	_	55	case	_	MWEPOS=ADP
@@ -1360,7 +1360,7 @@
 73	barreiras	barreira	NOUN	_	Gender=Fem|Number=Plur	62	conj	_	_
 74	absorventes	absorvente	ADJ	_	Gender=Fem|Number=Plur	73	amod	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	84	punct	_	_
-76	onde	onde	ADV	_	Gender=Fem|Number=Plur|PronType=Rel	84	obl	_	_
+76	onde	onde	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	84	obl	_	_
 77	durante	durante	ADP	_	_	79	case	_	_
 78	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
 79	derrame	derrame	NOUN	_	Gender=Masc|Number=Sing	84	obl	_	_
