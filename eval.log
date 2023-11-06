@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Portuguese-PetroGold:
-commit 1f68abe09871c3f863ae739d421a3c9509c39e3e
-Merge: bc70fd7 a18abb7
+commit d54024c24d84d7cdbf9308b67dfaf0a3d0795ee1
+Merge: e3616b1 d7db762
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 250605 of 250605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0477559887557.
