@@ -2858,7 +2858,7 @@
 39	estuários	estuário	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
 40	-	-	PUNCT	_	_	45	punct	_	_
 41	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	42	det	_	_
-42	seres	ser	NOUN	_	Gender=Masc|Number=Plur	45	aux:pass	_	_
+42	seres	ser	NOUN	_	Gender=Masc|Number=Plur	43	nsubj	_	_
 43	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	45	aux	_	_
 44	se	se	PRON	_	PronType=Prs	45	expl:pv	_	_
 45	acumulados	acumular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	parataxis	_	Se=pv
@@ -7681,7 +7681,7 @@
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
-16	seres	ser	NOUN	_	Gender=Masc|Number=Plur	26	aux:pass	_	_
+16	seres	ser	NOUN	_	Gender=Masc|Number=Plur	26	nsubj:pass	_	_
 17	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
 18	necessitam	necessitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 19-20	deles	_	_	_	_	_	_	_	_
