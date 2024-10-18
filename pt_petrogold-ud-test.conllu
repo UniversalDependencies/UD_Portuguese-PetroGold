@@ -2003,7 +2003,7 @@
 7	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 8	por	por	ADP	_	_	10	case	_	_
 9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
@@ -2832,12 +2832,12 @@
 # text = A reologia de um fluido está relacionada com o seu comportamento viscoso quando em repouso e em movimento.
 # sent_id = 119-20141209-TESEMSC_0-101
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	reologia	reologia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+2	reologia	reologia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 8	com	com	ADP	_	_	11	case	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	11	det	_	_
@@ -4521,8 +4521,8 @@
 31	de	de	ADP	_	_	32	case	_	_
 32	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
 33-34	drill-in	_	_	_	_	_	_	_	_
-33	drill	drill	X	_	_	32	nmod	_	_
-34	n	n	X	_	_	33	flat:foreign	_	_
+33	drill	drill	X	_	Foreign=Yes	32	nmod	_	_
+34	n	n	X	_	Foreign=Yes	33	flat:foreign	_	_
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
 36	Gallino	Gallino	PROPN	_	Gender=Masc|Number=Sing	13	parataxis	_	_
 37	et	et	PROPN	_	Number=Sing	36	flat:name	_	_
@@ -4702,8 +4702,8 @@
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	drill-in	_	_	_	_	_	_	_	_
-3	drill	drill	X	_	_	2	nmod	_	_
-4	n	n	X	_	Gender=Masc|Number=Plur	3	flat:foreign	_	_
+3	drill	drill	X	_	Foreign=Yes	2	nmod	_	_
+4	n	n	X	_	Foreign=Yes	3	flat:foreign	_	_
 5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 6	especialmente	especialmente	ADV	_	_	7	advmod	_	_
 7	formulados	formular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4748,8 +4748,8 @@
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 10-11	drill-in	_	_	_	_	_	_	_	_
-10	drill	drill	X	_	_	9	nmod	_	_
-11	n	n	X	_	_	10	flat:foreign	_	_
+10	drill	drill	X	_	Foreign=Yes	9	nmod	_	_
+11	n	n	X	_	Foreign=Yes	10	flat:foreign	_	_
 12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5183,8 +5183,8 @@
 5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7-8	drill-in	_	_	_	_	_	_	_	_
-7	drill	drill	X	_	_	6	nmod	_	_
-8	n	n	X	_	_	7	flat:foreign	_	_
+7	drill	drill	X	_	Foreign=Yes	6	nmod	_	_
+8	n	n	X	_	Foreign=Yes	7	flat:foreign	_	_
 9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	(	(	PUNCT	_	_	11	punct	_	_
 11	Soto	Soto	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5784,7 +5784,7 @@
 
 # text = Argilas com capacidade de se hidratar instantaneamente na presença de água são muitas vezes adicionadas na superfície.
 # sent_id = 119-20141209-TESEMSC_0-193
-1	Argilas	argila	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+1	Argilas	argila	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 2	com	com	ADP	_	_	3	case	_	_
 3	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	de	de	ADP	_	_	6	mark	_	_
@@ -5797,10 +5797,10 @@
 10	presença	presença	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	água	água	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 14	muitas	muito	DET	_	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
-16	adicionadas	adicionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
+16	adicionadas	adicionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	_	_	19	case	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -6208,11 +6208,11 @@
 33	acrescenta	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 34	que	que	SCONJ	_	_	40	mark	_	_
 35	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	36	det	_	_
-36	funções	função	NOUN	_	Gender=Fem|Number=Plur	40	nsubj	_	_
-37	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+36	funções	função	NOUN	_	Gender=Fem|Number=Plur	40	nsubj:pass	_	_
+37	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux:pass	_	_
 38	mais	mais	ADV	_	_	39	advmod	_	_
 39	facilmente	facilmente	ADV	_	_	40	advmod	_	_
-40	alcançadas	alcançar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	33	ccomp	_	_
+40	alcançadas	alcançar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	33	ccomp	_	_
 41	com	com	ADP	_	_	43	case	_	_
 42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	uso	uso	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
@@ -6353,13 +6353,13 @@
 6	1978	1978	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+9	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	bentonita	bentonita	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-14	subordinadas	subordinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+13	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	subordinadas	subordinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	_	_	17	case	_	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -6373,7 +6373,7 @@
 24	,	,	PUNCT	_	_	37	punct	_	_
 25	e	e	CCONJ	_	_	37	cc	_	_
 26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
-27	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	37	nsubj:pass	_	_
+27	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	37	nsubj	_	_
 28-29	da	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -6383,8 +6383,8 @@
 33	sua	sua	DET	_	Gender=Fem|Number=Sing|PronType=Prs	32	fixed	_	_
 34	vez	vez	NOUN	_	Gender=Masc|Number=Sing	32	fixed	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	32	punct	_	_
-36	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
-37	subordinadas	subordinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	conj	_	_
+36	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	subordinadas	subordinar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	14	conj	_	_
 38-39	pela	_	_	_	_	_	_	_	_
 38	por	por	ADP	_	_	41	case	_	_
 39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
@@ -6465,10 +6465,10 @@
 # text = Suas camadas sucessivas estão ligadas frouxamente entre si e camadas de água podem penetrar entre elas, separando-as.
 # sent_id = 119-20141209-TESEMSC_0-215
 1	Suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	2	det	_	_
-2	camadas	camada	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	camadas	camada	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	sucessivas	sucessivo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 6	frouxamente	frouxamente	ADV	_	_	5	advmod	_	_
 7	entre	entre	ADP	_	_	8	case	_	_
 8	si	si	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
@@ -8219,11 +8219,11 @@
 # text = O espaço entre elas está preenchido com um fluido viscoso.
 # sent_id = 119-20141209-TESEMSC_0-287
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	entre	entre	ADP	_	_	4	case	_	_
 4	elas	ele	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
-5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	preenchido	preencher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	preenchido	preencher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 7	com	com	ADP	_	_	9	case	_	_
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
@@ -8946,9 +8946,9 @@
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	2.6	2.6	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
-19	τ	τ	X	_	Gender=Masc|Number=Sing	13	appos	_	_
-20	τ	τ	X	_	_	19	flat:foreign	_	_
-21	μ	μ	X	_	_	19	flat:foreign	_	_
+19	τ	τ	X	_	Foreign=Yes	13	appos	_	_
+20	τ	τ	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	μ	μ	X	_	Foreign=Yes	19	flat:foreign	_	_
 22	!	!	PUNCT	_	_	19	punct	_	_
 23	onde	onde	ADV	_	Gender=Fem|Number=Sing|PronType=Rel	31	obl	_	_
 24	µ	µ	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -9398,9 +9398,9 @@
 # text = Os fluidos são ditos tixotrópicos quando formam um gel em condições estáticas e retomam a fluidez em condições dinâmicas (Chilingarian & Vorabutr, 1983).
 # sent_id = 119-20141209-TESEMSC_0-331
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	ditos	dizer	VERB	_	VerbForm=Part	0	root	_	_
+2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	ditos	dizer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	_
 5	tixotrópicos	tixotrópico	ADJ	_	Gender=Masc|Number=Plur	4	xcomp	_	_
 6	quando	quando	SCONJ	_	_	7	mark	_	_
 7	formam	formar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
@@ -10631,7 +10631,7 @@
 # sent_id = 119-20141209-TESEMSC_0-386
 1	Ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	SpaceAfter=No
+3	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	aprisionamento	aprisionamento	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 6	mecânico	mecânico	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
@@ -10639,8 +10639,8 @@
 8	retenção	retenção	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 9	hidrodinâmica	hidrodinâmico	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
-11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
-12	relacionados	relacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	relacionados	relacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 13	e	e	CCONJ	_	_	14	cc	_	_
 14	ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 15	somente	somente	ADV	_	_	14	advmod	_	_
@@ -12751,8 +12751,8 @@
 8	chamados	chamar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 9	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 10-11	drill-in	_	_	_	_	_	_	_	SpaceAfter=No
-10	drill	drill	X	_	_	9	nmod	_	_
-11	n	n	X	_	_	10	flat:foreign	_	_
+10	drill	drill	X	_	Foreign=Yes	9	nmod	_	_
+11	n	n	X	_	Foreign=Yes	10	flat:foreign	_	_
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = Segundo Gallino et al., 2001, um fluido drill-in é um fluido que minimiza o dano e que pode ser usado em perfurações através de formações produtoras, especialmente quando longas seções horizontais precisam ser perfuradas.
@@ -12767,8 +12767,8 @@
 8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 10-11	drill-in	_	_	_	_	_	_	_	_
-10	drill	drill	X	_	_	9	nmod	_	_
-11	n	n	X	_	_	10	flat:foreign	_	_
+10	drill	drill	X	_	Foreign=Yes	9	nmod	_	_
+11	n	n	X	_	Foreign=Yes	10	flat:foreign	_	_
 12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -12815,8 +12815,8 @@
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14-15	drill-in	_	_	_	_	_	_	_	_
-14	drill	drill	X	_	_	13	nmod	_	_
-15	n	n	X	_	_	14	flat:foreign	_	_
+14	drill	drill	X	_	Foreign=Yes	13	nmod	_	_
+15	n	n	X	_	Foreign=Yes	14	flat:foreign	_	_
 16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 17	designadas	designar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 18	de	de	ADP	_	_	22	mark	_	MWEPOS=SCONJ
@@ -12922,8 +12922,8 @@
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3-4	drill-in	_	_	_	_	_	_	_	_
-3	drill	drill	X	_	_	2	nmod	_	_
-4	n	n	X	_	Gender=Masc|Number=Plur	3	flat:foreign	_	_
+3	drill	drill	X	_	Foreign=Yes	2	nmod	_	_
+4	n	n	X	_	Foreign=Yes	3	flat:foreign	_	_
 5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	constituídos	constituir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 7	por	por	ADP	_	_	9	case	_	_
@@ -13937,8 +13937,8 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 17-18	drill-in	_	_	_	_	_	_	_	_
-17	drill	drill	X	_	_	16	nmod	_	_
-18	n	n	X	_	_	17	flat:foreign	_	_
+17	drill	drill	X	_	Foreign=Yes	16	nmod	_	_
+18	n	n	X	_	Foreign=Yes	17	flat:foreign	_	_
 19	em	em	ADP	_	_	20	case	_	_
 20	rochas	rocha	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 21	reservatório	reservatório	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -14133,7 +14133,7 @@
 # text = Os aditivos empregados nesta pesquisa para a formulação dos fluidos de perfuração, bem como o óleo utilizado estão citados na Tabela 3.1.
 # sent_id = 119-20141209-TESEMSC_0-495
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	aditivos	aditivo	NOUN	_	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+2	aditivos	aditivo	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
 3	empregados	empregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 4-5	nesta	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
@@ -14154,8 +14154,8 @@
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 20	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
-21	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
-22	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+21	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	citados	citar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 23-24	na	_	_	_	_	_	_	_	_
 23	em	em	ADP	_	_	25	case	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -14645,7 +14645,7 @@
 # text = Os valores das propriedades geométricas e permo-porosas obtidos durante a caracterização das amostras estão detalhados na Tabela 3.3.
 # sent_id = 119-20141209-TESEMSC_0-511
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -14661,8 +14661,8 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
-16	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-17	detalhados	detalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+16	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	detalhados	detalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	_	_	20	case	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -15034,13 +15034,13 @@
 # sent_id = 119-20141209-TESEMSC_0-526
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	dois	dois	NUM	_	NumType=Card	3	nummod	_	_
-3	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 4	preparados	preparar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	3	acl	_	_
-5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	9	aux	_	SpaceAfter=No
+5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	então	então	ADV	_	_	9	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+9	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 10-11	ao	_	_	_	_	_	_	_	_
 10	a	a	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -16390,7 +16390,7 @@
 # text = As montagens dos aparatos das duas etapas do procedimento estão mostradas esquematicamente nas Figuras 3.8 e 3.9.
 # sent_id = 119-20141209-TESEMSC_0-563
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	montagens	montagem	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+2	montagens	montagem	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -16404,8 +16404,8 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	procedimento	procedimento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-14	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+13	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 15	esquematicamente	esquematicamente	ADV	_	_	14	advmod	_	_
 16-17	nas	_	_	_	_	_	_	_	_
 16	em	em	ADP	_	_	18	case	_	_
@@ -16897,9 +16897,9 @@
 12	injeção	injeção	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	nsubj:pass	_	_
-16	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
-17	conectada	conectar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+15	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
+16	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	conectada	conectar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl:relcl	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	_	_	20	case	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -17276,12 +17276,12 @@
 6	experimentais	experimental	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	dados	dado	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
-10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+9	dados	dado	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	então	então	ADV	_	_	14	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	tratados	tratar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
+14	tratados	tratar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Fluxograma do protocolo de testes
@@ -17661,14 +17661,14 @@
 5	confinamento	confinamento	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+8	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	então	então	ADV	_	_	15	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	injetado	injetar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+15	injetado	injetar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 16	através	através	ADV	_	_	15	advmod	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -18646,7 +18646,7 @@
 50-51	pelo	_	_	_	_	_	_	_	_
 50	por	por	ADP	_	_	52	case	_	_
 51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+52	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	40	obl:agent	_	_
 53	com	com	ADP	_	_	56	case	_	_
 54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 55	maior	maior	ADJ	_	Gender=Fem|Number=Sing	56	amod	_	_
@@ -21459,11 +21459,11 @@
 29	argila	argila	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	36	punct	_	_
 31	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
-32	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	36	nsubj	_	_
-33	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+32	obstrução	obstrução	NOUN	_	Gender=Fem|Number=Sing	36	nsubj:pass	_	_
+33	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux:pass	_	_
 34	mais	mais	ADV	_	_	35	advmod	_	_
 35	rapidamente	rapidamente	ADV	_	_	36	advmod	_	_
-36	observada	observar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	SpaceAfter=No
+36	observada	observar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = Na Figura 4.18 são apresentadas as curvas de vazão total vs. tempo, tanto para a GX quanto para a PHPA, para que se possa analisar os efeitos do tipo de polímero na redução da taxa de invasão de filtrado.
@@ -22141,8 +22141,8 @@
 # sent_id = 119-20141209-TESEMSC_0-721
 1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	estar	estar	AUX	_	VerbForm=Inf	4	aux:pass	_	_
-4	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+3	estar	estar	AUX	_	VerbForm=Inf	4	aux	_	_
+4	relacionado	relacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	xcomp	_	_
 5-6	ao	_	_	_	_	_	_	_	_
 5	a	a	ADP	_	_	7	case	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -22310,7 +22310,7 @@
 22	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	para	para	ADP	_	_	26	case	_	_
+25	para	para	ADP	_	_	27	case	_	_
 26	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
 27	um	um	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
 28-29	dos	_	_	_	_	_	_	_	_
@@ -22444,9 +22444,9 @@
 # sent_id = 119-20141209-TESEMSC_0-728
 1	Ambos	ambos	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	plotados	plotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	plotados	plotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 6	em	em	ADP	_	_	10	case	_	MWEPOS=ADP
 7	relação	relação	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	_
 8-9	à	_	_	_	_	_	_	_	_
@@ -24217,12 +24217,12 @@
 21	,	,	PUNCT	_	_	29	punct	_	_
 22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	maior	maior	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-24	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
-25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	SpaceAfter=No
+24	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:pass	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	novamente	novamente	ADV	_	_	29	advmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
-29	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	ccomp	_	_
+29	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	ccomp	_	_
 30	para	para	ADP	_	_	32	case	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
@@ -26525,12 +26525,12 @@
 # text = O volume de efluente gerado está ligado diretamente ao mecanismo natural e artificial de produção, bem como o estágio de vida do campo de produção.
 # sent_id = 243-20141015-MONOGRAFIA_1-21
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+2	volume	volume	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	gerado	gerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
-6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 8	diretamente	diretamente	ADV	_	_	7	advmod	_	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	_	_	11	case	_	_
@@ -26762,7 +26762,7 @@
 # sent_id = 243-20141015-MONOGRAFIA_1-26
 # original_text = O hidrocarboneto presente no poro da rocha está saturado com uma água com alto teor de sal.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	hidrocarboneto	hidrocarboneto	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+2	hidrocarboneto	hidrocarboneto	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	presente	presente	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	_	_	6	case	_	_
@@ -26772,8 +26772,8 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	saturado	saturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	saturado	saturar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 12	com	com	ADP	_	_	14	case	_	_
 13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	água	água	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -27181,8 +27181,8 @@
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	dissolvido	dissolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dissolvido	dissolver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -28411,15 +28411,15 @@
 # text = O processo de separação de emulsões por flotação está baseado na ocorrência de contato enre as bolhas de gás e as gotas de óleo.
 # sent_id = 243-20141015-MONOGRAFIA_1-84
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+2	processo	processo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	separação	separação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	emulsões	emulsão	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 7	por	por	ADP	_	_	8	case	_	_
 8	flotação	flotação	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -31091,7 +31091,7 @@
 10	ou	ou	CCONJ	_	_	11	cc	_	_
 11	inversa	inverso	ADJ	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
-13	sendo	ser	AUX	_	VerbForm=Ger	17	cop	_	_
+13	sendo	ser	AUX	_	VerbForm=Ger	17	aux:pass	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	16	det	_	_
 16	formato	formato	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
@@ -32070,7 +32070,7 @@
 # text = A escolha da concentração de 300 mg/L na síntese da água produzida está baseada em dados de campo que apontam está como sendo a concentração média da água oleosa que deixa os vasos separadores de produção das estações de separação primária de petróleo.
 # sent_id = 243-20141015-MONOGRAFIA_1-214
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+2	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -32087,8 +32087,8 @@
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	água	água	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	produzida	produzir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
-16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-17	baseada	basear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+16	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	baseada	basear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 18	em	em	ADP	_	_	19	case	_	_
 19	dados	dado	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
 20	de	de	ADP	_	_	21	case	_	_
@@ -32188,10 +32188,10 @@
 37	de	de	ADP	_	_	38	case	_	_
 38	coco	coco	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	43	punct	_	_
-40	sendo	ser	AUX	_	VerbForm=Ger	43	cop	_	_
+40	sendo	ser	AUX	_	VerbForm=Ger	43	aux:pass	_	_
 41	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
-42	massa	massa	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
-43	adicionada	adicionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	advcl	_	_
+42	massa	massa	NOUN	_	Gender=Fem|Number=Sing	43	nsubj:pass	_	_
+43	adicionada	adicionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	_
 44	em	em	ADP	_	_	46	case	_	_
 45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	balão	balão	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
@@ -33744,9 +33744,9 @@
 21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 23	retas	reta	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
-24	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	nsubj:pass	_	_
-25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
-26	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+24	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	nsubj	_	_
+25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	23	acl:relcl	_	_
 27-28	nos	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
@@ -34143,9 +34143,9 @@
 21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 23	retas	reta	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
-24	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	nsubj:pass	_	_
-25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
-26	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+24	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	nsubj	_	_
+25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	23	acl:relcl	_	_
 27-28	nos	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
 28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
