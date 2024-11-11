@@ -785,7 +785,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 10	diretamente	diretamente	ADV	_	_	11	advmod	_	_
 11	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
 12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -796,7 +796,7 @@
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	local	local	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	29	punct	_	_
-19	onde	onde	ADV	_	Gender=Masc|Number=Sing|PronType=Rel	29	obl	_	_
+19	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	29	obl	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -2283,9 +2283,9 @@
 11	Barra	Barra	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	Grande	Grande	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	nsubj:pass	_	_
-15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl:relcl	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	_	_	19	case	_	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -2861,7 +2861,7 @@
 42	seres	ser	NOUN	_	Gender=Masc|Number=Plur	45	nsubj	_	_
 43	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	45	aux	_	_
 44	se	se	PRON	_	PronType=Prs	45	expl:pv	_	_
-45	acumulados	acumular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	1	parataxis	_	Se=pv
+45	acumulados	acumular	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	parataxis	_	Se=pv
 46-47	no	_	_	_	_	_	_	_	_
 46	em	em	ADP	_	_	48	case	_	_
 47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
@@ -3724,7 +3724,7 @@
 13	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 14	que	que	ADP	_	_	16	case	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+16	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
 17	pesados	pesado	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4335,7 +4335,7 @@
 # text = A localização geométrica da bacia Potiguar – Ceará e a grande área onde está localizado o estúario Barra Grande, está representado nas figuras a seguir a fim de demostrar a distancia aproximada dos campos de petróleo em águas rasas com o município de Icapuí.
 # sent_id = 411-20150702-MONOGRAFIA_0-96
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	localização	localização	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+2	localização	localização	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
 3	geométrica	geométrico	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -4349,15 +4349,15 @@
 12	grande	grande	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	área	área	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 14	onde	onde	ADV	_	Gender=Fem|Number=Sing|PronType=Rel	16	obl	_	_
-15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+15	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	localizado	localizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl:relcl	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	estúario	estúario	PROPN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+18	estúario	estúario	PROPN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 19	Barra	Barra	PROPN	_	Gender=Masc|Number=Sing	18	flat:name	_	_
 20	Grande	Grande	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	16	punct	_	_
-22	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
-23	representado	representar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+22	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	representado	representar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 24-25	nas	_	_	_	_	_	_	_	_
 24	em	em	ADP	_	_	26	case	_	_
 25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
@@ -4398,9 +4398,9 @@
 # text = Esta bacia está localizada no extremo leste da Margem Equatorial Brasileira, compreendendo um segmento emerso e outro submerso, ao longo dos Estados do Rio Grande do Norte e do Ceará.
 # sent_id = 411-20150702-MONOGRAFIA_0-98
 1	Esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
-3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	localizada	localizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+2	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	localizada	localizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	_	_	8	case	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -4943,9 +4943,9 @@
 # sent_id = 411-20150702-MONOGRAFIA_0-114
 1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
 2	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
-3	litoral	litoral	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	banhado	banhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	litoral	litoral	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	banhado	banhar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 6-7	pelo	_	_	_	_	_	_	_	_
 6	por	por	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -5001,7 +5001,7 @@
 # text = O Município de Icapuí presente na figura acima está amplamente explorada por sua valorização turística, dentro delas o estuário barra grande, local de grande área ambiental estuarina, onde diversas especes de animais se aglomeram, em especial as espécies ameaçadas de extinção, o peixe boi marinho, que usa estuário como local de alimento e reprodução (COSTA, 2010).
 # sent_id = 411-20150702-MONOGRAFIA_0-116
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Município	Município	PROPN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+2	Município	Município	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	2	flat:name	_	_
 4	Icapuí	Icapuí	PROPN	_	Number=Sing	2	flat:name	_	_
 5	presente	presente	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -5010,12 +5010,12 @@
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	figura	figura	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 9	acima	acima	ADV	_	_	12	advmod	_	_
-10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	amplamente	amplamente	ADV	_	_	12	advmod	_	_
-12	explorada	explorar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	explorada	explorar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 13	por	por	ADP	_	_	15	case	_	_
 14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
-15	valorização	valorização	NOUN	_	Gender=Fem|Number=Sing	12	obl:agent	_	_
+15	valorização	valorização	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 16	turística	turístico	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	dentro	dentro	ADV	_	_	22	advmod	_	_
@@ -5235,8 +5235,8 @@
 
 # text = Estão relacionados com as atividades tradicionais de pesca, mariscarem, cultivos de algas e promovem as condições ecológicas para a produção lagosteira (SILVA, 2012).
 # sent_id = 411-20150702-MONOGRAFIA_0-121
-1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
-2	relacionados	relacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	relacionados	relacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 3	com	com	ADP	_	_	5	case	_	_
 4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
@@ -5824,8 +5824,8 @@
 2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	também	também	ADV	_	_	6	advmod	_	_
-5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	ccomp	_	_
 7	com	com	ADP	_	_	8	case	_	_
 8	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -6056,7 +6056,7 @@
 # text = Essa parte da costa do litoral cearense estar relacionada com as atividades tradicionais de pesca, mariscarem, cultivos de algas, promovendo as condições ecológicas para a produção lagosteira (MEIRELES, 2001).
 # sent_id = 411-20150702-MONOGRAFIA_0-141
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+2	parte	parte	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -6066,8 +6066,8 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	litoral	litoral	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	cearense	cearense	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
-10	estar	estar	AUX	_	VerbForm=Inf	11	aux:pass	_	_
-11	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	estar	estar	AUX	_	VerbForm=Inf	11	aux	_	_
+11	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 12	com	com	ADP	_	_	14	case	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
@@ -6758,10 +6758,10 @@
 # text = Os estuários também estão caracterizados pela relação entre a água marinha com a água doce dos rios, há uma diferença da densidade entres os dois tipos de agua, como a salinidade e temperatura, que fazem com que não ocorra uma mistura imediata, logo formasse uma camada inferior pela água salgada (PRITCHARD, 1967; POSSOBON, 2012).
 # sent_id = 411-20150702-MONOGRAFIA_0-164
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	estuários	estuário	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	estuários	estuário	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	também	também	ADV	_	_	5	advmod	_	_
-4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	caracterizados	caracterizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	caracterizados	caracterizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 6-7	pela	_	_	_	_	_	_	_	_
 6	por	por	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -7956,15 +7956,15 @@
 
 # text = Óleos que apresentam uma baixa densidade geralmente estão ligados à sua toxidade, pois seu efeito químico é mais representativo.
 # sent_id = 411-20150702-MONOGRAFIA_0-198
-1	Óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+1	Óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	nsubj	_	_
 3	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 7	geralmente	geralmente	ADV	_	_	9	advmod	_	_
-8	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
-9	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+8	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 10-11	à	_	_	_	_	_	_	_	_
 10	a	a	ADP	_	_	13	case	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -8028,7 +8028,7 @@
 # sent_id = 411-20150702-MONOGRAFIA_0-201
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-3	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+3	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8044,8 +8044,8 @@
 13	comunidades	comunidade	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
 14	biológicas	biológico	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
 15	costeira	costeiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-16	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-17	representados	representar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+16	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	representados	representar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 18	de	de	ADP	_	_	22	case	_	MWEPOS=ADP
 19	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	_
 20	com	com	ADP	_	_	18	fixed	_	_
@@ -8538,13 +8538,13 @@
 # text = O grau da evaporação está ligado com a temperatura da água, da força dos ventos, e do local de espalhamento da mancha (FERREIRA, 2006).
 # sent_id = 411-20150702-MONOGRAFIA_0-219
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	grau	grau	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+2	grau	grau	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	evaporação	evaporação	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ligado	ligar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 8	com	com	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	temperatura	temperatura	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -10428,8 +10428,8 @@
 # sent_id = 411-20150702-MONOGRAFIA_0-269
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	queima	queima	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
-3	in	in	X	_	_	2	nmod	_	_
-4	situ	situ	X	_	_	3	flat:foreign	_	_
+3	in	in	X	_	Foreign=Yes	2	nmod	_	_
+4	situ	situ	X	_	Foreign=Yes	3	flat:foreign	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	queima	queima	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 7-8	no	_	_	_	_	_	_	_	_
@@ -10941,14 +10941,14 @@
 13	diversas	diverso	DET	_	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
 14	configurações	configuração	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
-16	sendo	ser	AUX	_	VerbForm=Ger	22	aux	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	22	aux:pass	_	_
 17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	extremos	extremo	NOUN	_	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
 19-20	das	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	barreiras	barreira	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
-22	ancorados	ancorar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	advcl	_	_
+22	ancorados	ancorar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	advcl	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
 24	carregados	carregar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	conj	_	_
 25	por	por	ADP	_	_	26	case	_	_
@@ -12737,8 +12737,8 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	experimento	experimento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	in	in	X	_	_	12	nmod	_	_
-14	loco	loco	X	_	_	13	flat:foreign	_	SpaceAfter=No
+13	in	in	X	_	Foreign=Yes	12	nmod	_	_
+14	loco	loco	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	a	a	ADP	_	_	20	case	_	MWEPOS=ADP
 17	partir	partir	VERB	_	VerbForm=Inf	16	fixed	_	_
@@ -14071,7 +14071,7 @@
 20	contínuo	contínuo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	:	:	PUNCT	_	_	16	punct	_	_
 22	1.	1.	NUM	_	NumType=Card	25	nummod	_	_
-23	-	-	PUNCT	_	_	24	punct	_	_
+23	-	-	PUNCT	_	_	25	punct	_	_
 24	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	33	nsubj:pass	_	_
 26	de	de	ADP	_	_	27	case	_	_
@@ -15352,9 +15352,9 @@
 8	determina	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	se	se	SCONJ	_	_	13	mark	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
-12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
-13	emulsionado	emulsionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+11	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	emulsionado	emulsionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -15366,9 +15366,9 @@
 21	ou	ou	CCONJ	_	_	26	cc	_	_
 22	se	se	SCONJ	_	_	26	mark	_	_
 23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	água	água	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
-25	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
-26	emulsionada	emulsionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	_
+24	água	água	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+25	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	emulsionada	emulsionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	conj	_	_
 27-28	no	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -16038,7 +16038,7 @@
 12	em	em	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	qual	qual	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	obl	_	_
-15	esta	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	esta	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	sendo	ser	AUX	_	VerbForm=Ger	17	aux:pass	_	_
 17	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
 18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -17612,10 +17612,10 @@
 2	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 4	reológico	reológico	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+5	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	associados	associar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 7	certos	certo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
-8	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	SpaceAfter=No
+8	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = O modelo mais empregado no tratamento dos fluidos de perfuração é o modelo Binghaniano, cujos componentes reológicos são as viscosidades plásticas (𝜇𝑝) e o limite de escoamento (𝜏0) (Machado, 2002).
@@ -17860,13 +17860,13 @@
 # sent_id = 240-20140220-MONOGRAFIA_0-168
 # original_text = A equação matemática desenvolvida por Newton está mostrada na Equação 2: (2)
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+2	equação	equação	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	matemática	matemática	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	desenvolvida	desenvolver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
 5	por	por	ADP	_	_	6	case	_	_
 6	Newton	Newton	PROPN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
-7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
-8	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	mostrada	mostrar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	_	_	11	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -18043,7 +18043,7 @@
 # text = A tensão de cisalhamento em um fluido de potência está relacionada à taxa de cisalhamento através da seguinte equação : ( 8 ) Sendo : 𝐾 - índice de consistência do fluido , 𝛾̇ - taxa de deformação por cisalhamento do fluido n – índice de comportamento
 # sent_id = 240-20140220-MONOGRAFIA_0-175
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+2	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	em	em	ADP	_	_	7	case	_	_
@@ -18051,8 +18051,8 @@
 7	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	potência	potência	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 12-13	à	_	_	_	_	_	_	_	_
 12	a	a	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -18403,15 +18403,15 @@
 18	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	quando	quando	SCONJ	_	_	29	mark	_	_
 20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	29	nsubj:pass	_	_
+21	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
 22	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	27	nsubj:pass	_	_
 23	tenha	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
-24	estado	estar	AUX	_	VerbForm=Part	29	aux:pass	_	_
+24	estado	estar	AUX	_	VerbForm=Part	29	aux	_	_
 25	previamente	previamente	ADV	_	_	29	advmod	_	_
 26	em	em	ADP	_	_	27	case	_	_
 27	repouso	repouso	NOUN	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
 28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
-29	submetida	submeter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	_
+29	submetida	submeter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	advcl	_	_
 30-31	ao	_	_	_	_	_	_	_	_
 30	a	a	ADP	_	_	32	case	_	_
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -20155,9 +20155,9 @@
 1	Portanto	portanto	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-4	solubilidade	solubilidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
-5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	solubilidade	solubilidade	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	relacionada	relacionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
 7-8	à	_	_	_	_	_	_	_	_
 7	a	a	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -20435,8 +20435,8 @@
 15	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	e	e	CCONJ	_	_	19	cc	_	_
-18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
-19	representado	representar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	representado	representar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	conj	_	_
 20-21	na	_	_	_	_	_	_	_	_
 20	em	em	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -20613,10 +20613,10 @@
 15	oposta	oposto	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	cabeças	cabeça	NOUN	_	Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+18	cabeças	cabeça	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 19	hidrofílicas	hidrofílico	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
-20	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
-21	direcionadas	direcionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	conj	_	_
+20	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	direcionadas	direcionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	12	conj	_	_
 22	para	para	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	centro	centro	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
@@ -20624,8 +20624,8 @@
 26	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	caudas	cauda	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 28	hidrofóbicas	hidrofóbico	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
-29	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
-30	direcionadas	direcionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	21	conj	_	_
+29	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	direcionadas	direcionar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	21	conj	_	_
 31	para	para	ADP	_	_	33	case	_	_
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	meio	meio	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
@@ -21173,9 +21173,9 @@
 # sent_id = 240-20140220-MONOGRAFIA_0-282
 1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	principais	principal	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
-3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
-4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	mostradas	mostrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
 6-7	na	_	_	_	_	_	_	_	_
 6	em	em	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -23211,7 +23211,7 @@
 # text = Os diagramas obtidos com a utilização do Excel 2010, para os sistemas mencionados anteriormente, estão representados nas Figuras 15 e 16.
 # sent_id = 240-20140220-MONOGRAFIA_0-342
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+2	diagramas	diagrama	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 3	obtidos	obter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 4	com	com	ADP	_	_	6	case	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -23228,8 +23228,8 @@
 15	mencionados	mencionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	acl	_	_
 16	anteriormente	anteriormente	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
-18	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
-19	representados	representar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+18	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	representados	representar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 20-21	nas	_	_	_	_	_	_	_	_
 20	em	em	ADP	_	_	22	case	_	_
 21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
@@ -24461,7 +24461,7 @@
 # text = Os valores de magnitude tixotrópica, ou seja, da diferença entre as rampas de ida e volta, para as concentrações estudadas estão apresentados na Tabela 7.
 # sent_id = 240-20140220-MONOGRAFIA_0-383
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	26	nsubj:pass	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	magnitude	magnitude	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	tixotrópica	tixotrópico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
@@ -24485,8 +24485,8 @@
 22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 24	estudadas	estudar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	23	acl	_	_
-25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
-26	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+25	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 27-28	na	_	_	_	_	_	_	_	_
 27	em	em	ADP	_	_	29	case	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -25357,15 +25357,15 @@
 # text = Os valores de magnitude tixotrópica para a Atapulgita estão fornecidos na Tabela 9.
 # sent_id = 240-20140220-MONOGRAFIA_0-409
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+2	valores	valor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	magnitude	magnitude	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	tixotrópica	tixotrópico	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	para	para	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Atapulgita	Atapulgita	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	fornecidos	fornecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fornecidos	fornecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
