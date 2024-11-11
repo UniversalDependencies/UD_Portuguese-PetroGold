@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Portuguese-PetroGold:
-commit 6dd639994663f109da15b11dc396cc824cd9e893
+commit 693d059e0560e1b87a93af1c5dfe065f5f842c84
+Merge: 45d380f e7913e0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:53:46 2023 +0100
 Size: counted 250605 of 250605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0477559887557.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 163309 out of 250605 total words have one or more features.
+Features: 163451 out of 250605 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -25,39 +25,10 @@ Udapi: found 234 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 250605 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-dev.conllu
-[Line 10432 Sent 411-20150702-MONOGRAFIA_0-269 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 10431 Sent 411-20150702-MONOGRAFIA_0-269 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 12741 Sent 411-20150702-MONOGRAFIA_0-346 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 12740 Sent 411-20150702-MONOGRAFIA_0-346 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-test.conllu
-[Line 4525 Sent 119-20141209-TESEMSC_0-153 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4524 Sent 119-20141209-TESEMSC_0-153 Node 33]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4706 Sent 119-20141209-TESEMSC_0-158 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4705 Sent 119-20141209-TESEMSC_0-158 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4752 Sent 119-20141209-TESEMSC_0-159 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4751 Sent 119-20141209-TESEMSC_0-159 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 5187 Sent 119-20141209-TESEMSC_0-174 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 5186 Sent 119-20141209-TESEMSC_0-174 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 8950 Sent 119-20141209-TESEMSC_0-311 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 8949 Sent 119-20141209-TESEMSC_0-311 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 22
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-train.conllu
-[Line 20932 Sent 284-20150917-MONOGRAFIA_0-113 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20931 Sent 284-20150917-MONOGRAFIA_0-113 Node 17]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23618 Sent 284-20150917-MONOGRAFIA_0-191 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23617 Sent 284-20150917-MONOGRAFIA_0-191 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24156 Sent 284-20150917-MONOGRAFIA_0-216 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24155 Sent 284-20150917-MONOGRAFIA_0-216 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24231 Sent 284-20150917-MONOGRAFIA_0-218 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24230 Sent 284-20150917-MONOGRAFIA_0-218 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24232 Sent 284-20150917-MONOGRAFIA_0-218 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 24230 Sent 284-20150917-MONOGRAFIA_0-218 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 138
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
