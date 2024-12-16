@@ -3506,12 +3506,12 @@
 # text = o es ul  Densidade Específica é a razão da massa de um dado material , por exemplo , o óleo em relação à massa da água doce , para o mesmo volume e a uma mesma temperatura .
 # sent_id = 411-20150702-MONOGRAFIA_0-70
 # original_text = missing
-1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	es	e	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	ul	ul	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-4			ADP	_	_	3	flat:name	_	_
-5	Densidade	Densidade	PROPN	_	Number=Sing	3	flat:name	_	_
-6	Específica	Específica	PROPN	_	Number=Sing	3	flat:name	_	_
+1	o	o	NOUN	_	Gender=Masc|Number=Sing	9	dep	_	_
+2	es	e	NOUN	_	Gender=Masc|Number=Sing	9	dep	_	_
+3	ul	ul	PROPN	_	Gender=Masc|Number=Sing	9	dep	_	_
+4			PUNCT	_	_	9	punct	_	_
+5	Densidade	Densidade	PROPN	_	Number=Sing	9	nsubj	_	_
+6	Específica	Específica	PROPN	_	Number=Sing	5	flat:name	_	_
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	razão	razão	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3681,7 +3681,7 @@
 25	2011	2011	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
-28			DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28			PUNCT	_	_	29	punct	_	_
 29	Ponto	ponto	PROPN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
 30	de	de	ADP	_	_	29	flat:name	_	_
 31	Inflamação	Inflamação	PROPN	_	Number=Sing	29	flat:name	_	_
@@ -9410,7 +9410,7 @@
 8	informações	informação	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 9	principais	principal	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 10	:	:	PUNCT	_	_	12	punct	_	_
-11			DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11			PUNCT	_	_	12	punct	_	_
 12	Sensibilidade	sensibilidade	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
 13	ambiental	ambiental	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14-15	do	_	_	_	_	_	_	_	_
@@ -9457,21 +9457,21 @@
 15	grau	grau	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-18	e	e	CCONJ	_	_	21	cc	_	_
+18	e	e	CCONJ	_	_	22	cc	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	quanto	quanto	DET	_	Gender=Masc|Number=Sing|PronType=Rel	21	det	_	_
-21	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
-22	persiste	persistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+21	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	persiste	persistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
 23	;	;	PUNCT	_	_	25	punct	_	_
-24			DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	Recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
+24			PUNCT	_	_	25	punct	_	_
+25	Recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 26	biológicos	biológico	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 27	sensíveis	sensível	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 28-29	ao	_	_	_	_	_	_	_	_
 28	a	a	ADP	_	_	30	case	_	_
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
-31	onde	onde	ADV	_	Gender=Masc|Number=Sing|PronType=Rel	36	obl	_	_
+31	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	36	obl	_	_
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	foco	foco	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
 34	principal	principal	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
@@ -9517,12 +9517,12 @@
 72	reprodução	reprodução	NOUN	_	Gender=Fem|Number=Sing	64	conj	_	_
 73	e	e	CCONJ	_	_	74	cc	_	_
 74	berçários	berçário	NOUN	_	Gender=Masc|Number=Plur	64	conj	_	SpaceAfter=No
-75	;	;	PUNCT	_	_	76	punct	_	_
-76			NOUN	_	Gender=Fem|Number=Plur	64	conj	_	_
-77	Atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	76	nmod	_	_
-78	socioeconômicas	socioeconômico	ADJ	_	Gender=Fem|Number=Plur	76	amod	_	_
+75	;	;	PUNCT	_	_	77	punct	_	_
+76			PUNCT	_	_	77	punct	_	_
+77	Atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+78	socioeconômicas	socioeconômico	ADJ	_	Gender=Fem|Number=Plur	77	amod	_	_
 79	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	80	nsubj	_	_
-80	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	76	acl:relcl	_	_
+80	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	77	acl:relcl	_	_
 81	ser	ser	AUX	_	VerbForm=Inf	82	aux:pass	_	_
 82	prejudicadas	prejudicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	80	xcomp	_	_
 83	por	por	ADP	_	_	84	case	_	_
@@ -13870,12 +13870,12 @@
 29	seguintes	seguinte	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
 30	características	característica	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
 31	:	:	PUNCT	_	_	32	punct	_	_
-32			SYM	_	_	35	parataxis	_	_
+32			PUNCT	_	_	35	punct	_	_
 33	Ser	ser	AUX	_	VerbForm=Inf	35	cop	_	_
 34	quimicamente	quimicamente	ADV	_	_	35	advmod	_	_
 35	estável	estável	ADJ	_	Gender=Masc|Number=Sing	30	appos	_	_
 36	;	;	PUNCT	_	_	38	punct	_	_
-37			SYM	_	_	38	parataxis	_	_
+37			PUNCT	_	_	38	punct	_	_
 38	Aceitar	aceitar	VERB	_	VerbForm=Inf	35	conj	_	_
 39	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	40	det	_	_
 40	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
@@ -13884,11 +13884,11 @@
 43	e	e	CCONJ	_	_	44	cc	_	_
 44	físico	físico	ADJ	_	Gender=Masc|Number=Sing	42	conj	_	_
 45	;	;	PUNCT	_	_	46	punct	_	_
-46			SYM	_	_	48	parataxis	_	_
+46			PUNCT	_	_	48	punct	_	_
 47	Ser	ser	AUX	_	VerbForm=Inf	48	cop	_	_
 48	bombeável	bombeável	ADJ	_	Gender=Masc|Number=Sing	35	conj	_	_
 49	;	;	PUNCT	_	_	51	punct	_	_
-50			SYM	_	_	51	parataxis	_	_
+50			PUNCT	_	_	51	punct	_	_
 51	Resfriar	resfriar	VERB	_	VerbForm=Inf	35	conj	_	_
 52	e	e	CCONJ	_	_	53	cc	_	_
 53	lubrificar	lubrificar	VERB	_	VerbForm=Inf	51	conj	_	_
@@ -13900,7 +13900,7 @@
 59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
 60	broca	broca	NOUN	_	Gender=Fem|Number=Sing	55	conj	_	_
 61	;	;	PUNCT	_	_	63	punct	_	_
-62			SYM	_	_	63	parataxis	_	_
+62			PUNCT	_	_	63	punct	_	_
 63	Apresentar	apresentar	VERB	_	VerbForm=Inf	35	conj	_	_
 64	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	65	amod	_	_
 65	grau	grau	NOUN	_	Gender=Masc|Number=Sing	63	obj	_	_
@@ -13930,7 +13930,7 @@
 86	de	de	ADP	_	_	87	case	_	_
 87	circulação	circulação	NOUN	_	Gender=Fem|Number=Sing	85	nmod	_	_
 88	;	;	PUNCT	_	_	90	punct	_	_
-89			SYM	_	_	90	parataxis	_	_
+89			PUNCT	_	_	90	punct	_	_
 90	Estabilizar	estabilizar	VERB	_	VerbForm=Inf	35	conj	_	_
 91	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	92	det	_	_
 92	paredes	parede	NOUN	_	Gender=Fem|Number=Plur	90	obj	_	_
@@ -13943,7 +13943,7 @@
 98	e	e	CCONJ	_	_	99	cc	_	_
 99	quimicamente	quimicamente	ADV	_	_	97	conj	_	_
 100	;	;	PUNCT	_	_	102	punct	_	_
-101			SYM	_	_	102	parataxis	_	_
+101			PUNCT	_	_	102	punct	_	_
 102	Manter	manter	VERB	_	VerbForm=Inf	35	conj	_	_
 103	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	104	det	_	_
 104	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	102	obj	_	_
@@ -13954,7 +13954,7 @@
 109	em	em	ADP	_	_	110	case	_	_
 110	repouso	repouso	NOUN	_	Gender=Masc|Number=Sing	102	advcl	_	_
 111	;	;	PUNCT	_	_	112	punct	_	_
-112		ser	SYM	_	_	114	parataxis	_	_
+112		ser	PUNCT	_	_	114	punct	_	_
 113	Ser	ser	AUX	_	VerbForm=Inf	114	cop	_	_
 114	inerte	inerte	ADJ	_	Gender=Masc|Number=Sing	35	conj	_	_
 115	em	em	ADP	_	_	119	case	_	MWEPOS=ADP
@@ -13965,7 +13965,7 @@
 119	rochas	rocha	NOUN	_	Gender=Fem|Number=Plur	114	obl	_	_
 120	produtoras	produtor	ADJ	_	Gender=Fem|Number=Plur	119	amod	_	_
 121	;	;	PUNCT	_	_	123	punct	_	_
-122			SYM	_	_	123	parataxis	_	_
+122			PUNCT	_	_	123	punct	_	_
 123	Facilitar	facilitar	VERB	_	VerbForm=Inf	35	conj	_	_
 124	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	125	det	_	_
 125	interpretações	interpretação	NOUN	_	Gender=Fem|Number=Plur	123	obj	_	_
@@ -13984,7 +13984,7 @@
 136	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	137	det	_	_
 137	poço	poço	NOUN	_	Gender=Masc|Number=Sing	129	nmod	_	_
 138	;	;	PUNCT	_	_	140	punct	_	_
-139			SYM	_	_	140	parataxis	_	_
+139			PUNCT	_	_	140	punct	_	_
 140	Exercer	exercer	VERB	_	VerbForm=Inf	35	conj	_	_
 141	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	140	obj	_	_
 142	hidrostática	hidrostático	ADJ	_	Gender=Fem|Number=Sing	141	amod	_	_
@@ -14005,7 +14005,7 @@
 157	kick	kick	NOUN	_	Gender=Masc|Number=Sing	152	appos	_	_
 158	)	)	PUNCT	_	_	157	punct	_	_
 159	;	;	PUNCT	_	_	161	punct	_	_
-160			SYM	_	_	161	parataxis	_	_
+160			PUNCT	_	_	161	punct	_	_
 161	Apresentar	apresentar	VERB	_	VerbForm=Inf	35	conj	_	_
 162	custo	custo	NOUN	_	Gender=Masc|Number=Sing	161	obj	_	_
 163	compatível	compatível	ADJ	_	Gender=Masc|Number=Sing	162	amod	_	_
@@ -14013,7 +14013,7 @@
 165	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	166	det	_	_
 166	produção	produção	NOUN	_	Gender=Fem|Number=Sing	162	nmod	_	_
 167	;	;	PUNCT	_	_	169	punct	_	_
-168			SYM	_	_	169	parataxis	_	_
+168			PUNCT	_	_	169	punct	_	_
 169	Facilitar	facilitar	VERB	_	VerbForm=Inf	35	conj	_	_
 170	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	171	det	_	_
 171	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	169	obj	_	_
@@ -17237,9 +17237,9 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
 12	vegetais	vegetal	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	14	punct	_	_
-14			PROPN	_	Gender=Masc|Number=Sing	3	conj	_	_
-15	Fluidos	Fluidos	PROPN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+13	.	.	PUNCT	_	_	15	punct	_	_
+14			PUNCT	_	_	15	punct	_	_
+15	Fluidos	Fluidos	PROPN	_	Gender=Masc|Number=Plur	3	conj	_	_
 16	Não	não	ADV	_	Polarity=Neg	17	advmod	_	_
 17	Newtonianos	Newtonianos	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 18	:	:	PUNCT	_	_	33	punct	_	_
@@ -18030,7 +18030,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	26	punct	_	_
-25			DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25			PUNCT	_	_	26	punct	_	_
 26	Modelo	modelo	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Ostwald	Ostwald	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	_
@@ -18242,9 +18242,9 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	2003	2003	NUM	_	NumType=Card	14	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	19	punct	_	_
-19			PROPN	_	Gender=Masc|Number=Sing	14	conj	_	_
-20	Tixotropia	Tixotropia	PROPN	_	Number=Sing	19	flat:name	_	_
+18	.	.	PUNCT	_	_	20	punct	_	_
+19			PUNCT	_	_	20	punct	_	_
+20	Tixotropia	Tixotropia	PROPN	_	Number=Sing	5	dep	_	_
 
 # text = O fluido de perfuração é projetado para gelificar gradativamente quando não há cisalhamento aplicado sobre ele.
 # sent_id = 240-20140220-MONOGRAFIA_0-184
@@ -19953,7 +19953,7 @@
 31	e	e	CCONJ	_	_	32	cc	_	_
 32	função	função	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	35	punct	_	_
-34			ADP	_	_	35	case	_	_
+34			PUNCT	_	_	35	punct	_	_
 35	Tensoativos	Tensoativos	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 36	Catiônicos	Catiônicos	PROPN	_	Number=Sing	35	flat:name	_	_
 
@@ -21315,12 +21315,12 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	água	água	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	20	punct	_	_
-20			PROPN	_	Gender=Masc|Number=Sing	12	appos	_	_
-21	WINSOR	WINSOR	PROPN	_	Number=Sing	20	flat:name	_	_
-22	II	II	PROPN	_	Number=Sing	20	flat:name	_	_
+19	.	.	PUNCT	_	_	21	punct	_	_
+20			PUNCT	_	_	21	punct	_	_
+21	WINSOR	WINSOR	PROPN	_	Number=Sing	5	parataxis	_	_
+22	II	II	PROPN	_	Number=Sing	21	flat:name	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	WII	WII	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+24	WII	WII	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	:	:	PUNCT	_	_	33	punct	_	_
 27	Quando	quando	ADV	_	_	33	advmod	_	_
@@ -21329,7 +21329,7 @@
 30	microemulsionada	microemulsionar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	29	acl	_	_
 31	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 32	em	em	ADP	_	_	33	case	_	_
-33	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	_
+33	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	21	acl	_	_
 34	com	com	ADP	_	_	36	case	_	_
 35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	fase	fase	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
@@ -21359,7 +21359,7 @@
 15	menor	menor	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 16	densidade	densidade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	19	punct	_	_
-18			ADP	_	_	19	case	_	_
+18			PUNCT	_	_	19	punct	_	_
 19	WINSOR	WINSOR	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	III	III	PROPN	_	Number=Sing	19	flat:name	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -21418,7 +21418,7 @@
 21	fase	fase	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 22	inferior	inferior	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	25	punct	_	_
-24			DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24			PUNCT	_	_	25	punct	_	_
 25	WINSOR	WINSOR	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
 26	IV	IV	PROPN	_	Number=Sing	25	flat:name	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
