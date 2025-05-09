@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Portuguese-PetroGold:
-commit 693d059e0560e1b87a93af1c5dfe065f5f842c84
-Merge: 45d380f e7913e0
+commit 9a0968a590c7736d08386a16fcdab8b2f3aace56
+Merge: fb4517f 8618ab9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 250605 of 250605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.0477559887557.
@@ -15,30 +15,105 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 163451 out of 250605 total words have one or more features.
+Features: 163410 out of 250605 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        234
-Udapi: found 234 bugs.
+               TOTAL         95
+Udapi: found 95 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 250605 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-dev.conllu
-*** PASSED ***
+[Line 176 Sent 411-20150702-MONOGRAFIA_0-6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De acordo com' does not have the 'ExtPos' feature
+[Line 393 Sent 411-20150702-MONOGRAFIA_0-8 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'devido a' does not have the 'ExtPos' feature
+[Line 410 Sent 411-20150702-MONOGRAFIA_0-8 Node 48]: [L3 Warning fixed-without-extpos] Fixed expression 'por causa de' does not have the 'ExtPos' feature
+[Line 609 Sent 411-20150702-MONOGRAFIA_0-11 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'bem como' does not have the 'ExtPos' feature
+[Line 1042 Sent 411-20150702-MONOGRAFIA_0-17 Node 53]: [L3 Warning fixed-without-extpos] Fixed expression 'bem como' does not have the 'ExtPos' feature
+[Line 1073 Sent 411-20150702-MONOGRAFIA_0-18 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'bem como' does not have the 'ExtPos' feature
+[Line 1144 Sent 411-20150702-MONOGRAFIA_0-20 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'de acordo com' does not have the 'ExtPos' feature
+[Line 1252 Sent 411-20150702-MONOGRAFIA_0-20 Node 106]: [L3 Warning fixed-without-extpos] Fixed expression 'para que' does not have the 'ExtPos' feature
+[Line 1332 Sent 411-20150702-MONOGRAFIA_0-21 Node 45]: [L3 Warning fixed-without-extpos] Fixed expression 'feito isso' does not have the 'ExtPos' feature
+[Line 1338 Sent 411-20150702-MONOGRAFIA_0-21 Node 51]: [L3 Warning fixed-without-extpos] Fixed expression 'de acordo com' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1999 Sent 411-20150702-MONOGRAFIA_0-31 Node 35]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 3313 Sent 411-20150702-MONOGRAFIA_0-65 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 7426 Sent 411-20150702-MONOGRAFIA_0-181 Node 1]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'Tais'
+[Line 7464 Sent 411-20150702-MONOGRAFIA_0-182 Node 15]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 8214 Sent 411-20150702-MONOGRAFIA_0-211 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'Sendo'
+[Line 8384 Sent 411-20150702-MONOGRAFIA_0-216 Node 9]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 8973 Sent 411-20150702-MONOGRAFIA_0-229 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 10261 Sent 411-20150702-MONOGRAFIA_0-263 Node 51]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 12054 Sent 411-20150702-MONOGRAFIA_0-327 Node 1]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'Uma'
+[Line 13565 Sent 240-20140220-MONOGRAFIA_0-21 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'Sendo'
+...suppressing further errors regarding Syntax
+Syntax errors: 14
+Warnings: 211
+*** FAILED *** with 14 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-test.conllu
-*** PASSED ***
+[Line 49 Sent 119-20141209-TESEMSC_0-3 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'bem como' does not have the 'ExtPos' feature
+[Line 136 Sent 119-20141209-TESEMSC_0-5 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'a fim de' does not have the 'ExtPos' feature
+[Line 323 Sent 119-20141209-TESEMSC_0-10 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'para que' does not have the 'ExtPos' feature
+[Line 411 Sent 119-20141209-TESEMSC_0-13 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A partir de' does not have the 'ExtPos' feature
+[Line 460 Sent 119-20141209-TESEMSC_0-14 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'tal como' does not have the 'ExtPos' feature
+[Line 614 Sent 119-20141209-TESEMSC_0-19 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Além de isso' does not have the 'ExtPos' feature
+[Line 619 Sent 119-20141209-TESEMSC_0-19 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'devido a' does not have the 'ExtPos' feature
+[Line 654 Sent 119-20141209-TESEMSC_0-19 Node 37]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
+[Line 673 Sent 119-20141209-TESEMSC_0-20 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Para que' does not have the 'ExtPos' feature
+[Line 806 Sent 119-20141209-TESEMSC_0-24 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'além de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 5614 Sent 119-20141209-TESEMSC_0-189 Node 13]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' word 'isto'
+[Line 6511 Sent 119-20141209-TESEMSC_0-216 Node 20]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 8799 Sent 119-20141209-TESEMSC_0-305 Node 14]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' word 'isto'
+[Line 9218 Sent 119-20141209-TESEMSC_0-322 Node 5]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' word 'isto'
+[Line 10552 Sent 119-20141209-TESEMSC_0-382 Node 25]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 10579 Sent 119-20141209-TESEMSC_0-382 Node 50]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 12514 Sent 119-20141209-TESEMSC_0-445 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 12724 Sent 119-20141209-TESEMSC_0-451 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 20886 Sent 119-20141209-TESEMSC_0-694 Node 23]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 21340 Sent 119-20141209-TESEMSC_0-704 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'Uma'
+...suppressing further errors regarding Syntax
+Syntax errors: 20
+Warnings: 294
+*** FAILED *** with 20 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 89 Sent 247-20140910-MONOGRAFIA_0-4 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'além de' does not have the 'ExtPos' feature
+[Line 216 Sent 247-20140910-MONOGRAFIA_0-6 Node 45]: [L3 Warning fixed-without-extpos] Fixed expression 'além de' does not have the 'ExtPos' feature
+[Line 292 Sent 247-20140910-MONOGRAFIA_0-10 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'a partir de' does not have the 'ExtPos' feature
+[Line 516 Sent 247-20140910-MONOGRAFIA_0-16 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A seguir' does not have the 'ExtPos' feature
+[Line 566 Sent 247-20140910-MONOGRAFIA_0-18 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'em termos de' does not have the 'ExtPos' feature
+[Line 726 Sent 247-20140910-MONOGRAFIA_0-23 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'em seguida' does not have the 'ExtPos' feature
+[Line 754 Sent 247-20140910-MONOGRAFIA_0-24 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'tais como' does not have the 'ExtPos' feature
+[Line 754 Sent 247-20140910-MONOGRAFIA_0-24 Node 12]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 781 Sent 247-20140910-MONOGRAFIA_0-24 Node 36]: [L3 Warning fixed-without-extpos] Fixed expression 'a o longo de' does not have the 'ExtPos' feature
+[Line 949 Sent 247-20140910-MONOGRAFIA_0-30 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'de modo a' does not have the 'ExtPos' feature
+[Line 1008 Sent 247-20140910-MONOGRAFIA_0-32 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De acordo com' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1218 Sent 247-20140910-MONOGRAFIA_0-37 Node 16]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 5879 Sent 247-20140910-MONOGRAFIA_0-178 Node 12]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 9415 Sent 247-20140910-MONOGRAFIA_0-286 Node 45]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 11195 Sent 241-20140227-MONOGRAFIA_0-48 Node 29]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 14898 Sent 241-20140227-MONOGRAFIA_0-164 Node 100]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 18009 Sent 284-20150917-MONOGRAFIA_0-20 Node 18]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 29690 Sent 284-20150917-MONOGRAFIA_0-395 Node 18]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 34198 Sent 398-20160721-MONOGRAFIA_0-131 Node 26]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 41844 Sent 24-20150122-MONOGRAFIA_0-32 Node 41]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'é'
+...suppressing further errors regarding Syntax
+Syntax errors: 153
+Warnings: 1965
+*** FAILED *** with 153 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.799663243888368) = 0.205041857407274
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.99066259651643) = 0.304819260466594
-(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.854282462295212) * (availability=1) * (validity=1) = 0.854282462295212
-STARS = 4.5
-UD_Portuguese-PetroGold	0.854282462295212	4.5
+(weight=0.307692307692308) * (score{udapi}=0.996209173799405) = 0.306525899630586
+(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
+(TOTAL score=0.857816720933883) * (availability=1) * (validity=0.01) = 0.00857816720933883
+STARS = 0
+UD_Portuguese-PetroGold	0.00857816720933883	0
