@@ -38,6 +38,8 @@ Changes should be made via pull request directly to `not-to-release/petrogold.co
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Addition of ExtPos feature in accordance with the UD validator.
 * 2023-05-15 v2.12
   * Now each file has entire documents (https://github.com/UniversalDependencies/UD_Portuguese-PetroGold/issues/3#issuecomment-1335172579)
     * `train`: 15 documents -- sentences: 8054 --> 7170 (90% --> 80%)
