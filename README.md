@@ -54,6 +54,7 @@ Changes should be made via pull request directly to `not-to-release/petrogold.co
 Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: academic
 Lemmas: manual native
 UPOS: manual native
