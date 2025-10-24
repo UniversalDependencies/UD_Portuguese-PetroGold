@@ -22418,7 +22418,7 @@
 17	para	para	ADP	_	_	18	mark	_	_
 18	descobrir	descobrir	VERB	_	VerbForm=Inf	12	advcl	_	_
 19	qual	qual	DET	_	Gender=Fem|Number=Sing|PronType=Int	20	det	_	_
-20	região	região	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20	região	região	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 21	Winsor	Winsor	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_

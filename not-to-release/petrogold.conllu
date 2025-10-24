@@ -111737,12 +111737,12 @@
 6	cinéticos	cinético	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 7	atuam	atuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 8	prevenindo	prevenir	VERB	_	VerbForm=Ger	7	advcl	_	_
-9	tanto	tanto	ADV	_	_	8	advmod	_	_
+9	tanto	tanto	CCONJ	_	_	11	cc	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	nucleação	nucleação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-12	quanto	quanto	ADV	_	_	14	advmod	_	_
+12	quanto	quanto	CCONJ	_	_	14	cc	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+14	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	cristais	cristal	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -270188,7 +270188,7 @@
 17	para	para	ADP	_	_	18	mark	_	_
 18	descobrir	descobrir	VERB	_	VerbForm=Inf	12	advcl	_	_
 19	qual	qual	DET	_	Gender=Fem|Number=Sing|PronType=Int	20	det	_	_
-20	região	região	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+20	região	região	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 21	Winsor	Winsor	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
