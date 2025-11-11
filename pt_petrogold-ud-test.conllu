@@ -46,7 +46,7 @@
 6	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
 7	mecânicos	mecânico	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
-9	bem	bem	ADV	_	_	13	cc	_	MWEPOS=CCONJ
+9	bem	bem	ADV	_	ExtPos=CCONJ	13	cc	_	_
 10	como	como	ADP	_	_	9	fixed	_	_
 11	quaisquer	qualquer	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
 12	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
@@ -133,7 +133,7 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	permeabilidade	permeabilidade	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	33	punct	_	_
-29	a	a	ADP	_	_	33	mark	_	MWEPOS=SCONJ
+29	a	a	ADP	_	ExtPos=SCONJ	33	mark	_	_
 30	fim	fim	NOUN	_	Gender=Masc|Number=Sing	29	fixed	_	_
 31	de	de	ADP	_	_	29	fixed	_	_
 32	se	se	PRON	_	PronType=Prs	33	expl:pass	_	_
@@ -320,7 +320,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 10	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
-11	para	para	ADP	_	_	15	mark	_	MWEPOS=SCONJ
+11	para	para	ADP	_	ExtPos=SCONJ	15	mark	_	_
 12	que	que	SCONJ	_	_	11	fixed	_	_
 13	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
 14	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -408,7 +408,7 @@
 
 # text = A partir do momento em que o fluido tem contado direto com a zona produtora (pay-zone), a interação entre este fluido e a rocha produtora é de total interesse para as operadoras.
 # sent_id = 119-20141209-TESEMSC_0-13
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -457,7 +457,7 @@
 5	zona	zona	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	produtora	produtor	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	tal	tal	ADV	_	_	10	case	_	MWEPOS=ADP
+8	tal	tal	ADV	_	ExtPos=ADP	10	case	_	_
 9	como	como	ADP	_	_	8	fixed	_	_
 10	permeabilidade	permeabilidade	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 11	ou	ou	CCONJ	_	_	12	cc	_	_
@@ -611,12 +611,12 @@
 
 # text = Além disso, devido ao maior tempo necessário para sua perfuração, a invasão de fluido em um poço horizontal tende a ser mais acentuada, provocando neste caso um dano mais severo do que ocorreria em um poço vertical (Rosa et al., 2006).
 # sent_id = 119-20141209-TESEMSC_0-19
-1	Além	além	ADV	_	_	23	advmod	_	MWEPOS=ADV
+1	Além	além	ADV	_	ExtPos=ADV	23	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	case	_	MWEPOS=ADP
+5	devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	9	case	_	_
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	5	fixed	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -651,7 +651,7 @@
 35	mais	mais	ADV	_	_	36	advmod	_	_
 36	severo	severo	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 37-38	do	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	40	mark	_	MWEPOS=SCONJ
+37	de	de	ADP	_	ExtPos=SCONJ	40	mark	_	_
 38	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	fixed	_	_
 39	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	fixed	_	_
 40	ocorreria	ocorrer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	36	advcl	_	_
@@ -670,7 +670,7 @@
 
 # text = Para que o fluido de perfuração exerça as funções requeridas, é necessário que este possua certas características, dentre elas, a capacidade de evitar o dano à formação causado pela invasão de sólidos e filtrado.
 # sent_id = 119-20141209-TESEMSC_0-20
-1	Para	para	ADP	_	_	7	mark	_	MWEPOS=SCONJ
+1	Para	para	ADP	_	ExtPos=SCONJ	7	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -803,7 +803,7 @@
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	pois	pois	SCONJ	_	_	22	mark	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
-14	além	além	ADV	_	_	17	mark	_	MWEPOS=SCONJ
+14	além	além	ADV	_	ExtPos=SCONJ	17	mark	_	_
 15	de	de	ADP	_	_	14	fixed	_	_
 16	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
 17	viscosificar	viscosificar	VERB	_	VerbForm=Inf	22	advcl	_	_
@@ -975,7 +975,7 @@
 
 # text = Apesar das incertezas observadas no cenário econômico atual, a demanda por óleo e gás tenderá a crescer, sem a contrapartida de fontes de energia alternativa no médio prazo.
 # sent_id = 119-20141209-TESEMSC_0-27
-1	Apesar	apesar	ADV	_	_	4	case	_	MWEPOS=ADP
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -1063,7 +1063,7 @@
 11	explotação	explotação	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-14	a	a	ADP	_	_	18	case	_	MWEPOS=ADP
+14	a	a	ADP	_	ExtPos=ADP	18	case	_	_
 15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	14	fixed	_	_
@@ -1148,7 +1148,7 @@
 
 # text = A partir disso, estes são injetados em amostras de arenito, onde são avaliados os efeitos do tipo de polímero e da concentração de argila no dano à formação.
 # sent_id = 119-20141209-TESEMSC_0-37
-1	A	a	ADP	_	_	4	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	disso	_	_	_	_	_	_	_	SpaceAfter=No
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -1211,7 +1211,7 @@
 15	reverso	reverso	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	com	com	ADP	_	_	22	case	_	MWEPOS=ADP
+18	com	com	ADP	_	ExtPos=ADP	22	case	_	_
 19	vistas	vista	NOUN	_	Gender=Fem|Number=Plur	18	fixed	_	_
 20-21	à	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	18	fixed	_	_
@@ -1339,7 +1339,7 @@
 2	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	NaI	NaI	PROPN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
-5	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	case	_	MWEPOS=ADP
+5	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	8	case	_	_
 6-7	à	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	5	fixed	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -1355,7 +1355,7 @@
 16	em	em	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
-19	por	por	ADP	_	_	22	case	_	MWEPOS=ADP
+19	por	por	ADP	_	ExtPos=ADP	22	case	_	_
 20	meio	meio	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	_
 21	de	de	ADP	_	_	19	fixed	_	_
 22	varredura	varredura	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -1530,7 +1530,7 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
-11	quanto	quanto	ADV	_	_	14	case	_	MWEPOS=ADP
+11	quanto	quanto	ADV	_	ExtPos=ADP	14	case	_	_
 12-13	aos	_	_	_	_	_	_	_	_
 12	a	a	ADP	_	_	11	fixed	_	_
 13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -1550,7 +1550,7 @@
 7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 8	apresentado	apresentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	assim	assim	ADV	_	_	12	cc	_	MWEPOS=CCONJ
+10	assim	assim	ADV	_	ExtPos=CCONJ	12	cc	_	_
 11	como	como	ADP	_	_	10	fixed	_	_
 12	conceitos	conceito	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 13	sobre	sobre	ADP	_	_	14	case	_	_
@@ -1621,7 +1621,7 @@
 
 # text = Além disso, são apresentados, também, o aparato experimental e o protocolo de testes utilizado.
 # sent_id = 119-20141209-TESEMSC_0-57
-1	Além	além	ADV	_	_	6	advmod	_	MWEPOS=ADV
+1	Além	além	ADV	_	ExtPos=ADV	6	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
@@ -1707,7 +1707,7 @@
 10	,	,	PUNCT	_	_	24	punct	_	_
 11	e	e	CCONJ	_	_	24	cc	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	além	além	ADV	_	_	24	advmod	_	MWEPOS=ADV
+13	além	além	ADV	_	ExtPos=ADV	24	advmod	_	_
 14-15	disso	_	_	_	_	_	_	_	SpaceAfter=No
 14	de	de	ADP	_	_	13	fixed	_	_
 15	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
@@ -1784,7 +1784,7 @@
 10	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
 12	classificados	classificar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	xcomp	_	_
-13	quanto	quanto	ADV	_	_	16	case	_	MWEPOS=ADP
+13	quanto	quanto	ADV	_	ExtPos=ADP	16	case	_	_
 14-15	à	_	_	_	_	_	_	_	_
 14	a	a	ADP	_	_	13	fixed	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -1798,7 +1798,7 @@
 
 # text = Quanto à finalidade, os poços são divididos em: exploratórios, explotatórios e especiais.
 # sent_id = 119-20141209-TESEMSC_0-64
-1	Quanto	quanto	ADV	_	_	4	case	_	MWEPOS=ADP
+1	Quanto	quanto	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1819,7 +1819,7 @@
 
 # text = Quanto à profundidade final, os poços são classificados em: rasos, médios e profundos.
 # sent_id = 119-20141209-TESEMSC_0-65
-1	Quanto	quanto	ADV	_	_	4	case	_	MWEPOS=ADP
+1	Quanto	quanto	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1841,7 +1841,7 @@
 
 # text = Quanto ao percurso, os poços são classificados em: verticais ou direcionais, incluindo neste último, os horizontais.
 # sent_id = 119-20141209-TESEMSC_0-66
-1	Quanto	quanto	ADV	_	_	4	case	_	MWEPOS=ADP
+1	Quanto	quanto	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1886,7 +1886,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	bem	bem	ADV	_	_	19	cc	_	MWEPOS=CCONJ
+16	bem	bem	ADV	_	ExtPos=CCONJ	19	cc	_	_
 17	como	como	ADP	_	_	16	fixed	_	_
 18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	visão	visão	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
@@ -2064,7 +2064,7 @@
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	poço	poço	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	ou	ou	CCONJ	_	_	23	cc	_	MWEPOS=CCONJ
+19	ou	ou	CCONJ	_	ExtPos=CCONJ	23	cc	_	_
 20	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -2105,7 +2105,7 @@
 12	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
 13	constantemente	constantemente	ADV	_	_	14	advmod	_	_
 14	avaliados	avaliar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	xcomp	_	_
-15	de	de	ADP	_	_	18	mark	_	MWEPOS=SCONJ
+15	de	de	ADP	_	ExtPos=SCONJ	18	mark	_	_
 16	modo	modo	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	_
 17	a	a	ADP	_	_	15	fixed	_	_
 18	evitar	evitar	VERB	_	VerbForm=Inf	14	advcl	_	_
@@ -2262,7 +2262,7 @@
 13	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 14	e	e	CCONJ	_	_	20	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	por	por	ADP	_	_	20	obl	_	MWEPOS=ADV
+16	por	por	ADP	_	ExtPos=ADV	20	obl	_	_
 17	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	16	fixed	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	até	até	ADP	_	_	20	case	_	_
@@ -2304,7 +2304,7 @@
 
 # text = A partir desta definição, é impossível a perfuração rotativa sem um fluido de circulação, o que o torna um dos elementos mais importantes na operação de perfuração (Lummus & Azar, 1986).
 # sent_id = 119-20141209-TESEMSC_0-84
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	desta	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -2496,7 +2496,7 @@
 # text = Para que os fluidos de perfuração desenvolvam as funções citadas acima é necessário que eles apresentem algumas características ( Thomas , 2001 ) , entre elas : • Ser bombeável ; • Não reagir com as formações atravessadas ; • Apresentar baixo grau de corrosão e de abrasão ; • Apresentar massa específica suficiente para evitar influxos indesejados para dentro do poço .
 # sent_id = 119-20141209-TESEMSC_0-91
 # original_text = missing
-1	Para	para	ADP	_	_	7	mark	_	MWEPOS=SCONJ
+1	Para	para	ADP	_	ExtPos=SCONJ	7	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -2889,7 +2889,7 @@
 33	viscoso	viscoso	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	39	punct	_	_
-36	para	para	ADP	_	_	39	mark	_	MWEPOS=SCONJ
+36	para	para	ADP	_	ExtPos=SCONJ	39	mark	_	_
 37	que	que	SCONJ	_	_	36	fixed	_	_
 38	se	se	PRON	_	PronType=Prs	39	expl:impers	_	_
 39	exija	exigir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	Se=impers
@@ -2925,7 +2925,7 @@
 67	viscoso	viscoso	ADJ	_	Gender=Masc|Number=Sing	64	amod	_	SpaceAfter=No
 68	)	)	PUNCT	_	_	67	punct	_	SpaceAfter=No
 69	,	,	PUNCT	_	_	77	punct	_	_
-70	para	para	ADP	_	_	77	mark	_	MWEPOS=SCONJ
+70	para	para	ADP	_	ExtPos=SCONJ	77	mark	_	_
 71	que	que	SCONJ	_	_	70	fixed	_	_
 72	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	73	det	_	_
 73	cascalhos	cascalho	NOUN	_	Gender=Masc|Number=Plur	77	nsubj	_	_
@@ -3170,7 +3170,7 @@
 14	grau	grau	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	gelificação	gelificação	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	case	_	MWEPOS=ADP
+17	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	20	case	_	_
 18-19	à	_	_	_	_	_	_	_	_
 18	a	a	ADP	_	_	17	fixed	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -3278,7 +3278,7 @@
 
 # text = Devido ao diferencial positivo de pressão no sentido poço-formação, o fluido de perfuração apresenta, em frente a zonas permeáveis, um influxo da fase líquida para a formação, chamado filtrado.
 # sent_id = 119-20141209-TESEMSC_0-114
-1	Devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	MWEPOS=ADP
+1	Devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3818,7 +3818,7 @@
 7	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-10	em	em	ADP	_	_	14	case	_	MWEPOS=ADP
+10	em	em	ADP	_	ExtPos=ADP	14	case	_	_
 11	função	função	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 12	de	de	ADP	_	_	10	fixed	_	_
 13	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	14	det	_	_
@@ -3952,7 +3952,7 @@
 7	e	e	CCONJ	_	_	8	cc	_	_
 8	dispersa	disperso	ADJ	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
-10	bem	bem	ADV	_	_	13	cc	_	MWEPOS=CCONJ
+10	bem	bem	ADV	_	ExtPos=CCONJ	13	cc	_	_
 11	como	como	ADP	_	_	10	fixed	_	_
 12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	componentes	componente	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
@@ -4065,7 +4065,7 @@
 # text = No entanto, em muitos casos, a composição do fluido de perfuração que proporciona o menor custo de perfuração em uma área deve ser determinada por tentativa e erro (Bourgoyne et al., 1986).
 # sent_id = 119-20141209-TESEMSC_0-141
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	26	cc	_	MWEPOS=CCONJ
+1	Em	em	ADP	_	ExtPos=CCONJ	26	cc	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -4124,7 +4124,7 @@
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	água	água	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	18	case	_	MWEPOS=ADP
+13	de	de	ADP	_	ExtPos=ADP	18	case	_	_
 14	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
 15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	fixed	_	_
 16-17	no	_	_	_	_	_	_	_	_
@@ -4178,7 +4178,7 @@
 39	mais	mais	ADV	_	_	40	advmod	_	_
 40	caro	caro	ADJ	_	Gender=Masc|Number=Sing	31	parataxis	_	_
 41-42	do	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	45	case	_	MWEPOS=ADP
+41	de	de	ADP	_	ExtPos=ADP	45	case	_	_
 42	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	41	fixed	_	_
 43	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	41	fixed	_	_
 44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
@@ -4338,7 +4338,7 @@
 35	base	base	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 36	água	água	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	ou	ou	CCONJ	_	_	42	cc	_	MWEPOS=CCONJ
+38	ou	ou	CCONJ	_	ExtPos=CCONJ	42	cc	_	_
 39	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	fixed	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	38	punct	_	_
 41	menos	menos	ADV	_	_	42	advmod	_	_
@@ -4485,7 +4485,7 @@
 
 # text = Apesar disso, perfurar a zona produtora, em geral, demanda uma completação do tipo aberta, surgindo aí um maior interesse no desenvolvimento e implementação de fluidos drill-in (Gallino et al., 2001).
 # sent_id = 119-20141209-TESEMSC_0-153
-1	Apesar	apesar	ADV	_	_	3	case	_	MWEPOS=ADP
+1	Apesar	apesar	ADV	_	ExtPos=ADP	3	case	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
@@ -4495,7 +4495,7 @@
 7	zona	zona	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	produtora	produtor	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	em	em	ADP	_	_	13	obl	_	MWEPOS=ADV
+10	em	em	ADP	_	ExtPos=ADV	13	obl	_	_
 11	geral	geral	ADJ	_	Gender=Masc|Number=Sing	10	fixed	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	demanda	demandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4563,7 +4563,7 @@
 9	invade	invadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	formação	formação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-12	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	case	_	MWEPOS=ADP
+12	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	15	case	_	_
 13-14	ao	_	_	_	_	_	_	_	_
 13	a	a	ADP	_	_	12	fixed	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -4794,7 +4794,7 @@
 7	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	definidas	definir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-10	a	a	ADP	_	_	13	mark	_	MWEPOS=SCONJ
+10	a	a	ADP	_	ExtPos=SCONJ	13	mark	_	_
 11	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
 12	de	de	ADP	_	_	10	fixed	_	_
 13	atender	atender	VERB	_	VerbForm=Inf	9	advcl	_	_
@@ -4810,7 +4810,7 @@
 
 # text = Para que os requisitos de completação sejam atendidos, a invasão de sólidos e de filtrado devem ser reduzidas drasticamente.
 # sent_id = 119-20141209-TESEMSC_0-161
-1	Para	para	ADP	_	_	8	mark	_	MWEPOS=SCONJ
+1	Para	para	ADP	_	ExtPos=SCONJ	8	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	requisitos	requisito	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
@@ -4851,7 +4851,7 @@
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	12	punct	_	_
-17	de	de	ADP	_	_	22	mark	_	MWEPOS=SCONJ
+17	de	de	ADP	_	ExtPos=SCONJ	22	mark	_	_
 18	modo	modo	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
 19	que	que	SCONJ	_	_	17	fixed	_	_
 20	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
@@ -4961,7 +4961,7 @@
 
 # text = Sendo assim, os aditivos do fluido drill-in devem ser escolhidos sob diferentes critérios: ter tamanho suficiente para não invadir a formação e formar um reboco efetivo para prevenir a invasão de sólidos e de filtrado, minimizando a profundidade do dano.
 # sent_id = 119-20141209-TESEMSC_0-166
-1	Sendo	ser	AUX	_	VerbForm=Ger	11	obl	_	MWEPOS=ADV
+1	Sendo	ser	AUX	_	ExtPos=ADV|VerbForm=Ger	11	obl	_	_
 2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -5267,7 +5267,7 @@
 
 # text = Em geral, os sólidos naturais gerados durante a perfuração encontrados na subsuperfície têm densidade entre 1,5 e 3,0 (g/cm³).
 # sent_id = 119-20141209-TESEMSC_0-177
-1	Em	em	ADP	_	_	15	obl	_	MWEPOS=ADV
+1	Em	em	ADP	_	ExtPos=ADV	15	obl	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -5464,7 +5464,7 @@
 9	e	e	CCONJ	_	_	10	cc	_	_
 10	permeável	permeável	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	_	_	15	case	_	MWEPOS=ADP
+11	a	a	ADP	_	ExtPos=ADP	15	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	invés	invés	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
 14	de	de	ADP	_	_	11	fixed	_	_
@@ -5611,7 +5611,7 @@
 10	água	água	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 11	barrenta	barrento	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
-13	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	cc	_	MWEPOS=CCONJ
+13	isto	isto	PRON	_	ExtPos=CCONJ|Gender=Masc|Number=Sing|PronType=Dem	17	cc	_	_
 14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	fixed	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	qualquer	qualquer	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
@@ -5661,7 +5661,7 @@
 29	condições	condição	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
 30	encontradas	encontrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	29	acl	_	_
 31-32	à	_	_	_	_	_	_	_	_
-31	a	a	ADP	_	_	38	mark	_	MWEPOS=SCONJ
+31	a	a	ADP	_	ExtPos=SCONJ	38	mark	_	_
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	fixed	_	_
 33	medida	medida	NOUN	_	Gender=Fem|Number=Sing	31	fixed	_	_
 34	que	que	SCONJ	_	_	31	fixed	_	_
@@ -5688,7 +5688,7 @@
 8	e	e	CCONJ	_	_	28	cc	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	_
 10-11	à	_	_	_	_	_	_	_	_
-10	a	a	ADP	_	_	16	mark	_	MWEPOS=SCONJ
+10	a	a	ADP	_	ExtPos=SCONJ	16	mark	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
 12	medida	medida	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 13	que	que	SCONJ	_	_	10	fixed	_	_
@@ -5968,7 +5968,7 @@
 # text = No caso de perfurações de poços com pequenos diâmetros e em formações duras, esses efeitos indesejáveis podem ser mais determinantes que os desejáveis (Bourgoyne et al., 1986).
 # sent_id = 119-20141209-TESEMSC_0-199
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	5	case	_	MWEPOS=ADP
+1	Em	em	ADP	_	ExtPos=ADP	5	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	de	de	ADP	_	_	1	fixed	_	_
@@ -6015,7 +6015,7 @@
 8	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	diferenciadas	diferenciar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-11	de	de	ADP	_	_	15	case	_	MWEPOS=ADP
+11	de	de	ADP	_	ExtPos=ADP	15	case	_	_
 12	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
 13	com	com	ADP	_	_	11	fixed	_	_
 14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
@@ -6192,12 +6192,12 @@
 17	em	em	ADP	_	_	18	case	_	_
 18	suspensão	suspensão	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
-20	bem	bem	ADV	_	_	22	cc	_	MWEPOS=CCONJ
+20	bem	bem	ADV	_	ExtPos=CCONJ	22	cc	_	_
 21	como	como	ADP	_	_	20	fixed	_	_
 22	possuir	possuir	VERB	_	VerbForm=Inf	14	conj	_	_
 23	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
 24	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
-25	para	para	ADP	_	_	30	mark	_	MWEPOS=SCONJ
+25	para	para	ADP	_	ExtPos=SCONJ	30	mark	_	_
 26	que	que	SCONJ	_	_	25	fixed	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	bombeamento	bombeamento	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
@@ -6311,7 +6311,7 @@
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	varia	variar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	de	de	ADP	_	_	14	case	_	MWEPOS=ADP
+10	de	de	ADP	_	ExtPos=ADP	14	case	_	_
 11	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
 12	com	com	ADP	_	_	10	fixed	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -6379,7 +6379,7 @@
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	esmectita	esmectita	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	por	por	ADP	_	_	37	obl	_	MWEPOS=ADV
+32	por	por	ADP	_	ExtPos=ADV	37	obl	_	_
 33	sua	sua	DET	_	Gender=Fem|Number=Sing|PronType=Prs	32	fixed	_	_
 34	vez	vez	NOUN	_	Gender=Masc|Number=Sing	32	fixed	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	32	punct	_	_
@@ -6508,7 +6508,7 @@
 17	cátions	cátion	NOUN	_	Gender=Masc|Number=Plur	15	obl:agent	_	_
 18	trivalentes	trivalente	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
-20	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	23	case	_	MWEPOS=ADP
+20	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	23	case	_	_
 21	como	como	ADP	_	_	20	fixed	_	_
 22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Al3+	Al3+	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	_
@@ -6563,7 +6563,7 @@
 22	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	nsubj:pass	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	por	por	ADP	_	_	30	obl	_	MWEPOS=ADV
+25	por	por	ADP	_	ExtPos=ADV	30	obl	_	_
 26	sua	sua	DET	_	Gender=Fem|Number=Sing|PronType=Prs	25	fixed	_	_
 27	vez	vez	NOUN	_	Gender=Masc|Number=Sing	25	fixed	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
@@ -6850,7 +6850,7 @@
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	24	punct	_	_
-32	enquanto	enquanto	ADV	_	_	37	mark	_	MWEPOS=SCONJ
+32	enquanto	enquanto	ADV	_	ExtPos=SCONJ	37	mark	_	_
 33	que	que	SCONJ	_	_	32	fixed	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	cátion	cátion	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
@@ -7536,7 +7536,7 @@
 1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	polissacarídeos	polissacarídeo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	fabricados	fabricar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
-4	a	a	ADP	_	_	8	case	_	MWEPOS=ADP
+4	a	a	ADP	_	ExtPos=ADP	8	case	_	_
 5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	4	fixed	_	_
@@ -8060,7 +8060,7 @@
 9	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 10	reológicos	reológico	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	por	por	ADP	_	_	16	obl	_	MWEPOS=ADV
+12	por	por	ADP	_	ExtPos=ADV	16	obl	_	_
 13	sua	sua	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	fixed	_	_
 14	vez	vez	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	12	punct	_	_
@@ -8093,7 +8093,7 @@
 41	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
 42	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	46	punct	_	_
-44	além	além	ADV	_	_	46	cc	_	MWEPOS=CCONJ
+44	além	além	ADV	_	ExtPos=CCONJ	46	cc	_	_
 45	de	de	ADP	_	_	44	fixed	_	_
 46	especificar	especificar	VERB	_	VerbForm=Inf	19	conj	_	_
 47	e	e	CCONJ	_	_	48	cc	_	_
@@ -8153,7 +8153,7 @@
 2	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	definido	definir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-5	em	em	ADP	_	_	8	case	_	MWEPOS=ADP
+5	em	em	ADP	_	ExtPos=ADP	8	case	_	_
 6	termos	termo	NOUN	_	Gender=Masc|Number=Plur	5	fixed	_	_
 7	de	de	ADP	_	_	5	fixed	_	_
 8	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
@@ -8170,7 +8170,7 @@
 18	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	em	em	ADP	_	_	25	case	_	MWEPOS=ADP
+21	em	em	ADP	_	ExtPos=ADP	25	case	_	_
 22	relação	relação	NOUN	_	Gender=Fem|Number=Sing	21	fixed	_	_
 23	a	a	ADP	_	_	21	fixed	_	_
 24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -8284,7 +8284,7 @@
 10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	parada	parado	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	22	punct	_	_
-13	enquanto	enquanto	ADV	_	_	22	mark	_	MWEPOS=SCONJ
+13	enquanto	enquanto	ADV	_	ExtPos=SCONJ	22	mark	_	_
 14	que	que	SCONJ	_	_	13	fixed	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	camada	camada	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
@@ -8576,7 +8576,7 @@
 16	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 17	cisalhante	cisalhante	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 18	varia	variar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
-19	em	em	ADP	_	_	23	case	_	MWEPOS=ADP
+19	em	em	ADP	_	ExtPos=ADP	23	case	_	_
 20	função	função	NOUN	_	Gender=Fem|Number=Sing	19	fixed	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	19	fixed	_	_
@@ -8756,7 +8756,7 @@
 5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	não-Newtonianos	não-newtoniano	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	ou	ou	CCONJ	_	_	14	cc	_	MWEPOS=CCONJ
+8	ou	ou	CCONJ	_	ExtPos=CCONJ	14	cc	_	_
 9	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -8796,7 +8796,7 @@
 11	viscosidade	viscosidade	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 12	aparente	aparente	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	cc	_	MWEPOS=CCONJ
+14	isto	isto	PRON	_	ExtPos=CCONJ|Gender=Masc|Number=Sing|PronType=Dem	18	cc	_	_
 15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -8828,7 +8828,7 @@
 6	normalmente	normalmente	ADV	_	_	7	advmod	_	_
 7	pseudoplásticos	pseudoplástico	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	ou	ou	CCONJ	_	_	14	cc	_	MWEPOS=CCONJ
+9	ou	ou	CCONJ	_	ExtPos=CCONJ	14	cc	_	_
 10	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -8892,7 +8892,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	13	punct	_	_
-19	para	para	ADP	_	_	21	mark	_	MWEPOS=SCONJ
+19	para	para	ADP	_	ExtPos=SCONJ	21	mark	_	_
 20	que	que	SCONJ	_	_	19	fixed	_	_
 21	haja	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 22	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
@@ -9215,7 +9215,7 @@
 2	exibem	exibir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pseudoplasticidade	pseudoplasticidade	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	cc	_	MWEPOS=CCONJ
+5	isto	isto	PRON	_	ExtPos=CCONJ|Gender=Masc|Number=Sing|PronType=Dem	8	cc	_	_
 6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -9429,7 +9429,7 @@
 # sent_id = 119-20141209-TESEMSC_0-333
 1	Se	se	SCONJ	_	_	6	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	a	a	ADP	_	_	6	obl	_	MWEPOS=ADV
+3	a	a	ADP	_	ExtPos=ADV	6	obl	_	_
 4	seguir	seguir	VERB	_	VerbForm=Inf	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	submetermos	submeter	VERB	_	Number=Plur|Person=1|VerbForm=Inf	22	advcl	_	_
@@ -9863,7 +9863,7 @@
 2	poliméricas	polimérico	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4-5	ao	_	_	_	_	_	_	_	_
-4	a	a	ADP	_	_	8	case	_	MWEPOS=ADP
+4	a	a	ADP	_	ExtPos=ADP	8	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
 6	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	_
 7	de	de	ADP	_	_	4	fixed	_	_
@@ -10549,7 +10549,7 @@
 22	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	23	det	_	_
 23	propriedades	propriedade	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
 24	,	,	PUNCT	_	_	28	punct	_	_
-25	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	28	case	_	MWEPOS=ADP
+25	tais	tal	DET	_	ExtPos=ADP|Gender=Fem|Number=Plur|PronType=Dem	28	case	_	_
 26	como	como	ADP	_	_	25	fixed	_	_
 27	:	:	PUNCT	_	_	28	punct	_	_
 28	peso	peso	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
@@ -10576,7 +10576,7 @@
 47	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	48	det	_	_
 48	características	característica	NOUN	_	Gender=Fem|Number=Plur	45	conj	_	_
 49	,	,	PUNCT	_	_	53	punct	_	_
-50	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	53	case	_	MWEPOS=ADP
+50	tais	tal	DET	_	ExtPos=ADP|Gender=Fem|Number=Plur|PronType=Dem	53	case	_	_
 51	como	como	ADP	_	_	50	fixed	_	_
 52	:	:	PUNCT	_	_	53	punct	_	_
 53	pH	ph	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
@@ -10644,7 +10644,7 @@
 13	e	e	CCONJ	_	_	14	cc	_	_
 14	ocorrem	ocorrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 15	somente	somente	ADV	_	_	14	advmod	_	_
-16	por	por	ADP	_	_	20	case	_	MWEPOS=ADP
+16	por	por	ADP	_	ExtPos=ADP	20	case	_	_
 17	meio	meio	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	16	fixed	_	_
@@ -11210,7 +11210,7 @@
 14	evitá	evitar	VERB	_	VerbForm=Inf	13	csubj	_	_
 15	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	19	mark	_	MWEPOS=SCONJ
+16	de	de	ADP	_	ExtPos=SCONJ	19	mark	_	_
 17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	fixed	_	_
 18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	fixed	_	_
 19	tentar	tentar	VERB	_	VerbForm=Inf	14	advcl	_	_
@@ -11324,7 +11324,7 @@
 17	ser	ser	AUX	_	VerbForm=Inf	19	cop	_	_
 18	mais	mais	ADV	_	_	19	advmod	_	_
 19	severos	severo	ADJ	_	Gender=Masc|Number=Plur	15	xcomp	_	_
-20	com	com	ADP	_	_	24	case	_	MWEPOS=ADP
+20	com	com	ADP	_	ExtPos=ADP	24	case	_	_
 21	base	base	NOUN	_	Gender=Fem|Number=Sing	20	fixed	_	_
 22-23	no	_	_	_	_	_	_	_	_
 22	em	em	ADP	_	_	20	fixed	_	_
@@ -11481,7 +11481,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	25	case	_	MWEPOS=ADP
+21	de	de	ADP	_	ExtPos=ADP	25	case	_	_
 22	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	fixed	_	_
 23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	fixed	_	_
 24	em	em	ADP	_	_	25	case	_	_
@@ -11499,7 +11499,7 @@
 7	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	começo	começo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	a	a	ADP	_	_	14	case	_	MWEPOS=ADP
+10	a	a	ADP	_	ExtPos=ADP	14	case	_	_
 11	partir	partir	VERB	_	VerbForm=Inf	10	fixed	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	10	fixed	_	_
@@ -11639,7 +11639,7 @@
 26	finos	fino	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	24	punct	_	_
 28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	33	case	_	MWEPOS=ADP
+28	de	de	ADP	_	ExtPos=ADP	33	case	_	_
 29	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	fixed	_	_
 30	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	fixed	_	_
 31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -11693,7 +11693,7 @@
 23	a	a	ADP	_	_	25	case	_	_
 24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	preocupações	preocupação	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
-26	com	com	ADP	_	_	30	case	_	MWEPOS=ADP
+26	com	com	ADP	_	ExtPos=ADP	30	case	_	_
 27	relação	relação	NOUN	_	Gender=Fem|Number=Sing	26	fixed	_	_
 28-29	ao	_	_	_	_	_	_	_	_
 28	a	a	ADP	_	_	26	fixed	_	_
@@ -11730,7 +11730,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	16	case	_	MWEPOS=ADP
+12	de	de	ADP	_	ExtPos=ADP	16	case	_	_
 13	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	fixed	_	_
 14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	fixed	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -11812,7 +11812,7 @@
 19	reduzir	reduzir	VERB	_	VerbForm=Inf	17	xcomp	_	_
 20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	preocupações	preocupação	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
-22	com	com	ADP	_	_	26	case	_	MWEPOS=ADP
+22	com	com	ADP	_	ExtPos=ADP	26	case	_	_
 23	relação	relação	NOUN	_	Gender=Fem|Number=Sing	22	fixed	_	_
 24-25	às	_	_	_	_	_	_	_	_
 24	a	a	ADP	_	_	22	fixed	_	_
@@ -11827,7 +11827,7 @@
 2	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 3	similar	similar	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	case	_	MWEPOS=ADP
+5	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	9	case	_	_
 6-7	à	_	_	_	_	_	_	_	_
 6	a	a	ADP	_	_	5	fixed	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -11865,7 +11865,7 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	rocha	rocha	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	30	punct	_	_
-41	a	a	ADP	_	_	52	mark	_	MWEPOS=SCONJ
+41	a	a	ADP	_	ExtPos=SCONJ	52	mark	_	_
 42	não	não	ADV	_	Polarity=Neg	41	fixed	_	_
 43	ser	ser	VERB	_	VerbForm=Inf	41	fixed	_	_
 44	que	que	SCONJ	_	_	41	fixed	_	_
@@ -11890,7 +11890,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	dano	dano	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	severo	severo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
-10	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	case	_	MWEPOS=ADP
+10	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	13	case	_	_
 11-12	à	_	_	_	_	_	_	_	_
 11	a	a	ADP	_	_	10	fixed	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -11913,7 +11913,7 @@
 28	altamente	altamente	ADV	_	_	29	advmod	_	_
 29	sobrebalanceada	sobrebalancear	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	27	acl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	por	por	ADP	_	_	36	case	_	MWEPOS=ADP
+31	por	por	ADP	_	ExtPos=ADP	36	case	_	_
 32	causa	causa	NOUN	_	Gender=Fem|Number=Sing	31	fixed	_	_
 33-34	das	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	31	fixed	_	_
@@ -11943,7 +11943,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	2006	2006	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	em	em	ADP	_	_	15	obl	_	MWEPOS=ADV
+8	em	em	ADP	_	ExtPos=ADV	15	obl	_	_
 9	geral	geral	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	formações	formação	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
@@ -11956,13 +11956,13 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	23	case	_	MWEPOS=ADP
+20	de	de	ADP	_	ExtPos=ADP	23	case	_	_
 21	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	20	fixed	_	_
 22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	20	fixed	_	_
 23	formações	formação	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
 24	menos	menos	ADV	_	_	25	advmod	_	_
 25	permeáveis	permeável	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
-26	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	29	case	_	MWEPOS=ADP
+26	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	29	case	_	_
 27-28	à	_	_	_	_	_	_	_	_
 27	a	a	ADP	_	_	26	fixed	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -11985,7 +11985,7 @@
 5	em	em	ADP	_	_	6	case	_	_
 6	termos	termo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 7	percentuais	percentual	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
-8	em	em	ADP	_	_	12	case	_	MWEPOS=ADP
+8	em	em	ADP	_	ExtPos=ADP	12	case	_	_
 9	relação	relação	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	_
 10-11	aos	_	_	_	_	_	_	_	_
 10	a	a	ADP	_	_	8	fixed	_	_
@@ -11994,7 +11994,7 @@
 13	originais	original	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	_	_	20	cc	_	MWEPOS=CCONJ
+15	em	em	ADP	_	ExtPos=CCONJ	20	cc	_	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
 17	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
@@ -12068,7 +12068,7 @@
 28	em	em	ADP	_	_	30	case	_	_
 29	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
 30	área	área	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
-31	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	36	case	_	MWEPOS=ADP
+31	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	36	case	_	_
 32-33	à	_	_	_	_	_	_	_	_
 32	a	a	ADP	_	_	31	fixed	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -12275,7 +12275,7 @@
 5	menos	menos	ADV	_	_	6	advmod	_	_
 6	preocupantes	preocupante	ADJ	_	Gender=Fem|Number=Plur	2	xcomp	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	10	case	_	MWEPOS=ADP
+7	de	de	ADP	_	ExtPos=ADP	10	case	_	_
 8	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
 9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	fixed	_	_
 10	micro-fraturas	micro-fratura	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
@@ -12295,7 +12295,7 @@
 22	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	mas	mas	CCONJ	_	_	48	cc	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	30	punct	_	_
-25	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	case	_	MWEPOS=ADP
+25	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	30	case	_	_
 26-27	ao	_	_	_	_	_	_	_	_
 26	a	a	ADP	_	_	25	fixed	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -12488,7 +12488,7 @@
 16	avaliar	avaliar	VERB	_	VerbForm=Inf	14	acl	_	_
 17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
-19	em	em	ADP	_	_	22	case	_	MWEPOS=ADP
+19	em	em	ADP	_	ExtPos=ADP	22	case	_	_
 20	termos	termo	NOUN	_	Gender=Masc|Number=Plur	19	fixed	_	_
 21	de	de	ADP	_	_	19	fixed	_	_
 22	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
@@ -12511,7 +12511,7 @@
 7	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	importante	importante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	mark	_	MWEPOS=SCONJ
+10	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	15	mark	_	_
 11	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 12	que	que	SCONJ	_	_	10	fixed	_	_
 13	diversos	diverso	DET	_	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
@@ -12675,7 +12675,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	formação	formação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-12	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	case	_	MWEPOS=ADP
+12	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	15	case	_	_
 13-14	à	_	_	_	_	_	_	_	_
 13	a	a	ADP	_	_	12	fixed	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -12721,7 +12721,7 @@
 7	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
 8	casos	caso	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	mark	_	MWEPOS=SCONJ
+10	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	19	mark	_	_
 11	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 12	que	que	SCONJ	_	_	10	fixed	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -12819,7 +12819,7 @@
 15	n	n	X	_	Foreign=Yes	14	flat:foreign	_	_
 16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 17	designadas	designar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-18	de	de	ADP	_	_	22	mark	_	MWEPOS=SCONJ
+18	de	de	ADP	_	ExtPos=SCONJ	22	mark	_	_
 19	modo	modo	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	_
 20	a	a	ADP	_	_	18	fixed	_	_
 21	se	se	PRON	_	PronType=Prs	22	expl:pass	_	_
@@ -12836,7 +12836,7 @@
 
 # text = Assim sendo, durante a 42 perfuração o fluido deve transportar e manter em suspensão os sólidos, lubrificar a broca, manter a pressão hidrostática e estabilizar a parede do poço.
 # sent_id = 119-20141209-TESEMSC_0-455
-1	Assim	assim	ADV	_	_	10	advmod	_	MWEPOS=ADV
+1	Assim	assim	ADV	_	ExtPos=ADV	10	advmod	_	_
 2	sendo	ser	AUX	_	VerbForm=Ger	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	durante	durante	ADP	_	_	7	case	_	_
@@ -12886,7 +12886,7 @@
 10	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
 12	formulado	formular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
-13	de	de	ADP	_	_	16	mark	_	MWEPOS=SCONJ
+13	de	de	ADP	_	ExtPos=SCONJ	16	mark	_	_
 14	modo	modo	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	_
 15	a	a	ADP	_	_	13	fixed	_	_
 16	prevenir	prevenir	VERB	_	VerbForm=Inf	12	advcl	_	_
@@ -13046,7 +13046,7 @@
 16	poços	poço	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 17	horizontais	horizontal	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	22	case	_	MWEPOS=ADP
+18	de	de	ADP	_	ExtPos=ADP	22	case	_	_
 19	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	fixed	_	_
 20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	fixed	_	_
 21	em	em	ADP	_	_	22	case	_	_
@@ -13073,7 +13073,7 @@
 13	poços	poço	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 14	verticais	vertical	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	assim	assim	ADV	_	_	19	cc	_	MWEPOS=CCONJ
+16	assim	assim	ADV	_	ExtPos=CCONJ	19	cc	_	_
 17	como	como	ADP	_	_	16	fixed	_	_
 18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	permeabilidades	permeabilidade	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
@@ -13131,7 +13131,7 @@
 5	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
 7	quantificado	quantificar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	_
-8	por	por	ADP	_	_	12	case	_	MWEPOS=ADP
+8	por	por	ADP	_	ExtPos=ADP	12	case	_	_
 9	meio	meio	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	_
 10	de	de	ADP	_	_	8	fixed	_	_
 11	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
@@ -13269,7 +13269,7 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	formação	formação	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 22	porosa	poroso	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-23	já	já	ADV	_	_	25	mark	_	MWEPOS=SCONJ
+23	já	já	ADV	_	ExtPos=SCONJ	25	mark	_	_
 24	que	que	SCONJ	_	_	23	fixed	_	_
 25	relaciona	relacionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 26	três	três	NUM	_	NumType=Card	28	nummod	_	_
@@ -13468,7 +13468,7 @@
 46	reservatórios	reservatório	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
-49	a	a	ADP	_	_	52	mark	_	MWEPOS=SCONJ
+49	a	a	ADP	_	ExtPos=SCONJ	52	mark	_	_
 50	fim	fim	NOUN	_	Gender=Masc|Number=Sing	49	fixed	_	_
 51	de	de	ADP	_	_	49	fixed	_	_
 52	preservar	preservar	VERB	_	VerbForm=Inf	41	advcl	_	_
@@ -14002,7 +14002,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-11	em	em	ADP	_	_	15	case	_	MWEPOS=ADP
+11	em	em	ADP	_	ExtPos=ADP	15	case	_	_
 12	função	função	NOUN	_	Gender=Fem|Number=Sing	11	fixed	_	_
 13-14	das	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	11	fixed	_	_
@@ -14126,7 +14126,7 @@
 10	utilizados	utilizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 12	apresentados	apresentar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-13	a	a	ADP	_	_	12	obl	_	MWEPOS=ADV
+13	a	a	ADP	_	ExtPos=ADV	12	obl	_	_
 14	seguir	seguir	VERB	_	VerbForm=Inf	13	fixed	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -14149,7 +14149,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	bem	bem	ADV	_	_	19	cc	_	MWEPOS=CCONJ
+16	bem	bem	ADV	_	ExtPos=CCONJ	19	cc	_	_
 17	como	como	ADP	_	_	16	fixed	_	_
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
@@ -14253,7 +14253,7 @@
 7	Botucatu	Botucatu	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	com	com	ADP	_	_	9	case	_	_
 9	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-10	em	em	ADP	_	_	13	obl	_	MWEPOS=ADV
+10	em	em	ADP	_	ExtPos=ADV	13	obl	_	_
 11	torno	torno	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
 12	de	de	ADP	_	_	10	fixed	_	_
 13	6,0	6,0	NUM	_	NumType=Card	14	nummod	_	_
@@ -14261,7 +14261,7 @@
 15	e	e	CCONJ	_	_	16	cc	_	_
 16	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
 17	de	de	ADP	_	_	21	case	_	_
-18	cerca	cerca	ADV	_	_	20	advmod	_	MWEPOS=ADV
+18	cerca	cerca	ADV	_	ExtPos=ADV	20	advmod	_	_
 19	de	de	ADP	_	_	18	fixed	_	_
 20	3,7	3,7	NUM	_	NumType=Card	21	nummod	_	_
 21	cm	cm	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
@@ -14339,7 +14339,7 @@
 6	volume	volume	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	sólidos	sólido	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-9	a	a	ADP	_	_	13	case	_	MWEPOS=ADP
+9	a	a	ADP	_	ExtPos=ADP	13	case	_	_
 10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	9	fixed	_	_
@@ -14456,7 +14456,7 @@
 
 # text = De acordo com o catálogo fornecido pelo fabricante, a permeabilidade é dada pela Equação 3.3: (3.3) onde c é visto diretamente na coluna de mercúrio ou é tabelado e tem relação com o valor lido na coluna de hw, Q é a vazão constante fornecida por um orifício, A é a área da seção transversal, L o comprimento da amostra e hw é a altura da coluna de água que, junto com c, fornece a queda de pressão entre as faces do meio poroso.
 # sent_id = 119-20141209-TESEMSC_0-507
-1	De	de	ADP	_	_	5	case	_	MWEPOS=ADP
+1	De	de	ADP	_	ExtPos=ADP	5	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -14713,7 +14713,7 @@
 
 # text = A partir desse momento foram marcadas 03 (três) horas e, decorrido este tempo, o sistema foi considerado sob vácuo.
 # sent_id = 119-20141209-TESEMSC_0-514
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	desse	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -15098,7 +15098,7 @@
 
 # text = A partir delas é possível comparar o efeito da adição do sal como elemento inicial ou final na solução resultante.
 # sent_id = 119-20141209-TESEMSC_0-528
-1	A	a	ADP	_	_	4	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	delas	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -15295,7 +15295,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	17	punct	_	_
-27	enquanto	enquanto	ADV	_	_	41	mark	_	MWEPOS=SCONJ
+27	enquanto	enquanto	ADV	_	ExtPos=SCONJ	41	mark	_	_
 28	que	que	SCONJ	_	_	27	fixed	_	_
 29	para	para	ADP	_	_	31	case	_	_
 30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -15390,7 +15390,7 @@
 17	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
 18	decidido	decidir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 19	reduzir	reduzir	VERB	_	VerbForm=Inf	18	csubj	_	_
-20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	obl	_	MWEPOS=ADV
+20	um	um	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	19	obl	_	_
 21	pouco	pouco	ADV	_	_	20	fixed	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	concentração	concentração	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
@@ -15483,7 +15483,7 @@
 
 # text = Apesar de não apresentar diferença significativa na viscosidade do fluido, foi decidido manter este valor e utilizar a partir de então, o fluido menos concentrado, com 3,5 lb/bbl de PHPA.
 # sent_id = 119-20141209-TESEMSC_0-537
-1	Apesar	apesar	ADV	_	_	4	mark	_	MWEPOS=SCONJ
+1	Apesar	apesar	ADV	_	ExtPos=SCONJ	4	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 4	apresentar	apresentar	VERB	_	VerbForm=Inf	15	advcl	_	_
@@ -15505,7 +15505,7 @@
 18	valor	valor	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	utilizar	utilizar	VERB	_	VerbForm=Inf	16	conj	_	_
-21	a	a	ADP	_	_	24	case	_	MWEPOS=ADP
+21	a	a	ADP	_	ExtPos=ADP	24	case	_	_
 22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
 23	de	de	ADP	_	_	21	fixed	_	_
 24	então	então	ADV	_	_	20	advmod	_	SpaceAfter=No
@@ -15555,7 +15555,7 @@
 
 # text = A partir daí foram preparados novos fluidos os quais foram utilizados nos testes de invasão e de fluxo reverso.
 # sent_id = 119-20141209-TESEMSC_0-539
-1	A	a	ADP	_	_	4	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	daí	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -16095,7 +16095,7 @@
 30	cisalhamento	cisalhamento	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	36	punct	_	_
 32-33	ao	_	_	_	_	_	_	_	_
-32	a	a	ADP	_	_	36	case	_	MWEPOS=ADP
+32	a	a	ADP	_	ExtPos=ADP	36	case	_	_
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	fixed	_	_
 34	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	32	fixed	_	_
 35-36	do	_	_	_	_	_	_	_	_
@@ -16122,7 +16122,7 @@
 55	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
 56	diferença	diferença	NOUN	_	Gender=Fem|Number=Sing	55	obj	_	_
 57	significativa	significativo	ADJ	_	Gender=Fem|Number=Sing	56	amod	_	_
-58	em	em	ADP	_	_	63	case	_	MWEPOS=ADP
+58	em	em	ADP	_	ExtPos=ADP	63	case	_	_
 59	relação	relação	NOUN	_	Gender=Fem|Number=Sing	58	fixed	_	_
 60-61	às	_	_	_	_	_	_	_	_
 60	a	a	ADP	_	_	58	fixed	_	_
@@ -16446,7 +16446,7 @@
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	msat	msat	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
-16	por	por	ADP	_	_	20	case	_	MWEPOS=ADP
+16	por	por	ADP	_	ExtPos=ADP	20	case	_	_
 17	meio	meio	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
 18	de	de	ADP	_	_	16	fixed	_	_
 19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -16477,7 +16477,7 @@
 17	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	confinamento	confinamento	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-20	em	em	ADP	_	_	23	obl	_	MWEPOS=ADV
+20	em	em	ADP	_	ExtPos=ADV	23	obl	_	_
 21	torno	torno	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	_
 22	de	de	ADP	_	_	20	fixed	_	_
 23	500	500	NUM	_	NumType=Card	24	nummod	_	_
@@ -16487,7 +16487,7 @@
 27	3447	3447	NUM	_	NumType=Card	28	nummod	_	_
 28	kPa	kpa	NOUN	_	Gender=Masc|Number=Plur	24	appos	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	28	punct	_	_
-30	para	para	ADP	_	_	37	mark	_	MWEPOS=SCONJ
+30	para	para	ADP	_	ExtPos=SCONJ	37	mark	_	_
 31	que	que	SCONJ	_	_	30	fixed	_	_
 32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	superfícies	superfície	NOUN	_	Gender=Fem|Number=Plur	37	nsubj:pass	_	_
@@ -16647,7 +16647,7 @@
 27	garrafa	garrafa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	registrado	registrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
-30	por	por	ADP	_	_	34	case	_	MWEPOS=ADP
+30	por	por	ADP	_	ExtPos=ADP	34	case	_	_
 31	meio	meio	NOUN	_	Gender=Masc|Number=Sing	30	fixed	_	_
 32	de	de	ADP	_	_	30	fixed	_	_
 33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -16659,7 +16659,7 @@
 1	Dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	advcl	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-4	para	para	ADP	_	_	9	mark	_	MWEPOS=SCONJ
+4	para	para	ADP	_	ExtPos=SCONJ	9	mark	_	_
 5	que	que	SCONJ	_	_	4	fixed	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -16739,7 +16739,7 @@
 26	óleo-fluido	óleo-fluido	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	28	aux:pass	_	_
 28	registrados	registrar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-29	em	em	ADP	_	_	33	case	_	MWEPOS=ADP
+29	em	em	ADP	_	ExtPos=ADP	33	case	_	_
 30	função	função	NOUN	_	Gender=Fem|Number=Sing	29	fixed	_	_
 31-32	do	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	29	fixed	_	_
@@ -17019,7 +17019,7 @@
 
 # text = A partir do fluxo reverso foi possível observar, em escala de laboratório, o retorno de permeabilidade e, finalmente, o dano residual na amostra causado pelo fluido invasor.
 # sent_id = 119-20141209-TESEMSC_0-584
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -17091,7 +17091,7 @@
 28	óleo-fluido	óleo-fluido	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 29	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	30	aux:pass	_	_
 30	coletados	coletar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-31	em	em	ADP	_	_	35	case	_	MWEPOS=ADP
+31	em	em	ADP	_	ExtPos=ADP	35	case	_	_
 32	função	função	NOUN	_	Gender=Fem|Number=Sing	31	fixed	_	_
 33-34	do	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	31	fixed	_	_
@@ -17133,7 +17133,7 @@
 11	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 12	e	e	CCONJ	_	_	20	cc	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
-14	a	a	ADP	_	_	18	case	_	MWEPOS=ADP
+14	a	a	ADP	_	ExtPos=ADP	18	case	_	_
 15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
 16-17	desse	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	14	fixed	_	_
@@ -17267,7 +17267,7 @@
 
 # text = A partir dos valores experimentais, os dados são, então, tratados.
 # sent_id = 119-20141209-TESEMSC_0-592
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -17326,7 +17326,7 @@
 2	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	comparados	comparar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-5	com	com	ADP	_	_	9	case	_	MWEPOS=ADP
+5	com	com	ADP	_	ExtPos=ADP	9	case	_	_
 6	vistas	vista	NOUN	_	Gender=Fem|Number=Plur	5	fixed	_	_
 7-8	à	_	_	_	_	_	_	_	_
 7	a	a	ADP	_	_	5	fixed	_	_
@@ -17381,7 +17381,7 @@
 10	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
 12	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-13	com	com	ADP	_	_	17	case	_	MWEPOS=ADP
+13	com	com	ADP	_	ExtPos=ADP	17	case	_	_
 14	base	base	NOUN	_	Gender=Fem|Number=Sing	13	fixed	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	_	_	13	fixed	_	_
@@ -17390,7 +17390,7 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20	determinado	determinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	acl	_	_
-21	a	a	ADP	_	_	25	case	_	MWEPOS=ADP
+21	a	a	ADP	_	ExtPos=ADP	25	case	_	_
 22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
 23-24	das	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	21	fixed	_	_
@@ -17465,7 +17465,7 @@
 20	volume	volume	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 21	poroso	poroso	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22	medido	medir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
-23	por	por	ADP	_	_	27	case	_	MWEPOS=ADP
+23	por	por	ADP	_	ExtPos=ADP	27	case	_	_
 24	meio	meio	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	23	fixed	_	_
@@ -17486,7 +17486,7 @@
 3	usados	usar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	detalhados	detalhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-6	a	a	ADP	_	_	5	obl	_	MWEPOS=ADV
+6	a	a	ADP	_	ExtPos=ADV	5	obl	_	_
 7	seguir	seguir	VERB	_	VerbForm=Inf	6	fixed	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -17625,7 +17625,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	medição	medição	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	_
-22	bem	bem	ADV	_	_	26	cc	_	MWEPOS=CCONJ
+22	bem	bem	ADV	_	ExtPos=CCONJ	26	cc	_	_
 23	como	como	ADP	_	_	22	fixed	_	_
 24-25	à	_	_	_	_	_	_	_	_
 24	a	a	ADP	_	_	26	case	_	_
@@ -17653,7 +17653,7 @@
 
 # text = A partir do confinamento, o fluido de perfuração foi, então, injetado através da amostra.
 # sent_id = 119-20141209-TESEMSC_0-610
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -17703,7 +17703,7 @@
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	ou	ou	CCONJ	_	_	27	cc	_	MWEPOS=CCONJ
+23	ou	ou	CCONJ	_	ExtPos=CCONJ	27	cc	_	_
 24	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -17917,7 +17917,7 @@
 2	comprova	comprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	22	mark	_	_
 4-5	à	_	_	_	_	_	_	_	_
-4	a	a	ADP	_	_	10	mark	_	MWEPOS=SCONJ
+4	a	a	ADP	_	ExtPos=SCONJ	10	mark	_	_
 5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	_
 6	medida	medida	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
 7	que	que	SCONJ	_	_	4	fixed	_	_
@@ -18015,7 +18015,7 @@
 40	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	41	nsubj	_	_
 41	aumentou	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	conj	_	_
 42-43	à	_	_	_	_	_	_	_	_
-42	a	a	ADP	_	_	51	mark	_	MWEPOS=SCONJ
+42	a	a	ADP	_	ExtPos=SCONJ	51	mark	_	_
 43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	fixed	_	_
 44	medida	medida	NOUN	_	Gender=Fem|Number=Sing	42	fixed	_	_
 45	que	que	SCONJ	_	_	42	fixed	_	_
@@ -18151,7 +18151,7 @@
 
 # text = Para que se possa observar mais detalhadamente a influência da concentração de argila no processo de obstrução das gargantas de poro e, consequentemente, na redução da invasão de fluido, é apresentada na Figura 4.3, a invasão de fluido versus tempo para os fluidos com argila.
 # sent_id = 119-20141209-TESEMSC_0-623
-1	Para	para	ADP	_	_	4	mark	_	MWEPOS=SCONJ
+1	Para	para	ADP	_	ExtPos=SCONJ	4	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	se	se	PRON	_	PronType=Prs	4	expl:impers	_	_
 4	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	Se=impers
@@ -18270,7 +18270,7 @@
 23	argila	argila	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	e	e	CCONJ	_	_	38	cc	_	_
 25-26	à	_	_	_	_	_	_	_	_
-25	a	a	ADP	_	_	32	mark	_	MWEPOS=SCONJ
+25	a	a	ADP	_	ExtPos=SCONJ	32	mark	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	fixed	_	_
 27	medida	medida	NOUN	_	Gender=Fem|Number=Sing	25	fixed	_	_
 28	que	que	SCONJ	_	_	25	fixed	_	_
@@ -18312,7 +18312,7 @@
 15	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	apresentadas	apresentar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
-18	em	em	ADP	_	_	21	case	_	MWEPOS=ADP
+18	em	em	ADP	_	ExtPos=ADP	21	case	_	_
 19	termos	termo	NOUN	_	Gender=Masc|Number=Plur	18	fixed	_	_
 20	de	de	ADP	_	_	18	fixed	_	_
 21	vazão	vazão	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -18352,7 +18352,7 @@
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	43	punct	_	_
-24	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	43	mark	_	MWEPOS=SCONJ
+24	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	43	mark	_	_
 25	que	que	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27-28	nos	_	_	_	_	_	_	_	_
@@ -18376,7 +18376,7 @@
 44	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	queda	queda	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
 46	considerável	considerável	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	_
-47	em	em	ADP	_	_	51	case	_	MWEPOS=ADP
+47	em	em	ADP	_	ExtPos=ADP	51	case	_	_
 48	relação	relação	NOUN	_	Gender=Fem|Number=Sing	47	fixed	_	_
 49-50	à	_	_	_	_	_	_	_	_
 49	a	a	ADP	_	_	47	fixed	_	_
@@ -18456,7 +18456,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
 14	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-15	para	para	ADP	_	_	18	mark	_	MWEPOS=SCONJ
+15	para	para	ADP	_	ExtPos=SCONJ	18	mark	_	_
 16	que	que	SCONJ	_	_	15	fixed	_	_
 17	se	se	PRON	_	PronType=Prs	18	expl:impers	_	_
 18	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	Se=impers
@@ -18504,7 +18504,7 @@
 18	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
 19	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	redução	redução	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	em	em	ADP	_	_	25	case	_	MWEPOS=ADP
+21	em	em	ADP	_	ExtPos=ADP	25	case	_	_
 22	relação	relação	NOUN	_	Gender=Fem|Number=Sing	21	fixed	_	_
 23-24	à	_	_	_	_	_	_	_	_
 23	a	a	ADP	_	_	21	fixed	_	_
@@ -18529,7 +18529,7 @@
 42	ser	ser	AUX	_	VerbForm=Inf	43	aux:pass	_	_
 43	interrompida	interromper	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	40	xcomp	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	ou	ou	CCONJ	_	_	49	cc	_	MWEPOS=CCONJ
+45	ou	ou	CCONJ	_	ExtPos=CCONJ	49	cc	_	_
 46	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	fixed	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	45	punct	_	_
 48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
@@ -18571,7 +18571,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	plotadas	plotar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_
-14	em	em	ADP	_	_	18	case	_	MWEPOS=ADP
+14	em	em	ADP	_	ExtPos=ADP	18	case	_	_
 15	relação	relação	NOUN	_	Gender=Fem|Number=Sing	14	fixed	_	_
 16-17	à	_	_	_	_	_	_	_	_
 16	a	a	ADP	_	_	14	fixed	_	_
@@ -18628,7 +18628,7 @@
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	40	punct	_	_
-35	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	40	mark	_	MWEPOS=SCONJ
+35	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	40	mark	_	_
 36	que	que	SCONJ	_	_	35	fixed	_	_
 37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	poros	poro	NOUN	_	Gender=Masc|Number=Plur	40	nsubj:pass	_	_
@@ -18668,7 +18668,7 @@
 70	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
 71	amostra	amostra	NOUN	_	Gender=Fem|Number=Sing	68	nmod	_	_
 72-73	à	_	_	_	_	_	_	_	_
-72	a	a	ADP	_	_	84	mark	_	MWEPOS=SCONJ
+72	a	a	ADP	_	ExtPos=SCONJ	84	mark	_	_
 73	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	fixed	_	_
 74	medida	medida	NOUN	_	Gender=Fem|Number=Sing	72	fixed	_	_
 75	que	que	SCONJ	_	_	72	fixed	_	_
@@ -18822,7 +18822,7 @@
 7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	limite	limite	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	14	mark	_	MWEPOS=SCONJ
+10	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	14	mark	_	_
 11	que	que	SCONJ	_	_	10	fixed	_	_
 12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
@@ -18831,7 +18831,7 @@
 16	se	se	PRON	_	PronType=Prs	17	expl:pv	_	_
 17	horizontalizar	horizontalizar	VERB	_	VerbForm=Inf	14	xcomp	_	Se=pv|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	ou	ou	CCONJ	_	_	27	cc	_	MWEPOS=CCONJ
+19	ou	ou	CCONJ	_	ExtPos=CCONJ	27	cc	_	_
 20	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -18853,7 +18853,7 @@
 
 # text = Para que se possa comparar o retorno da vazão de óleo entre todos os experimentos realizados com PHPA, estes devem ser tratados de forma relativa, ou seja, a fração de retorno obtida em relação à vazão de óleo inicial.
 # sent_id = 119-20141209-TESEMSC_0-638
-1	Para	para	ADP	_	_	4	mark	_	MWEPOS=SCONJ
+1	Para	para	ADP	_	ExtPos=SCONJ	4	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	se	se	PRON	_	PronType=Prs	4	expl:impers	_	_
 4	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	Se=impers
@@ -18882,7 +18882,7 @@
 26	forma	forma	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
 27	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	ou	ou	CCONJ	_	_	33	cc	_	MWEPOS=CCONJ
+29	ou	ou	CCONJ	_	ExtPos=CCONJ	33	cc	_	_
 30	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	fixed	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	29	punct	_	_
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -18890,7 +18890,7 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 36	obtida	obter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	33	acl	_	_
-37	em	em	ADP	_	_	41	case	_	MWEPOS=ADP
+37	em	em	ADP	_	ExtPos=ADP	41	case	_	_
 38	relação	relação	NOUN	_	Gender=Fem|Number=Sing	37	fixed	_	_
 39-40	à	_	_	_	_	_	_	_	_
 39	a	a	ADP	_	_	37	fixed	_	_
@@ -18989,7 +18989,7 @@
 
 # text = Em relação aos fluidos contendo argila, observa-se que o retorno da vazão relativa de óleo não foi influenciado pela concentração da mesma contida no fluido invasor.
 # sent_id = 119-20141209-TESEMSC_0-642
-1	Em	em	ADP	_	_	5	case	_	MWEPOS=ADP
+1	Em	em	ADP	_	ExtPos=ADP	5	case	_	_
 2	relação	relação	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3-4	aos	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	fixed	_	_
@@ -19150,7 +19150,7 @@
 14	de	de	ADP	_	_	15	case	_	_
 15	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
-17	a	a	ADP	_	_	20	mark	_	MWEPOS=SCONJ
+17	a	a	ADP	_	ExtPos=SCONJ	20	mark	_	_
 18	fim	fim	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
 19	de	de	ADP	_	_	17	fixed	_	_
 20	permitir	permitir	VERB	_	VerbForm=Inf	5	advcl	_	_
@@ -19370,7 +19370,7 @@
 32	escala	escala	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 33	log-log	log-log	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 34	e	e	CCONJ	_	_	39	cc	_	_
-35	em	em	ADP	_	_	39	case	_	MWEPOS=ADP
+35	em	em	ADP	_	ExtPos=ADP	39	case	_	_
 36	relação	relação	NOUN	_	Gender=Fem|Number=Sing	35	fixed	_	_
 37-38	à	_	_	_	_	_	_	_	_
 37	a	a	ADP	_	_	35	fixed	_	_
@@ -19452,7 +19452,7 @@
 11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
 12	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	ou	ou	CCONJ	_	_	19	cc	_	MWEPOS=CCONJ
+14	ou	ou	CCONJ	_	ExtPos=CCONJ	19	cc	_	_
 15	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	primeiro	primeiro	ADV	_	_	19	advmod	_	_
@@ -19490,7 +19490,7 @@
 47	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	_
 48	e	e	CCONJ	_	_	54	cc	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	50	punct	_	_
-50	por	por	ADP	_	_	54	cc	_	MWEPOS=CCONJ
+50	por	por	ADP	_	ExtPos=CCONJ	54	cc	_	_
 51	fim	fim	NOUN	_	Gender=Masc|Number=Sing	50	fixed	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	50	punct	_	_
 53	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
@@ -19673,7 +19673,7 @@
 47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 49	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	48	acl	_	_
-50	a	a	ADP	_	_	54	case	_	MWEPOS=ADP
+50	a	a	ADP	_	ExtPos=ADP	54	case	_	_
 51	partir	partir	VERB	_	VerbForm=Inf	50	fixed	_	_
 52-53	da	_	_	_	_	_	_	_	_
 52	de	de	ADP	_	_	50	fixed	_	_
@@ -19711,7 +19711,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	arenito	arenito	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	50	punct	_	_
-18	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	50	mark	_	MWEPOS=SCONJ
+18	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	50	mark	_	_
 19	que	que	SCONJ	_	_	18	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	se	se	SCONJ	_	_	22	mark	_	_
@@ -19958,7 +19958,7 @@
 8	se	se	PRON	_	PronType=Prs	7	expl:pass	_	_
 9	que	que	SCONJ	_	_	23	mark	_	_
 10-11	à	_	_	_	_	_	_	_	_
-10	a	a	ADP	_	_	16	mark	_	MWEPOS=SCONJ
+10	a	a	ADP	_	ExtPos=SCONJ	16	mark	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
 12	medida	medida	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
 13	que	que	SCONJ	_	_	10	fixed	_	_
@@ -20023,7 +20023,7 @@
 
 # text = Assim sendo, tanto a redução da produtividade durante o processo de invasão do fluido de perfuração, quanto a restauração da mesma durante o fluxo reverso de óleo podem ser avaliadas de forma dinâmica.
 # sent_id = 119-20141209-TESEMSC_0-670
-1	Assim	assim	ADV	_	_	33	advmod	_	MWEPOS=ADV
+1	Assim	assim	ADV	_	ExtPos=ADV	33	advmod	_	_
 2	sendo	ser	AUX	_	VerbForm=Ger	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	tanto	tanto	ADV	_	_	6	advmod	_	_
@@ -20109,7 +20109,7 @@
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	porém	porém	CCONJ	_	_	36	cc	_	_
 36	plotados	plotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	33	acl	_	_
-37	em	em	ADP	_	_	41	case	_	MWEPOS=ADP
+37	em	em	ADP	_	ExtPos=ADP	41	case	_	_
 38	relação	relação	NOUN	_	Gender=Fem|Number=Sing	37	fixed	_	_
 39-40	à	_	_	_	_	_	_	_	_
 39	a	a	ADP	_	_	37	fixed	_	_
@@ -20131,7 +20131,7 @@
 
 # text = A partir destas figuras, observa-se que o comportamento das curvas é praticamente o mesmo.
 # sent_id = 119-20141209-TESEMSC_0-672
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	destas	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -20222,7 +20222,7 @@
 28	de	de	ADP	_	_	29	case	_	_
 29	produtividade	produtividade	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	46	punct	_	_
-31	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	46	mark	_	MWEPOS=SCONJ
+31	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	46	mark	_	_
 32	que	que	SCONJ	_	_	31	fixed	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	46	punct	_	_
 34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -20255,7 +20255,7 @@
 61	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	60	nsubj:pass	_	_
 63-64	à	_	_	_	_	_	_	_	_
-63	a	a	ADP	_	_	72	mark	_	MWEPOS=SCONJ
+63	a	a	ADP	_	ExtPos=SCONJ	72	mark	_	_
 64	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	fixed	_	_
 65	medida	medida	NOUN	_	Gender=Fem|Number=Sing	63	fixed	_	_
 66	que	que	SCONJ	_	_	63	fixed	_	_
@@ -20434,7 +20434,7 @@
 3	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
 5-6	à	_	_	_	_	_	_	_	_
-5	a	a	ADP	_	_	14	mark	_	MWEPOS=SCONJ
+5	a	a	ADP	_	ExtPos=SCONJ	14	mark	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	fixed	_	_
 7	medida	medida	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	_
 8	que	que	SCONJ	_	_	5	fixed	_	_
@@ -20471,7 +20471,7 @@
 
 # text = Além de remover o dano causado pela invasão do fluido de perfuração, espera-se, também, que este dano seja removido em um menor tempo.
 # sent_id = 119-20141209-TESEMSC_0-682
-1	Além	além	ADV	_	_	3	mark	_	MWEPOS=SCONJ
+1	Além	além	ADV	_	ExtPos=SCONJ	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	remover	remover	VERB	_	VerbForm=Inf	16	advcl	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -20550,7 +20550,7 @@
 2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	que	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	13	punct	_	_
-5	apesar	apesar	ADV	_	_	13	mark	_	MWEPOS=SCONJ
+5	apesar	apesar	ADV	_	ExtPos=SCONJ	13	mark	_	_
 6	de	de	ADP	_	_	5	fixed	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -20663,7 +20663,7 @@
 45	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
 46	(	(	PUNCT	_	_	53	punct	_	_
 47	,	,	PUNCT	_	_	53	punct	_	_
-48	bem	bem	ADV	_	_	53	cc	_	MWEPOS=CCONJ
+48	bem	bem	ADV	_	ExtPos=CCONJ	53	cc	_	_
 49	como	como	ADP	_	_	48	fixed	_	_
 50-51	pela	_	_	_	_	_	_	_	_
 50	por	por	ADP	_	_	53	case	_	_
@@ -20756,7 +20756,7 @@
 8	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	em	em	ADP	_	_	15	case	_	MWEPOS=ADP
+11	em	em	ADP	_	ExtPos=ADP	15	case	_	_
 12	função	função	NOUN	_	Gender=Fem|Number=Sing	11	fixed	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	11	fixed	_	_
@@ -20883,7 +20883,7 @@
 20	maior	maior	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 21	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	42	punct	_	_
-23	sendo	ser	AUX	_	VerbForm=Ger	42	mark	_	MWEPOS=SCONJ
+23	sendo	ser	AUX	_	ExtPos=SCONJ|VerbForm=Ger	42	mark	_	_
 24	que	que	SCONJ	_	_	23	fixed	_	_
 25	em	em	ADP	_	_	27	case	_	_
 26	6	6	NUM	_	NumType=Card	27	nummod	_	_
@@ -21080,7 +21080,7 @@
 14	menor	menor	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	20	case	_	MWEPOS=ADP
+16	de	de	ADP	_	ExtPos=ADP	20	case	_	_
 17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	fixed	_	_
 18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	fixed	_	_
 19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -21131,7 +21131,7 @@
 29	estabilizar	estabilizar	VERB	_	VerbForm=Inf	27	xcomp	_	Se=pv
 30	se	se	PRON	_	PronType=Prs	29	expl:pv	_	_
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	ou	ou	CCONJ	_	_	44	cc	_	MWEPOS=CCONJ
+32	ou	ou	CCONJ	_	ExtPos=CCONJ	44	cc	_	_
 33	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	fixed	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	32	punct	_	_
 35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
@@ -21191,7 +21191,7 @@
 30	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	36	punct	_	_
 32-33	ao	_	_	_	_	_	_	_	_
-32	a	a	ADP	_	_	36	case	_	MWEPOS=ADP
+32	a	a	ADP	_	ExtPos=ADP	36	case	_	_
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	fixed	_	_
 34	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	32	fixed	_	_
 35-36	do	_	_	_	_	_	_	_	_
@@ -21234,7 +21234,7 @@
 10	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
 12-13	ao	_	_	_	_	_	_	_	_
-12	a	a	ADP	_	_	17	case	_	MWEPOS=ADP
+12	a	a	ADP	_	ExtPos=ADP	17	case	_	_
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	_
 14	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -21257,7 +21257,7 @@
 30	se	se	PRON	_	PronType=Prs	29	expl:pv	_	_
 31	horizontal	horizontal	ADJ	_	Gender=Masc|Number=Sing	29	xcomp	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	ou	ou	CCONJ	_	_	45	cc	_	MWEPOS=CCONJ
+33	ou	ou	CCONJ	_	ExtPos=CCONJ	45	cc	_	_
 34	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	fixed	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	33	punct	_	_
 36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
@@ -21284,7 +21284,7 @@
 56	não	não	ADV	_	Polarity=Neg	58	advmod	_	_
 57	se	se	PRON	_	PronType=Prs	58	expl:pv	_	_
 58	estendeu	estender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	conj	_	Se=pv
-59	até	até	ADP	_	_	62	mark	_	MWEPOS=SCONJ
+59	até	até	ADP	_	ExtPos=SCONJ	62	mark	_	_
 60	que	que	SCONJ	_	_	59	fixed	_	_
 61	fosse	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	62	aux:pass	_	_
 62	observada	observar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	58	advcl	_	_
@@ -21337,7 +21337,7 @@
 
 # text = Uma vez que o escoamento através do meio poroso caracteriza-se por velocidades baixas, a viscosidade mais elevada para o fluido preparado com GX, fez com que este fluido encontrasse uma maior dificuldade em atravessar o meio poroso, sendo retido no mesmo.
 # sent_id = 119-20141209-TESEMSC_0-704
-1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	mark	_	MWEPOS=SCONJ
+1	Uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	11	mark	_	_
 2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -21492,7 +21492,7 @@
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	PHPA	PHPA	PROPN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	18	punct	_	_
-24	para	para	ADP	_	_	27	mark	_	MWEPOS=SCONJ
+24	para	para	ADP	_	ExtPos=SCONJ	27	mark	_	_
 25	que	que	SCONJ	_	_	24	fixed	_	_
 26	se	se	PRON	_	PronType=Prs	27	expl:impers	_	_
 27	possa	poder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	Se=impers
@@ -21593,7 +21593,7 @@
 41	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
 42	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	56	punct	_	_
-44	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	56	mark	_	MWEPOS=SCONJ
+44	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	56	mark	_	_
 45	que	que	SCONJ	_	_	44	fixed	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	50	punct	_	_
 47	em	em	ADP	_	_	50	case	_	_
@@ -21609,7 +21609,7 @@
 57	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	queda	queda	NOUN	_	Gender=Fem|Number=Sing	56	obj	_	_
 59	considerável	considerável	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	_
-60	em	em	ADP	_	_	64	case	_	MWEPOS=ADP
+60	em	em	ADP	_	ExtPos=ADP	64	case	_	_
 61	relação	relação	NOUN	_	Gender=Fem|Number=Sing	60	fixed	_	_
 62-63	à	_	_	_	_	_	_	_	_
 62	a	a	ADP	_	_	60	fixed	_	_
@@ -21654,7 +21654,7 @@
 28	vez	vez	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	plotadas	plotar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	conj	_	_
-31	em	em	ADP	_	_	35	case	_	MWEPOS=ADP
+31	em	em	ADP	_	ExtPos=ADP	35	case	_	_
 32	relação	relação	NOUN	_	Gender=Fem|Number=Sing	31	fixed	_	_
 33-34	à	_	_	_	_	_	_	_	_
 33	a	a	ADP	_	_	31	fixed	_	_
@@ -21682,7 +21682,7 @@
 2	se	se	PRON	_	PronType=Prs	1	expl:pass	_	_
 3	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	assim	assim	ADV	_	_	9	mark	_	MWEPOS=SCONJ
+5	assim	assim	ADV	_	ExtPos=SCONJ	9	mark	_	_
 6	como	como	ADP	_	_	5	fixed	_	_
 7-8	nos	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
@@ -21738,7 +21738,7 @@
 53	,	,	PUNCT	_	_	68	punct	_	_
 54	e	e	CCONJ	_	_	68	cc	_	_
 55-56	à	_	_	_	_	_	_	_	_
-55	a	a	ADP	_	_	62	mark	_	MWEPOS=SCONJ
+55	a	a	ADP	_	ExtPos=SCONJ	62	mark	_	_
 56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	fixed	_	_
 57	medida	medida	NOUN	_	Gender=Fem|Number=Sing	55	fixed	_	_
 58	que	que	SCONJ	_	_	55	fixed	_	_
@@ -21874,7 +21874,7 @@
 25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	limite	limite	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	32	punct	_	_
-28	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	32	mark	_	MWEPOS=SCONJ
+28	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	32	mark	_	_
 29	que	que	SCONJ	_	_	28	fixed	_	_
 30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	32	nsubj	_	_
@@ -21930,7 +21930,7 @@
 
 # text = Assim como na apresentação dos resultados para a PHPA, o retorno da vazão de óleo para os experimentos realizados com a GX será tratado também na forma relativa, ou seja, a fração de retorno obtida em relação à vazão de óleo inicial.
 # sent_id = 119-20141209-TESEMSC_0-717
-1	Assim	assim	ADV	_	_	5	mark	_	MWEPOS=SCONJ
+1	Assim	assim	ADV	_	ExtPos=SCONJ	5	mark	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3-4	na	_	_	_	_	_	_	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -21968,7 +21968,7 @@
 32	forma	forma	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
 33	relativa	relativo	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
-35	ou	ou	CCONJ	_	_	39	cc	_	MWEPOS=CCONJ
+35	ou	ou	CCONJ	_	ExtPos=CCONJ	39	cc	_	_
 36	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	fixed	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	35	punct	_	_
 38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
@@ -21976,7 +21976,7 @@
 40	de	de	ADP	_	_	41	case	_	_
 41	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
 42	obtida	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	41	acl	_	_
-43	em	em	ADP	_	_	47	case	_	MWEPOS=ADP
+43	em	em	ADP	_	ExtPos=ADP	47	case	_	_
 44	relação	relação	NOUN	_	Gender=Fem|Number=Sing	43	fixed	_	_
 45-46	à	_	_	_	_	_	_	_	_
 45	a	a	ADP	_	_	43	fixed	_	_
@@ -22167,12 +22167,12 @@
 
 # text = Além disso, uma vez que os poros foram bloqueados totalmente e o escoamento cessou, uma menor fração de argila e também de polímero foi transportada para dentro da amostra.
 # sent_id = 119-20141209-TESEMSC_0-722
-1	Além	além	ADV	_	_	28	advmod	_	MWEPOS=ADV
+1	Além	além	ADV	_	ExtPos=ADV	28	advmod	_	_
 2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
 2	de	de	ADP	_	_	1	fixed	_	_
 3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	mark	_	MWEPOS=SCONJ
+5	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	11	mark	_	_
 6	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	_
 7	que	que	SCONJ	_	_	5	fixed	_	_
 8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -22283,7 +22283,7 @@
 
 # text = A partir dos históricos de vazão, pode-se observar a dinâmica de redução e de retorno da vazão relativa de óleo para cada um dos casos.
 # sent_id = 119-20141209-TESEMSC_0-725
-1	A	a	ADP	_	_	5	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	5	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -22447,7 +22447,7 @@
 3	gráficos	gráfico	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	plotados	plotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
-6	em	em	ADP	_	_	10	case	_	MWEPOS=ADP
+6	em	em	ADP	_	ExtPos=ADP	10	case	_	_
 7	relação	relação	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	_
 8-9	à	_	_	_	_	_	_	_	_
 8	a	a	ADP	_	_	6	fixed	_	_
@@ -22609,7 +22609,7 @@
 
 # text = Assim como nos experimentos com PHPA, aqui também foram utilizadas as Equações 3.5, 3.6 e 4.2 para o cálculo das saturações remanescentes de óleo ao final da invasão e do fluxo reverso, e do fluido invasor, ao final do fluxo reverso.
 # sent_id = 119-20141209-TESEMSC_0-734
-1	Assim	assim	ADV	_	_	5	cc	_	MWEPOS=CCONJ
+1	Assim	assim	ADV	_	ExtPos=CCONJ	5	cc	_	_
 2	como	como	ADP	_	_	1	fixed	_	_
 3-4	nos	_	_	_	_	_	_	_	_
 3	em	em	ADP	_	_	5	case	_	_
@@ -22735,7 +22735,7 @@
 40	,	,	PUNCT	_	_	39	punct	_	_
 41	que	que	SCONJ	_	_	68	mark	_	_
 42-43	à	_	_	_	_	_	_	_	_
-42	a	a	ADP	_	_	50	mark	_	MWEPOS=SCONJ
+42	a	a	ADP	_	ExtPos=SCONJ	50	mark	_	_
 43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	fixed	_	_
 44	medida	medida	NOUN	_	Gender=Fem|Number=Sing	42	fixed	_	_
 45	que	que	SCONJ	_	_	42	fixed	_	_
@@ -23037,7 +23037,7 @@
 
 # text = A partir disso conclui-se que, aqui também, à medida que o fluido invade a amostra, ele muda de viscosidade até finalmente ser produzido e, novamente, será utilizado o conceito de razão de produtividade.
 # sent_id = 119-20141209-TESEMSC_0-746
-1	A	a	ADP	_	_	4	case	_	MWEPOS=ADP
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
 3-4	disso	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	_	_
@@ -23051,7 +23051,7 @@
 10	também	também	ADV	_	_	23	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12-13	à	_	_	_	_	_	_	_	_
-12	a	a	ADP	_	_	18	mark	_	MWEPOS=SCONJ
+12	a	a	ADP	_	ExtPos=SCONJ	18	mark	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	_
 14	medida	medida	NOUN	_	Gender=Fem|Number=Sing	12	fixed	_	_
 15	que	que	SCONJ	_	_	12	fixed	_	_
@@ -23120,7 +23120,7 @@
 29	porém	porém	CCONJ	_	_	31	cc	_	_
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	plotados	plotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	27	acl	_	_
-32	em	em	ADP	_	_	36	case	_	MWEPOS=ADP
+32	em	em	ADP	_	ExtPos=ADP	36	case	_	_
 33	relação	relação	NOUN	_	Gender=Fem|Number=Sing	32	fixed	_	_
 34-35	à	_	_	_	_	_	_	_	_
 34	a	a	ADP	_	_	32	fixed	_	_
@@ -23195,7 +23195,7 @@
 21	e	e	CCONJ	_	_	38	cc	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	32	punct	_	_
 23-24	à	_	_	_	_	_	_	_	_
-23	a	a	ADP	_	_	32	mark	_	MWEPOS=SCONJ
+23	a	a	ADP	_	ExtPos=SCONJ	32	mark	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	fixed	_	_
 25	medida	medida	NOUN	_	Gender=Fem|Number=Sing	23	fixed	_	_
 26	que	que	SCONJ	_	_	23	fixed	_	_
@@ -23271,7 +23271,7 @@
 40	com	com	ADP	_	_	41	case	_	_
 41	GX	GX	PROPN	_	Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	39	punct	_	_
-43	em	em	ADP	_	_	47	case	_	MWEPOS=ADP
+43	em	em	ADP	_	ExtPos=ADP	47	case	_	_
 44	relação	relação	NOUN	_	Gender=Fem|Number=Sing	43	fixed	_	_
 45-46	ao	_	_	_	_	_	_	_	_
 45	a	a	ADP	_	_	43	fixed	_	_
@@ -23279,7 +23279,7 @@
 47	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 48	e	e	CCONJ	_	_	54	cc	_	_
 49	também	também	ADV	_	_	54	advmod	_	_
-50	em	em	ADP	_	_	54	case	_	MWEPOS=ADP
+50	em	em	ADP	_	ExtPos=ADP	54	case	_	_
 51	relação	relação	NOUN	_	Gender=Fem|Number=Sing	50	fixed	_	_
 52-53	à	_	_	_	_	_	_	_	_
 52	a	a	ADP	_	_	50	fixed	_	_
@@ -23889,7 +23889,7 @@
 17	ser	ser	AUX	_	VerbForm=Inf	19	cop	_	_
 18	mais	mais	ADV	_	_	19	advmod	_	_
 19	grave	grave	ADJ	_	Gender=Masc|Number=Sing	15	xcomp	_	_
-20	quanto	quanto	ADV	_	_	27	mark	_	MWEPOS=SCONJ
+20	quanto	quanto	ADV	_	ExtPos=SCONJ	27	mark	_	_
 21	mais	mais	ADV	_	_	20	fixed	_	_
 22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	indicador	indicador	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
@@ -24234,7 +24234,7 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	argila	argila	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	29	punct	_	_
-41	ou	ou	CCONJ	_	_	48	cc	_	MWEPOS=CCONJ
+41	ou	ou	CCONJ	_	ExtPos=CCONJ	48	cc	_	_
 42	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	fixed	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
 44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
@@ -24246,7 +24246,7 @@
 
 # text = Devido à alta permeabilidade inicial ao óleo da amostra utilizada neste experimento, o fluido invadiu mais e, com isso, mais argila e polímero ficaram retidos no meio poroso quando aplicado o fluxo reverso de óleo, danificando mais.
 # sent_id = 119-20141209-TESEMSC_0-779
-1	Devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	MWEPOS=ADP
+1	Devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -24273,7 +24273,7 @@
 21	mais	mais	ADV	_	_	20	advmod	_	_
 22	e	e	CCONJ	_	_	31	cc	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	com	com	ADP	_	_	31	obl	_	MWEPOS=ADV
+24	com	com	ADP	_	ExtPos=ADV	31	obl	_	_
 25	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	24	punct	_	_
 27	mais	mais	DET	_	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
@@ -24417,14 +24417,14 @@
 12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
-15	bem	bem	ADV	_	_	18	cc	_	MWEPOS=CCONJ
+15	bem	bem	ADV	_	ExtPos=CCONJ	18	cc	_	_
 16	como	como	ADP	_	_	15	fixed	_	_
 17	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
 18	sugestões	sugestão	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 19	e	e	CCONJ	_	_	20	cc	_	_
 20	recomendações	recomendação	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
 21	elaboradas	elaborar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	20	acl	_	_
-22	a	a	ADP	_	_	26	case	_	MWEPOS=ADP
+22	a	a	ADP	_	ExtPos=ADP	26	case	_	_
 23	partir	partir	VERB	_	VerbForm=Inf	22	fixed	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	22	fixed	_	_
@@ -24493,7 +24493,7 @@
 5	se	se	PRON	_	PronType=Prs	4	expl:pass	_	_
 6	que	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	assim	assim	ADV	_	_	11	mark	_	MWEPOS=SCONJ
+8	assim	assim	ADV	_	ExtPos=SCONJ	11	mark	_	_
 9	como	como	ADP	_	_	8	fixed	_	_
 10	em	em	ADP	_	_	11	case	_	_
 11	Bourgoyne	Bourgoyne	PROPN	_	Gender=Masc|Number=Sing	17	advcl	_	SpaceAfter=No
@@ -24543,7 +24543,7 @@
 22	por	por	ADP	_	_	23	case	_	_
 23	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	21	obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	caso	caso	SCONJ	_	_	39	obl	_	MWEPOS=ADV
+25	caso	caso	SCONJ	_	ExtPos=ADV	39	obl	_	_
 26	contrário	contrário	ADJ	_	Gender=Masc|Number=Sing	25	fixed	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
 28	para	para	ADP	_	_	30	case	_	_
@@ -24644,7 +24644,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	que	que	SCONJ	_	_	18	mark	_	_
 6-7	à	_	_	_	_	_	_	_	_
-6	a	a	ADP	_	_	15	mark	_	MWEPOS=SCONJ
+6	a	a	ADP	_	ExtPos=SCONJ	15	mark	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	_
 8	medida	medida	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	_
 9	que	que	SCONJ	_	_	6	fixed	_	_
@@ -24711,7 +24711,7 @@
 23	interrompida	interromper	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	29	punct	_	_
 25-26	ao	_	_	_	_	_	_	_	_
-25	a	a	ADP	_	_	29	case	_	MWEPOS=ADP
+25	a	a	ADP	_	ExtPos=ADP	29	case	_	_
 26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	fixed	_	_
 27	contrário	contrário	NOUN	_	Gender=Masc|Number=Sing	25	fixed	_	_
 28-29	do	_	_	_	_	_	_	_	_
@@ -24797,7 +24797,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	19	case	_	MWEPOS=ADP
+15	de	de	ADP	_	ExtPos=ADP	19	case	_	_
 16	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	fixed	_	_
 17	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	fixed	_	_
 18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -24830,7 +24830,7 @@
 12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	13	aux:pass	_	_
 13	produzidos	produzir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 14	filtrados	filtrado	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
-15	enquanto	enquanto	ADV	_	_	26	mark	_	MWEPOS=SCONJ
+15	enquanto	enquanto	ADV	_	ExtPos=SCONJ	26	mark	_	_
 16	que	que	SCONJ	_	_	15	fixed	_	_
 17-18	nos	_	_	_	_	_	_	_	_
 17	em	em	ADP	_	_	19	case	_	_
@@ -24881,7 +24881,7 @@
 19	se	se	PRON	_	PronType=Prs	18	expl:pass	_	_
 20	que	que	SCONJ	_	_	36	mark	_	_
 21-22	à	_	_	_	_	_	_	_	_
-21	a	a	ADP	_	_	29	mark	_	MWEPOS=SCONJ
+21	a	a	ADP	_	ExtPos=SCONJ	29	mark	_	_
 22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	fixed	_	_
 23	medida	medida	NOUN	_	Gender=Fem|Number=Sing	21	fixed	_	_
 24	que	que	SCONJ	_	_	21	fixed	_	_
@@ -24994,7 +24994,7 @@
 54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
 55	argila	argila	NOUN	_	Gender=Fem|Number=Sing	52	obl	_	_
 56-57	do	_	_	_	_	_	_	_	_
-56	de	de	ADP	_	_	61	case	_	MWEPOS=ADP
+56	de	de	ADP	_	ExtPos=ADP	61	case	_	_
 57	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	56	fixed	_	_
 58	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	56	fixed	_	_
 59	para	para	ADP	_	_	61	case	_	_
@@ -25138,7 +25138,7 @@
 7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	limite	limite	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	21	punct	_	_
-10	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	mark	_	MWEPOS=SCONJ
+10	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	21	mark	_	_
 11	que	que	SCONJ	_	_	10	fixed	_	_
 12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	curvas	curva	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
@@ -25248,7 +25248,7 @@
 23	com	com	ADP	_	_	24	case	_	_
 24	GX	GX	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	_
 25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	29	case	_	MWEPOS=ADP
+25	de	de	ADP	_	ExtPos=ADP	29	case	_	_
 26	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	fixed	_	_
 27	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	fixed	_	_
 28	com	com	ADP	_	_	29	case	_	_
@@ -25444,7 +25444,7 @@
 55	base	base	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	_
 56	água	água	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	62	punct	_	_
-58	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	62	mark	_	MWEPOS=SCONJ
+58	visto	ver	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|VerbForm=Part	62	mark	_	_
 59	que	que	SCONJ	_	_	58	fixed	_	_
 60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
 61	água	água	NOUN	_	Gender=Fem|Number=Sing	62	nsubj	_	_
@@ -25494,7 +25494,7 @@
 16	mais	mais	ADV	_	_	17	advmod	_	_
 17	completos	completo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	1	punct	_	_
-19	por	por	ADP	_	_	23	obl	_	MWEPOS=ADV
+19	por	por	ADP	_	ExtPos=ADV	23	obl	_	_
 20	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	com	com	ADP	_	_	23	case	_	_
@@ -25552,7 +25552,7 @@
 
 # text = Devido à célula de teste ser específica para amostras pequenas (até 7 cm), a ocorrência do breakthrough pode interferir nos resultados obtidos.
 # sent_id = 119-20141209-TESEMSC_0-812
-1	Devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	MWEPOS=ADP
+1	Devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -25587,7 +25587,7 @@
 
 # text = Assim sendo, sugere-se a realização de experimentos com porta-testemunho apropriado para amostras maiores, para que o fluido não atravesse a amostra, e seja observado assim o efeito real de campo.
 # sent_id = 119-20141209-TESEMSC_0-813
-1	Assim	assim	ADV	_	_	4	advmod	_	MWEPOS=ADV
+1	Assim	assim	ADV	_	ExtPos=ADV	4	advmod	_	_
 2	sendo	ser	AUX	_	VerbForm=Ger	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4-5	sugere-se	_	_	_	_	_	_	_	_
@@ -25604,7 +25604,7 @@
 14	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
 15	maiores	maior	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	22	punct	_	_
-17	para	para	ADP	_	_	22	mark	_	MWEPOS=SCONJ
+17	para	para	ADP	_	ExtPos=SCONJ	22	mark	_	_
 18	que	que	SCONJ	_	_	17	fixed	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	fluido	fluido	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
@@ -25654,7 +25654,7 @@
 25	danificar	danificar	VERB	_	VerbForm=Inf	23	xcomp	_	_
 26	menos	menos	ADV	_	_	25	advmod	_	_
 27-28	do	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	34	mark	_	MWEPOS=SCONJ
+27	de	de	ADP	_	ExtPos=SCONJ	34	mark	_	_
 28	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	27	fixed	_	_
 29	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	fixed	_	_
 30	quando	quando	ADV	_	_	34	advmod	_	_
@@ -25692,7 +25692,7 @@
 
 # text = Devido aos baixos resultados de retorno da razão de produtividade obtidos com fluidos a base de água em amostras de arenito inicialmente 100% saturados com óleo mineral, sugere-se, também, a inclusão de água conata na condição inicial de saturação antes da invasão.
 # sent_id = 119-20141209-TESEMSC_0-815
-1	Devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	MWEPOS=ADP
+1	Devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	_
 2-3	aos	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -26033,7 +26033,7 @@
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 21	emulsionado	emulsionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	_
-22	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	case	_	MWEPOS=ADP
+22	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	25	case	_	_
 23-24	ao	_	_	_	_	_	_	_	_
 23	a	a	ADP	_	_	22	fixed	_	_
 24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -26046,7 +26046,7 @@
 30	de	de	ADP	_	_	31	case	_	_
 31	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	21	punct	_	_
-33	enquanto	enquanto	ADV	_	_	36	mark	_	MWEPOS=SCONJ
+33	enquanto	enquanto	ADV	_	ExtPos=SCONJ	36	mark	_	_
 34	que	que	SCONJ	_	_	33	fixed	_	_
 35	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	separa	separar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
@@ -26082,7 +26082,7 @@
 9	menos	menos	ADV	_	_	10	advmod	_	_
 10	densas	denso	ADJ	_	Gender=Fem|Number=Plur	18	advcl	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	15	case	_	MWEPOS=ADP
+11	de	de	ADP	_	ExtPos=ADP	15	case	_	_
 12	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	fixed	_	_
 13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	fixed	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -26329,7 +26329,7 @@
 31	ótima	bom	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-34	para	para	ADP	_	_	37	mark	_	MWEPOS=SCONJ
+34	para	para	ADP	_	ExtPos=SCONJ	37	mark	_	_
 35	que	que	SCONJ	_	_	34	fixed	_	_
 36	se	se	PRON	_	PronType=Prs	37	expl:impers	_	_
 37	tenha	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	Se=impers
@@ -26542,7 +26542,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	produção	produção	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
-18	bem	bem	ADV	_	_	21	cc	_	MWEPOS=CCONJ
+18	bem	bem	ADV	_	ExtPos=CCONJ	21	cc	_	_
 19	como	como	ADP	_	_	18	fixed	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	estágio	estágio	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
@@ -26583,7 +26583,7 @@
 21	geológica	geológico	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	produtora	produtor	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
-24	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	27	case	_	MWEPOS=ADP
+24	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	27	case	_	_
 25-26	à	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	24	fixed	_	_
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -26596,7 +26596,7 @@
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	38	punct	_	_
-35	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	38	case	_	MWEPOS=ADP
+35	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	38	case	_	_
 36-37	à	_	_	_	_	_	_	_	_
 36	a	a	ADP	_	_	35	fixed	_	_
 37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -26744,7 +26744,7 @@
 27	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 28	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	25	obl:agent	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
-30	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	32	case	_	MWEPOS=ADP
+30	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	32	case	_	_
 31	como	como	ADP	_	_	30	fixed	_	_
 32	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
@@ -27109,7 +27109,7 @@
 # text = No caso do óleo emulsificado, o diâmetro das gotas situa-se abaixo de 50µm, o que dificulta a separação por meios gravitacionais.
 # sent_id = 243-20141015-MONOGRAFIA_1-39
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	6	case	_	MWEPOS=ADP
+1	Em	em	ADP	_	ExtPos=ADP	6	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -27157,7 +27157,7 @@
 11	processos	processo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	mais	mais	ADV	_	_	13	advmod	_	_
 13	sofisticados	sofisticado	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-14	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	18	case	_	MWEPOS=ADP
+14	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	18	case	_	_
 15	como	como	ADP	_	_	14	fixed	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	18	punct	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -27201,7 +27201,7 @@
 21	tratamentos	tratamento	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	químicos	químico	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 23	especiais	especial	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
-24	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	27	case	_	MWEPOS=ADP
+24	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	27	case	_	_
 25	como	como	ADP	_	_	24	fixed	_	SpaceAfter=No
 26	:	:	PUNCT	_	_	27	punct	_	_
 27	precipitação	precipitação	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
@@ -27360,7 +27360,7 @@
 7	explicam	explicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	além	além	ADV	_	_	13	mark	_	MWEPOS=SCONJ
+10	além	além	ADV	_	ExtPos=SCONJ	13	mark	_	_
 11-12	destes	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	fixed	_	_
 12	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
@@ -27613,7 +27613,7 @@
 1	Compostos	composto	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 2	aromáticos	aromático	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
-4	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	case	_	MWEPOS=ADP
+4	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	7	case	_	_
 5	como	como	ADP	_	_	4	fixed	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	7	punct	_	_
 7	benzeno	benzeno	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -27716,7 +27716,7 @@
 21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 22	menor	menor	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	26	case	_	MWEPOS=ADP
+23	de	de	ADP	_	ExtPos=ADP	26	case	_	_
 24	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	fixed	_	_
 25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	fixed	_	_
 26	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	22	obl	_	_
@@ -27746,7 +27746,7 @@
 7	explicam	explicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	além	além	ADV	_	_	13	mark	_	MWEPOS=SCONJ
+10	além	além	ADV	_	ExtPos=SCONJ	13	mark	_	_
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	fixed	_	_
 12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -28002,7 +28002,7 @@
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	misturas	mistura	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
 15	óleo/água	óleo/água	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-16	por	por	ADP	_	_	19	case	_	MWEPOS=ADP
+16	por	por	ADP	_	ExtPos=ADP	19	case	_	_
 17	meio	meio	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
 18	de	de	ADP	_	_	16	fixed	_	_
 19	separação	separação	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
@@ -28058,7 +28058,7 @@
 11	separação	separação	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 12	gás/líquido	gás/líquido	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
-14	enquanto	enquanto	ADV	_	_	24	mark	_	MWEPOS=SCONJ
+14	enquanto	enquanto	ADV	_	ExtPos=SCONJ	24	mark	_	_
 15	que	que	SCONJ	_	_	14	fixed	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	_	_	18	case	_	_
@@ -28129,7 +28129,7 @@
 
 # text = Em seguida a água passa por um separador água/óleo e finalmente em um tubo de despejo.
 # sent_id = 243-20141015-MONOGRAFIA_1-73
-1	Em	em	ADP	_	_	5	obl	_	MWEPOS=ADV
+1	Em	em	ADP	_	ExtPos=ADV	5	obl	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	água	água	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -28399,7 +28399,7 @@
 21	e	e	CCONJ	_	_	22	cc	_	_
 22	metais	metal	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	14	punct	_	_
-24	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	mark	_	MWEPOS=SCONJ
+24	uma	um	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	30	mark	_	_
 25	vez	vez	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	_
 26	que	que	SCONJ	_	_	24	fixed	_	_
 27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -28477,7 +28477,7 @@
 9	menos	menos	ADV	_	_	10	advmod	_	_
 10	densas	denso	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	15	case	_	MWEPOS=ADP
+11	de	de	ADP	_	ExtPos=ADP	15	case	_	_
 12	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	fixed	_	_
 13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	fixed	_	_
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -28505,7 +28505,7 @@
 10	muito	muito	ADV	_	_	11	advmod	_	_
 11	menor	menor	ADJ	_	Gender=Fem|Number=Sing	21	advcl	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	16	case	_	MWEPOS=ADP
+12	de	de	ADP	_	ExtPos=ADP	16	case	_	_
 13	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	fixed	_	_
 14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	fixed	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -28528,7 +28528,7 @@
 31	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
 32	maior	maior	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	37	case	_	MWEPOS=ADP
+33	de	de	ADP	_	ExtPos=ADP	37	case	_	_
 34	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	33	fixed	_	_
 35	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	fixed	_	_
 36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
@@ -28676,7 +28676,7 @@
 
 # text = Em seguida o efluente saturado de ar sofre despressurização em uma câmara de flotação.
 # sent_id = 243-20141015-MONOGRAFIA_1-93
-1	Em	em	ADP	_	_	8	obl	_	MWEPOS=ADV
+1	Em	em	ADP	_	ExtPos=ADV	8	obl	_	_
 2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	efluente	efluente	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -28812,7 +28812,7 @@
 21	em	em	ADP	_	_	22	case	_	_
 22	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 23	espiral	espiral	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
-24	em	em	ADP	_	_	28	case	_	MWEPOS=ADP
+24	em	em	ADP	_	ExtPos=ADP	28	case	_	_
 25	direção	direção	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	_
 26-27	ao	_	_	_	_	_	_	_	_
 26	a	a	ADP	_	_	24	fixed	_	_
@@ -28859,7 +28859,7 @@
 
 # text = Devido ao seu formato cônico e ao diferencial de pressão existente entre as paredes e o centro, ocorre na parte central do equipamento um fluxoaxial reverso.
 # sent_id = 243-20141015-MONOGRAFIA_1-100
-1	Devido	dever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	MWEPOS=ADP
+1	Devido	dever	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -29083,7 +29083,7 @@
 
 # text = Em geral os tanques gravitacionais por si so não conseguem baixar suficientimente TOG da água produzida para adequa-la aos padões exigidos pelos órgãos ambientais.
 # sent_id = 243-20141015-MONOGRAFIA_1-108
-1	Em	em	ADP	_	_	10	obl	_	MWEPOS=ADV
+1	Em	em	ADP	_	ExtPos=ADV	10	obl	_	_
 2	geral	geral	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	tanques	tanque	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -29239,7 +29239,7 @@
 16	carbonatos	carbonato	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_
-18	em	em	ADP	_	_	22	case	_	MWEPOS=ADP
+18	em	em	ADP	_	ExtPos=ADP	22	case	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	fixed	_	_
 20	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	18	fixed	_	_
 21	de	de	ADP	_	_	18	fixed	_	_
@@ -29416,7 +29416,7 @@
 35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	homem	homem	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	41	punct	_	_
-38	tais	tal	DET	_	Gender=Masc|Number=Plur|PronType=Dem	41	case	_	MWEPOS=ADP
+38	tais	tal	DET	_	ExtPos=ADP|Gender=Masc|Number=Plur|PronType=Dem	41	case	_	_
 39	como	como	ADP	_	_	38	fixed	_	_
 40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	Na2+	Na2+	PROPN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
@@ -29550,7 +29550,7 @@
 5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	_	_
 6	removido	remover	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	sempre	sempre	ADV	_	_	11	mark	_	MWEPOS=SCONJ
+8	sempre	sempre	ADV	_	ExtPos=SCONJ	11	mark	_	_
 9	que	que	SCONJ	_	_	8	fixed	_	_
 10	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
 11	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
@@ -29984,7 +29984,7 @@
 
 # text = Tanto quanto os parâmetros físicos, a taxa de remoção dos compostos voláteis da mistura líquida para a fase gasosa é governada pela temperatura e pelas propriedades químicas e físicas das fases e dos componentes a serem removidos.
 # sent_id = 243-20141015-MONOGRAFIA_1-141
-1	Tanto	tanto	ADV	_	_	24	advmod	_	MWEPOS=ADV
+1	Tanto	tanto	ADV	_	ExtPos=ADV	24	advmod	_	_
 2	quanto	quanto	ADV	_	_	1	fixed	_	_
 3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	parâmetros	parâmetro	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
@@ -30178,7 +30178,7 @@
 9	e	e	CCONJ	_	_	10	cc	_	_
 10	anaeróbicos	anaeróbico	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
-12	sendo	ser	AUX	_	VerbForm=Ger	21	mark	_	MWEPOS=SCONJ
+12	sendo	ser	AUX	_	ExtPos=SCONJ|VerbForm=Ger	21	mark	_	_
 13	que	que	SCONJ	_	_	12	fixed	_	_
 14-15	destes	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -30330,7 +30330,7 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
 29	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	apesarem	apesar	ADP	_	_	34	mark	_	MWEPOS=SCONJ
+30	apesarem	apesar	ADP	_	ExtPos=SCONJ	34	mark	_	_
 31	de	de	SCONJ	_	_	30	fixed	_	_
 32	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	34	cop	_	_
 33	mais	mais	ADV	_	_	34	advmod	_	_
@@ -30402,7 +30402,7 @@
 43	água	água	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
 44	vizinhas	vizinho	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	37	punct	_	_
-46	já	já	ADV	_	_	49	mark	_	MWEPOS=SCONJ
+46	já	já	ADV	_	ExtPos=SCONJ	49	mark	_	_
 47	que	que	SCONJ	_	_	46	fixed	_	_
 48	estas	este	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	49	nsubj	_	_
 49	apresentam	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	_
@@ -30578,7 +30578,7 @@
 6	liberam	liberar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	cátions	cátion	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	por	por	ADP	_	_	12	obl	_	MWEPOS=ADV
+9	por	por	ADP	_	ExtPos=ADV	12	obl	_	_
 10	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -30623,7 +30623,7 @@
 9	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	10	det	_	_
 10	molécula	molécula	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 11-12	pelo	_	_	_	_	_	_	_	_
-11	por	por	ADP	_	_	7	obl	_	MWEPOS=ADV
+11	por	por	ADP	_	ExtPos=ADV	7	obl	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	menos	menos	NOUN	_	Gender=Masc|Number=Plur	11	fixed	_	_
 14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -31139,7 +31139,7 @@
 28	meio	meio	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 29	polar	polar	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	23	punct	_	_
-31	enquanto	enquanto	ADV	_	_	37	mark	_	MWEPOS=SCONJ
+31	enquanto	enquanto	ADV	_	ExtPos=SCONJ	37	mark	_	_
 32	que	que	SCONJ	_	_	31	fixed	_	_
 33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
 34	caudas	cauda	NOUN	_	Gender=Fem|Number=Plur	37	nsubj:pass	_	_
@@ -31165,7 +31165,7 @@
 # text = No caso das micelas inversas o comportamento é contrario aos das micelas diretas, para solventes apolares as caldas (parte apolar) ficam voltadas para o meio apolar e as cabeças são agrupadas voltadas para o interior da micela.
 # sent_id = 243-20141015-MONOGRAFIA_1-185
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	_	_	6	case	_	MWEPOS=ADP
+1	Em	em	ADP	_	ExtPos=ADP	6	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4-5	das	_	_	_	_	_	_	_	_
@@ -31282,7 +31282,7 @@
 9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	ser	ser	AUX	_	VerbForm=Inf	11	aux:pass	_	_
 11	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
-12	a	a	ADP	_	_	16	case	_	MWEPOS=ADP
+12	a	a	ADP	_	ExtPos=ADP	16	case	_	_
 13	partir	partir	VERB	_	VerbForm=Inf	12	fixed	_	_
 14	de	de	ADP	_	_	12	fixed	_	_
 15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -31411,7 +31411,7 @@
 16	solúvel	solúvel	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	suficiente	suficiente	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
-19	para	para	ADP	_	_	26	mark	_	MWEPOS=SCONJ
+19	para	para	ADP	_	ExtPos=SCONJ	26	mark	_	_
 20	que	que	SCONJ	_	_	19	fixed	_	_
 21	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	22	det	_	_
 22	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
@@ -31430,7 +31430,7 @@
 
 # text = De acordo com a figura 2.15, verifica-se que, em baixas concentrações e acima da temperatura de Krafft, tem-se uma solução de monômeros (Zona II).
 # sent_id = 243-20141015-MONOGRAFIA_1-193
-1	De	de	ADP	_	_	5	case	_	MWEPOS=ADP
+1	De	de	ADP	_	ExtPos=ADP	5	case	_	_
 2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	com	ADP	_	_	1	fixed	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -31564,7 +31564,7 @@
 # text = Entretanto devido a rapidez de determinação, o método visual vem sendo muito difundido.
 # sent_id = 243-20141015-MONOGRAFIA_1-196
 1	Entretanto	entretanto	ADV	_	_	11	advmod	_	_
-2	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	MWEPOS=ADP
+2	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	4	case	_	_
 3	a	a	ADP	_	_	2	fixed	_	_
 4	rapidez	rapidez	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -31881,7 +31881,7 @@
 20	SB	SB	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	_
 22	obtido	obter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
-23	a	a	ADP	_	_	27	case	_	MWEPOS=ADP
+23	a	a	ADP	_	ExtPos=ADP	27	case	_	_
 24	partir	partir	VERB	_	VerbForm=Inf	23	fixed	_	_
 25	de	de	ADP	_	_	23	fixed	_	_
 26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -32343,7 +32343,7 @@
 
 # text = Com isso foram preparados 4 lotes de 10 amostras, sendo que em cada lote foi feito uma duplicata.
 # sent_id = 243-20141015-MONOGRAFIA_1-222
-1	Com	com	ADP	_	_	4	obl	_	MWEPOS=ADV
+1	Com	com	ADP	_	ExtPos=ADV	4	obl	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
 3	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	4	aux:pass	_	_
 4	preparados	preparar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -32353,7 +32353,7 @@
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
 9	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	_
-11	sendo	ser	AUX	_	VerbForm=Ger	17	mark	_	MWEPOS=SCONJ
+11	sendo	ser	AUX	_	ExtPos=SCONJ|VerbForm=Ger	17	mark	_	_
 12	que	que	SCONJ	_	_	11	fixed	_	_
 13	em	em	ADP	_	_	15	case	_	_
 14	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
@@ -32367,7 +32367,7 @@
 # text = Sendo que nessas 10 amostras de cada lote foram variadas as concentrações do metal e do tensoativo , conforme mostram as tabelas de 3.3 a 3.6. .
 # sent_id = 243-20141015-MONOGRAFIA_1-223
 # original_text = Sendo que nessas 10 amostras de cada lote foram variadas as concentrações do metal e do tensoativo, conforme mostram as tabelas de 3.3 a 3.6.
-1	Sendo	ser	AUX	_	VerbForm=Ger	11	mark	_	MWEPOS=SCONJ
+1	Sendo	ser	AUX	_	ExtPos=SCONJ|VerbForm=Ger	11	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3-4	nessas	_	_	_	_	_	_	_	_
 3	em	em	ADP	_	_	6	case	_	_
@@ -32420,7 +32420,7 @@
 14	plástico	plástico	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	graduado	graduado	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
-17	em	em	ADP	_	_	19	obl	_	MWEPOS=ADV
+17	em	em	ADP	_	ExtPos=ADV	19	obl	_	_
 18	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	17	fixed	_	_
 19	utilizando	utilizar	VERB	_	VerbForm=Ger	5	advcl	_	_
 20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -32482,7 +32482,7 @@
 24	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
 25	homogenizado	homogeneizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	_
 26	e	e	CCONJ	_	_	29	cc	_	_
-27	em	em	ADP	_	_	29	obl	_	MWEPOS=ADV
+27	em	em	ADP	_	ExtPos=ADV	29	obl	_	_
 28	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	27	fixed	_	_
 29-30	aguardou-se	_	_	_	_	_	_	_	_
 29	aguardou	aguardar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	Se=pass
@@ -33110,7 +33110,7 @@
 24	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	mas	mas	CCONJ	_	_	29	cc	_	_
-27	mesmo	mesmo	ADV	_	_	29	advmod	_	MWEPOS=ADV
+27	mesmo	mesmo	ADV	_	ExtPos=ADV	29	advmod	_	_
 28	assim	assim	ADV	_	_	27	fixed	_	_
 29	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
 30	ver	ver	VERB	_	VerbForm=Inf	29	xcomp	_	_
@@ -33120,7 +33120,7 @@
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
 35	que	que	SCONJ	_	_	46	mark	_	_
-36	a	a	ADP	_	_	39	mark	_	MWEPOS=SCONJ
+36	a	a	ADP	_	ExtPos=SCONJ	39	mark	_	_
 37	medida	medida	NOUN	_	Gender=Fem|Number=Sing	36	fixed	_	_
 38	que	que	SCONJ	_	_	36	fixed	_	_
 39	aumentamos	aumentar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	46	advcl	_	_
@@ -33186,7 +33186,7 @@
 20	tensoativo	tensoativo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 22	determinante	determinante	ADJ	_	Gender=Fem|Number=Sing	9	acl:relcl	_	_
-23	para	para	ADP	_	_	26	mark	_	MWEPOS=SCONJ
+23	para	para	ADP	_	ExtPos=SCONJ	26	mark	_	_
 24	que	que	SCONJ	_	_	23	fixed	_	_
 25	se	se	PRON	_	PronType=Prs	26	expl:pass	_	_
 26	obtenham	obter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	Se=pass
@@ -33442,7 +33442,7 @@
 32	mg/	mg/	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 33	L	L	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	1	punct	_	_
-35	com	com	ADP	_	_	37	obl	_	MWEPOS=ADV
+35	com	com	ADP	_	ExtPos=ADV	37	obl	_	_
 36	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	35	fixed	_	_
 37	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 38	que	que	SCONJ	_	_	42	mark	_	_
@@ -33491,7 +33491,7 @@
 76	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	77	nsubj	_	_
 77	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	acl:relcl	_	_
 78-79	na	_	_	_	_	_	_	_	_
-78	em	em	ADP	_	_	82	case	_	MWEPOS=ADP
+78	em	em	ADP	_	ExtPos=ADP	82	case	_	_
 79	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	fixed	_	_
 80	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	78	fixed	_	_
 81	de	de	ADP	_	_	78	fixed	_	_
@@ -33512,7 +33512,7 @@
 95	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	96	nsubj	_	_
 96	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	94	acl:relcl	_	_
 97-98	na	_	_	_	_	_	_	_	_
-97	em	em	ADP	_	_	102	case	_	MWEPOS=ADP
+97	em	em	ADP	_	ExtPos=ADP	102	case	_	_
 98	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	97	fixed	_	_
 99	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	97	fixed	_	_
 100	de	de	ADP	_	_	97	fixed	_	_
@@ -33869,7 +33869,7 @@
 43	respectivamente	respectivamente	ADV	_	_	26	advmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	49	punct	_	_
 45	e	e	CCONJ	_	_	49	cc	_	_
-46	em	em	ADP	_	_	49	obl	_	MWEPOS=ADV
+46	em	em	ADP	_	ExtPos=ADV	49	obl	_	_
 47	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	46	fixed	_	_
 48	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	49	aux:pass	_	_
 49	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	conj	_	_
@@ -34006,7 +34006,7 @@
 66	depois	depois	ADV	_	_	67	advmod	_	_
 67	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	56	conj	_	_
 68-69	na	_	_	_	_	_	_	_	_
-68	em	em	ADP	_	_	73	case	_	MWEPOS=ADP
+68	em	em	ADP	_	ExtPos=ADP	73	case	_	_
 69	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	fixed	_	_
 70	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	68	fixed	_	_
 71	de	de	ADP	_	_	68	fixed	_	_
@@ -34021,7 +34021,7 @@
 
 # text = Com isso vemos que quando temos dois processos combinados podemos aumentar o rendimento do tratamento.
 # sent_id = 243-20141015-MONOGRAFIA_1-281
-1	Com	com	ADP	_	_	3	obl	_	MWEPOS=ADV
+1	Com	com	ADP	_	ExtPos=ADV	3	obl	_	_
 2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
 3	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	10	mark	_	_
@@ -34513,7 +34513,7 @@
 # sent_id = 243-20141015-MONOGRAFIA_1-295
 1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	devido	devido	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	MWEPOS=ADP
+3	devido	devido	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	5	case	_	_
 4	a	a	ADP	_	_	3	fixed	_	_
 5	formação	formação	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -34706,7 +34706,7 @@
 32	de	de	ADP	_	_	33	case	_	_
 33	óleo	óleo	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	_	_	39	case	_	MWEPOS=ADP
+34	em	em	ADP	_	ExtPos=ADP	39	case	_	_
 35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	fixed	_	_
 36	faixa	faixa	NOUN	_	Gender=Fem|Number=Sing	34	fixed	_	_
 37	de	de	ADP	_	_	34	fixed	_	_
@@ -34730,7 +34730,7 @@
 54	de	de	ADP	_	_	56	case	_	_
 55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	cálcio	cálcio	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	_
-57	em	em	ADP	_	_	60	obl	_	MWEPOS=ADV
+57	em	em	ADP	_	ExtPos=ADV	60	obl	_	_
 58	torno	torno	NOUN	_	Gender=Masc|Number=Sing	57	fixed	_	_
 59	de	de	ADP	_	_	57	fixed	_	_
 60	700	700	NUM	_	NumType=Card	61	nummod	_	_
@@ -34855,7 +34855,7 @@
 40	97	97	NUM	_	NumType=Card	41	nummod	_	SpaceAfter=No
 41	%	%	SYM	_	_	38	obl:arg	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	38	punct	_	_
-43	com	com	ADP	_	_	45	obl	_	MWEPOS=ADV
+43	com	com	ADP	_	ExtPos=ADV	45	obl	_	_
 44	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	43	fixed	_	_
 45	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	conj	_	_
 46	que	que	SCONJ	_	_	52	mark	_	_
@@ -34910,7 +34910,7 @@
 31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	38	punct	_	_
-34	de	de	ADP	_	_	38	mark	_	MWEPOS=SCONJ
+34	de	de	ADP	_	ExtPos=SCONJ	38	mark	_	_
 35	forma	forma	NOUN	_	Gender=Fem|Number=Sing	34	fixed	_	_
 36	que	que	SCONJ	_	_	34	fixed	_	_
 37	se	se	PRON	_	PronType=Prs	38	expl:impers	_	_

@@ -17,9 +17,9 @@
   <tags unique="16">
     <tag name="ADJ">17080</tag><!-- maior, magnético, grande, alto, necessário, mesmo, presente, menor, baixo, possível -->
     <tag name="ADP">43285</tag><!-- de, em, a, para, por, com, como, entre, sobre, até -->
-    <tag name="ADV">6441</tag><!-- mais, não, também, através, já, onde, muito, assim, bem, ainda -->
+    <tag name="ADV">6439</tag><!-- mais, não, também, através, já, onde, muito, assim, bem, ainda -->
     <tag name="AUX">6574</tag><!-- ser, estar, ter, ir, haver -->
-    <tag name="CCONJ">6352</tag><!-- e, ou, mas, a, porém, portanto, entretanto, e/ou, quanto, como -->
+    <tag name="CCONJ">6354</tag><!-- e, ou, mas, a, porém, portanto, entretanto, e/ou, quanto, como -->
     <tag name="DET">36327</tag><!-- o, um, este, seu, esse, todo, outro, cada, algum, tal -->
     <tag name="INTJ">2</tag><!-- q, quiricó -->
     <tag name="NOUN">57560</tag><!-- óleo, água, fluido, figura, gás, argila, petróleo, área, valor, processo -->
@@ -33,12 +33,16 @@
     <tag name="X">217</tag><!-- _, in, drill, n, flow, core, booster, pin, situ, stripe -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="44">
     <feat name="Case" value="Acc" upos="PRON">109</feat><!-- o, a, lo, los, la, las, as, os, nos, O/A -->
     <feat name="Case" value="Dat" upos="PRON">12</feat><!-- lhes, lhe -->
     <feat name="Case" value="Nom" upos="PRON">97</feat><!-- ele, eles, ela, elas, EU, ηapp -->
     <feat name="Definite" value="Def" upos="DET,PRON">29008</feat><!-- a, o, os, as, esta, Do, µ, á -->
     <feat name="Definite" value="Ind" upos="DET">2760</feat><!-- um, uma, uns -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,DET,VERB">1068</feat><!-- a, em, devido, de, com, quanto, por, tais, apesar, Uma -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,AUX,DET,NOUN,SCONJ,VERB">509</feat><!-- a, por, em, cerca, além, com, não, sendo, um, cada -->
+    <feat name="ExtPos" value="CCONJ" upos="ADP,ADV,CCONJ,PRON">368</feat><!-- ou, em, bem, além, isto, assim, como, por -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,AUX,DET,VERB">526</feat><!-- a, para, uma, de, além, já, sendo, apesar, enquanto, visto -->
     <feat name="Foreign" value="Yes" upos="NOUN,X">166</feat><!-- grid, drill, n, in, flow, booster, situ, core, station, balling -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">63254</feat><!-- a, as, uma, água, figura, que, esta, sua, produção, área -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">68519</feat><!-- o, os, um, que, óleo, este, fluido, petróleo, gás, CO2 -->
@@ -80,15 +84,15 @@
     <dep name="acl">4710</dep>
     <dep name="acl:relcl">2112</dep>
     <dep name="advcl">3729</dep>
-    <dep name="advmod">5702</dep>
+    <dep name="advmod">5700</dep>
     <dep name="amod">14828</dep>
     <dep name="appos">2406</dep>
     <dep name="aux">581</dep>
     <dep name="aux:pass">3394</dep>
     <dep name="case">39012</dep>
-    <dep name="cc">6465</dep>
+    <dep name="cc">6467</dep>
     <dep name="ccomp">680</dep>
-    <dep name="conj">8884</dep>
+    <dep name="conj">8885</dep>
     <dep name="cop">2490</dep>
     <dep name="csubj">255</dep>
     <dep name="dep">4</dep>
@@ -109,8 +113,8 @@
     <dep name="nsubj">7655</dep>
     <dep name="nsubj:pass">3179</dep>
     <dep name="nummod">4765</dep>
-    <dep name="obj">5803</dep>
-    <dep name="obl">12188</dep>
+    <dep name="obj">5801</dep>
+    <dep name="obl">12189</dep>
     <dep name="obl:agent">1148</dep>
     <dep name="obl:arg">1522</dep>
     <dep name="orphan">24</dep>
