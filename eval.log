@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Portuguese-PetroGold:
-commit d6551f4e51cdda029d9b931c7ece47a498317ee9
-Merge: 35ab03a 83ca567
+commit 6af2213ad51f4ba80b2570f6272cf30b246bf517
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:33:19 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'pt_petrogold'
 Language code (from CoNLL-U file name) = 'pt'
@@ -25,45 +25,54 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-dev.conllu
-[Line 1585 Sent 411-20150702-MONOGRAFIA_0-25]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'métodos') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2167 Sent 411-20150702-MONOGRAFIA_0-33]: [L3 Warning obl-should-be-nmod] The parent (node [88] 'ambiente') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3727 Sent 411-20150702-MONOGRAFIA_0-76]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'facilidade') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4222 Sent 411-20150702-MONOGRAFIA_0-93]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'condições') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5046 Sent 411-20150702-MONOGRAFIA_0-116]: [L3 Warning obl-should-be-nmod] The parent (node [44] 'espécies') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5198 Sent 411-20150702-MONOGRAFIA_0-119]: [L3 Warning obl-should-be-nmod] The parent (node [40] 'área') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 9210 Sent 411-20150702-MONOGRAFIA_0-238]: [L3 Warning obl-should-be-nmod] The parent (node [39] 'relação') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11166 Sent 411-20150702-MONOGRAFIA_0-293]: [L3 Warning obl-should-be-nmod] The parent (node [31] 'mesmo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11832 Sent 411-20150702-MONOGRAFIA_0-317]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 12185 Sent 411-20150702-MONOGRAFIA_0-328]: [L3 Warning obl-should-be-nmod] The parent (node [64] 'equipes') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 13
-*** PASSED ***
+[Line 1585 Sent 411-20150702-MONOGRAFIA_0-25]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'métodos') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2167 Sent 411-20150702-MONOGRAFIA_0-33]: [L3 SYNTAX obl-should-be-nmod] The parent (node [88] 'ambiente') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3727 Sent 411-20150702-MONOGRAFIA_0-76]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'facilidade') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4222 Sent 411-20150702-MONOGRAFIA_0-93]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'condições') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5046 Sent 411-20150702-MONOGRAFIA_0-116]: [L3 SYNTAX obl-should-be-nmod] The parent (node [44] 'espécies') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5198 Sent 411-20150702-MONOGRAFIA_0-119]: [L3 SYNTAX obl-should-be-nmod] The parent (node [40] 'área') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9210 Sent 411-20150702-MONOGRAFIA_0-238]: [L3 SYNTAX obl-should-be-nmod] The parent (node [39] 'relação') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11166 Sent 411-20150702-MONOGRAFIA_0-293]: [L3 SYNTAX obl-should-be-nmod] The parent (node [31] 'mesmo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11832 Sent 411-20150702-MONOGRAFIA_0-317]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 12185 Sent 411-20150702-MONOGRAFIA_0-328]: [L3 SYNTAX obl-should-be-nmod] The parent (node [64] 'equipes') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12804 Sent 411-20150702-MONOGRAFIA_0-346]: [L3 SYNTAX obl-should-be-nmod] The parent (node [73] 'estuário') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 1
+SYNTAX errors: 11
+*** FAILED *** with 11 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-test.conllu
-[Line 3426 Sent 119-20141209-TESEMSC_0-119]: [L3 Warning obl-should-be-nmod] The parent (node [22] 'problemas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11910 Sent 119-20141209-TESEMSC_0-429]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'filtrado') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 15763 Sent 119-20141209-TESEMSC_0-544]: [L3 Warning obl-should-be-nmod] The parent (node [30] 'velocidade') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 17754 Sent 119-20141209-TESEMSC_0-613]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'tempo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 24671 Sent 119-20141209-TESEMSC_0-790]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'volume') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 25497 Sent 119-20141209-TESEMSC_0-810]: [L3 Warning obl-should-be-nmod] The parent (node [23] 'agentes') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 30581 Sent 243-20141015-MONOGRAFIA_1-162]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'sódio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 34338 Sent 243-20141015-MONOGRAFIA_1-289]: [L3 Warning obl-should-be-nmod] The parent (node [38] 'segunda') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 8
-*** PASSED ***
+[Line 3426 Sent 119-20141209-TESEMSC_0-119]: [L3 SYNTAX obl-should-be-nmod] The parent (node [22] 'problemas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11910 Sent 119-20141209-TESEMSC_0-429]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'filtrado') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15763 Sent 119-20141209-TESEMSC_0-544]: [L3 SYNTAX obl-should-be-nmod] The parent (node [30] 'velocidade') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17754 Sent 119-20141209-TESEMSC_0-613]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'tempo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 24671 Sent 119-20141209-TESEMSC_0-790]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'volume') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 25497 Sent 119-20141209-TESEMSC_0-810]: [L3 SYNTAX obl-should-be-nmod] The parent (node [23] 'agentes') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 30581 Sent 243-20141015-MONOGRAFIA_1-162]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'sódio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 34338 Sent 243-20141015-MONOGRAFIA_1-289]: [L3 SYNTAX obl-should-be-nmod] The parent (node [38] 'segunda') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+SYNTAX errors: 8
+*** FAILED *** with 8 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PetroGold/pt_petrogold-ud-train.conllu
-[Line 11143 Sent 241-20140227-MONOGRAFIA_0-47]: [L3 Warning obl-should-be-nmod] The parent (node [24] 'leite') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 13142 Sent 241-20140227-MONOGRAFIA_0-107]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'uma') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 16256 Sent 241-20140227-MONOGRAFIA_0-218]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'aumento') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 21430 Sent 284-20150917-MONOGRAFIA_0-129]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'sopé') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 22333 Sent 284-20150917-MONOGRAFIA_0-151]: [L3 Warning obl-should-be-nmod] The parent (node [63] 'ingressão') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 27538 Sent 284-20150917-MONOGRAFIA_0-335]: [L3 Warning obl-should-be-nmod] The parent (node [20] 'folhelhos') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 29077 Sent 284-20150917-MONOGRAFIA_0-380]: [L3 Warning verbform-fin-without-mood] Finite verb 'subdividi' lacks the 'Mood' feature
-[Line 30349 Sent 284-20150917-MONOGRAFIA_0-410]: [L3 Warning obl-should-be-nmod] The parent (node [38] 'rumo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 34488 Sent 398-20160721-MONOGRAFIA_0-141]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'interação') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 36220 Sent 398-20160721-MONOGRAFIA_0-219]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'duto') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 129
-*** PASSED ***
-Validity: 1
+[Line 11143 Sent 241-20140227-MONOGRAFIA_0-47]: [L3 SYNTAX obl-should-be-nmod] The parent (node [24] 'leite') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 13142 Sent 241-20140227-MONOGRAFIA_0-107]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'uma') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 16256 Sent 241-20140227-MONOGRAFIA_0-218]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'aumento') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 21430 Sent 284-20150917-MONOGRAFIA_0-129]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'sopé') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 22333 Sent 284-20150917-MONOGRAFIA_0-151]: [L3 SYNTAX obl-should-be-nmod] The parent (node [63] 'ingressão') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 27538 Sent 284-20150917-MONOGRAFIA_0-335]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'folhelhos') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 29077 Sent 284-20150917-MONOGRAFIA_0-380]: [L3 WARNING verbform-fin-without-mood] Finite verb 'subdividi' lacks the 'Mood' feature
+[Line 30349 Sent 284-20150917-MONOGRAFIA_0-410]: [L3 SYNTAX obl-should-be-nmod] The parent (node [38] 'rumo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 34488 Sent 398-20160721-MONOGRAFIA_0-141]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'interação') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 36220 Sent 398-20160721-MONOGRAFIA_0-219]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'duto') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 36432 Sent 398-20160721-MONOGRAFIA_0-228]: [L3 WARNING verbform-fin-without-mood] Finite verb 'é' lacks the 'Mood' feature
+[Line 40580 Sent 398-20160721-MONOGRAFIA_0-413]: [L3 SYNTAX obl-should-be-nmod] The parent (node [23] 'secundário') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 78017 Sent 161-20150810-MONOGRAFIA_0-286]: [L3 WARNING pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
+Warnings: 3
+SYNTAX errors: 125
+*** FAILED *** with 125 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -71,6 +80,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.796308964104761) * (availability=1) * (validity=1) = 0.796308964104761
-STARS = 4
-UD_Portuguese-PetroGold	0.796308964104761	4
+(TOTAL score=0.796308964104761) * (availability=1) * (validity=0.01) = 0.00796308964104762
+STARS = 0
+UD_Portuguese-PetroGold	0.00796308964104762	0
