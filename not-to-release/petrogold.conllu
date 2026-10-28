@@ -250652,9 +250652,9 @@
 18	por	por	ADP	_	_	20	case	_	_
 19	vinte	vinte	NUM	_	NumType=Card	20	nummod	_	_
 20	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	16	obl:agent	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	30	punct	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
 22	porém	porém	CCONJ	_	_	30	cc	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	26	punct	_	_
+23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	desta	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	esta	este	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
