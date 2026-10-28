@@ -1582,7 +1582,7 @@
 21	métodos	método	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
 22	para	para	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	aprofundamento	aprofundamento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+24	aprofundamento	aprofundamento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 25-26	dos	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
@@ -2164,7 +2164,7 @@
 81	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	77	conj	_	_
 82	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	83	nsubj	_	_
 83	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	81	acl:relcl	_	_
-84	em	em	ADP	_	ExtPos=ADV	88	obl	_	_
+84	em	em	ADP	_	ExtPos=ADP	88	case	_	_
 85	torno	torno	NOUN	_	Gender=Masc|Number=Sing	84	fixed	_	_
 86-87	do	_	_	_	_	_	_	_	_
 86	de	de	ADP	_	_	84	fixed	_	_
@@ -3724,7 +3724,7 @@
 13	facilidade	facilidade	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 14	que	que	ADP	_	_	16	case	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	óleos	óleo	NOUN	_	Gender=Masc|Number=Plur	6	orphan	_	_
 17	pesados	pesado	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4219,7 +4219,7 @@
 4	locais	local	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	como	como	ADP	_	_	10	case	_	_
-7	por	por	ADP	_	ExtPos=ADV	10	obl	_	_
+7	por	por	ADP	_	ExtPos=ADV	6	obl	_	_
 8	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	condições	condição	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
@@ -5043,9 +5043,9 @@
 39	aglomeram	aglomerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	Se=pv|SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
 41	em	em	ADP	_	_	42	case	_	_
-42	especial	especial	NOUN	_	Gender=Masc|Number=Sing	44	obl	_	_
+42	especial	especial	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	_
 43	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
-44	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	_
+44	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
 45	ameaçadas	ameaçar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	44	acl	_	_
 46	de	de	ADP	_	_	47	case	_	_
 47	extinção	extinção	NOUN	_	Gender=Fem|Number=Sing	45	obl:arg	_	SpaceAfter=No
@@ -5195,7 +5195,7 @@
 33	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	35	nsubj	_	_
 34	socioeconômicas	socioeconômico	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
 35	giram	girar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
-36	em	em	ADP	_	ExtPos=ADV	40	obl	_	_
+36	em	em	ADP	_	ExtPos=ADP	40	case	_	_
 37	torno	torno	NOUN	_	Gender=Masc|Number=Sing	36	fixed	_	_
 38-39	dessa	_	_	_	_	_	_	_	_
 38	de	de	ADP	_	_	36	fixed	_	_
@@ -9202,12 +9202,12 @@
 36	ecologicamente	ecologicamente	ADV	_	_	37	advmod	_	_
 37	sensíveis	sensível	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
 38	com	com	ADP	_	_	39	case	_	_
-39	relação	relação	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+39	relação	relação	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 40	“	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
 41-42	à	_	_	_	_	_	_	_	_
 41	a	a	ADP	_	_	43	case	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	poluição	poluição	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+43	poluição	poluição	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
 44	causada	causar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	43	acl	_	_
 45	por	por	ADP	_	_	46	case	_	_
 46	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	44	obl:agent	_	_
@@ -11163,7 +11163,7 @@
 24	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
 25	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	26	nsubj	_	_
 26	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
-27	em	em	ADP	_	ExtPos=ADV	31	obl	_	_
+27	em	em	ADP	_	ExtPos=ADP	31	case	_	_
 28	torno	torno	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	27	fixed	_	_
@@ -11829,7 +11829,7 @@
 16	teste	teste	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	_	_	21	case	_	_
-18	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 19	com	com	ADP	_	_	21	case	_	_
 20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
@@ -12174,7 +12174,7 @@
 59	mais	mais	ADV	_	_	60	advmod	_	_
 60	sensíveis	sensível	ADJ	_	Gender=Masc|Number=Plur	58	amod	_	SpaceAfter=No
 61	,	,	PUNCT	_	_	55	punct	_	_
-62	enquanto	enquanto	ADV	_	_	64	advmod	_	_
+62	enquanto	enquanto	SCONJ	_	_	64	dep	_	_
 63	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	64	det	_	_
 64	equipes	equipe	NOUN	_	Gender=Fem|Number=Plur	45	nsubj	_	_
 65	de	de	ADP	_	_	66	case	_	_
@@ -12182,7 +12182,7 @@
 67	junto	junto	ADV	_	_	64	advmod	_	_
 68	com	com	ADP	_	_	70	case	_	_
 69	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	70	det	_	_
-70	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	64	obl	_	_
+70	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	64	nmod	_	_
 71	especializadas	especializar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	70	acl	_	_
 72	para	para	ADP	_	_	74	case	_	_
 73	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	74	det	_	_
@@ -12801,7 +12801,7 @@
 66	em	em	ADP	_	_	68	case	_	_
 67	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
 68	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	64	conj	_	_
-69	em	em	ADP	_	ExtPos=ADV	73	obl	_	_
+69	em	em	ADP	_	ExtPos=ADP	73	case	_	_
 70	torno	torno	NOUN	_	Gender=Masc|Number=Sing	69	fixed	_	_
 71-72	do	_	_	_	_	_	_	_	_
 71	de	de	ADP	_	_	69	fixed	_	_
@@ -25415,7 +25415,7 @@
 10	para	para	ADP	_	_	13	case	_	_
 11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 12	mesmas	mesmo	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-13	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+13	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15-16	dos	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_

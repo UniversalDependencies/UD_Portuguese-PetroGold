@@ -3423,7 +3423,7 @@
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	dentre	dentre	ADP	_	_	26	case	_	_
 25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-26	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	obl	_	SpaceAfter=No
+26	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	nmod	_	SpaceAfter=No
 27	:	:	PUNCT	_	_	28	punct	_	_
 28	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	_
 29-30	da	_	_	_	_	_	_	_	_
@@ -11907,7 +11907,7 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	principalmente	principalmente	ADV	_	_	21	advmod	_	_
 24	em	em	ADP	_	_	25	case	_	_
-25	condições	condição	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+25	condições	condição	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 28	altamente	altamente	ADV	_	_	29	advmod	_	_
@@ -15760,7 +15760,7 @@
 24-25	desta	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	esta	este	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
-26	vez	vez	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+26	vez	vez	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28-29	na	_	_	_	_	_	_	_	_
 28	em	em	ADP	_	_	30	case	_	_
@@ -15773,7 +15773,7 @@
 34	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 35	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 36	para	para	ADP	_	_	37	mark	_	_
-37	diminuirmos	diminuir	VERB	_	Number=Plur|Person=1|VerbForm=Inf	30	advcl	_	_
+37	diminuirmos	diminuir	VERB	_	Number=Plur|Person=1|VerbForm=Inf	16	advcl	_	_
 38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	risco	risco	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
 40	de	de	ADP	_	_	41	case	_	_
@@ -17751,7 +17751,7 @@
 15	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	para	para	ADP	_	_	18	case	_	_
 17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+18	amostras	amostra	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 19	testadas	testar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	18	acl	_	_
 20	com	com	ADP	_	_	21	case	_	_
 21	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
@@ -24668,7 +24668,7 @@
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	durante	durante	ADP	_	_	30	case	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+30	invasão	invasão	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	para	para	ADP	_	_	33	mark	_	_
 33	obstruir	obstruir	VERB	_	VerbForm=Inf	18	advcl	_	_
@@ -25493,16 +25493,16 @@
 15	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	mais	mais	ADV	_	_	17	advmod	_	_
 17	completos	completo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	1	punct	_	_
-19	por	por	ADP	_	ExtPos=ADV	23	obl	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	por	por	ADP	_	ExtPos=ADP	23	case	_	_
 20	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+21	,	,	PUNCT	_	_	19	punct	_	_
 22	com	com	ADP	_	_	23	case	_	_
-23	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
+23	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 24	controladores	controlador	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	filtrado	filtrado	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
+27	,	,	PUNCT	_	_	23	punct	_	_
 28	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 29	concentrações	concentração	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
 30	de	de	ADP	_	_	31	case	_	_
@@ -30578,7 +30578,7 @@
 6	liberam	liberar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	cátions	cátion	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	por	por	ADP	_	ExtPos=ADV	12	obl	_	_
+9	por	por	ADP	_	ExtPos=ADP	12	case	_	_
 10	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	sódio	sódio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -34335,7 +34335,7 @@
 38	segunda	segundo	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
 39	para	para	ADP	_	_	41	case	_	_
 40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	terceira	terceiro	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+41	terceira	terceiro	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	1	punct	_	_
 
 # text = 4.4. Comparação da filtração com tensoativo e sem tensoativo

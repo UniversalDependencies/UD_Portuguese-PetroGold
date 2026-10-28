@@ -38,6 +38,8 @@ Changes should be made via pull request directly to `not-to-release/petrogold.co
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Validation errors fix.
 * 2025-11-15 v2.17
   * Addition of ExtPos feature in accordance with the UD validator.
 * 2023-05-15 v2.12
