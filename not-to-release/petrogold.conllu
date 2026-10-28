@@ -100018,7 +100018,7 @@
 29	US$	US$	SYM	_	_	27	obl	_	_
 30	1.774	1.774	NUM	_	NumType=Card	29	nummod	_	_
 31	milhões	milhão	NUM	_	NumType=Card	30	flat	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	27	punct	_	_
+32	,	,	PUNCT	_	_	33	punct	_	_
 33	equivalentes	equivalente	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
 34	a	a	ADP	_	_	35	case	_	_
 35	US$	US$	SYM	_	_	33	obl	_	_
@@ -100027,7 +100027,7 @@
 38	ANP	ANP	PROPN	_	Gender=Fem|Number=Sing	27	parataxis	_	_
 39	e	e	CCONJ	_	_	40	cc	_	_
 40	CGA	CGA	PROPN	_	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	38	punct	_	_
+41	,	,	PUNCT	_	_	42	punct	_	_
 42	2010	2010	NUM	_	NumType=Card	40	nmod:appos	_	SpaceAfter=No
 43	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	27	punct	_	_
@@ -210166,8 +210166,8 @@
 27	de	de	ADP	_	_	30	case	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 29	mesma	mesmo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
-30	forma	forma	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
-31	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	34	orphan	_	_
+30	forma	forma	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+31	que	que	SCONJ	_	_	38	mark	_	_
 32-33	no	_	_	_	_	_	_	_	_
 32	em	em	ADP	_	_	34	case	_	_
 33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -260391,10 +260391,10 @@
 15	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	mais	mais	ADV	_	_	17	advmod	_	_
 17	completos	completo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
 19	por	por	ADP	_	ExtPos=ADP	23	case	_	_
 20	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	_
+21	,	,	PUNCT	_	_	19	punct	_	_
 22	com	com	ADP	_	_	23	case	_	_
 23	agentes	agente	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 24	controladores	controlador	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
